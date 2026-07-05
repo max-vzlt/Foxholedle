@@ -1,0 +1,81 @@
+:root {
+    --darker-color: #1a1a1a;
+    --dark-color: #292929;
+    --text-color: #332D1F;
+    --medium-color: #b19e86;
+    --light-color: #E9DEC9;
+    --lighter-color: #EEECD5;
+}
+
+@font-face {
+    font-family: Typewriter;
+    src: url(/src/assets/font/ELEGANT-TYPEWRITER-Light.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url('/src/assets/background.jpg');
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: var(--dark-color);
+    min-height: 150vh;
+}
+
+* {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: bold;
+}
+
+p{
+    font-size: 16px;
+}
+
+.page-title{
+    text-align: center;
+    margin: 50px 0;
+    color: var(--dark-color);
+}
+
+section{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 24px;
+    color: var(--text-color);
+    background: var(--light-color);
+    box-shadow: 0 0 20px -1px rgba(41, 41, 41, 0.2);
+    flex-direction: column;
+    gap: 20px;
+}
+
+section hr{
+    background-color: var(--dark-color);
+    height: 2px;
+    width: 100%;
+    border: none;
+    margin: 25px 0;
+}
+
+section > *:first-child{
+    margin: 0;
+}
+
+.typewriter{
+    font-family: Typewriter;
+    font-size: 20px;
+    color: var(--dark-color);
+}
