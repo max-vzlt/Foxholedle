@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "classic": "Klassisch",
+    "zoom": "Zoom"
+  },
+  "classic": {
+    "title": "Klassisch",
+    "explanation_title": "Erklärung",
+    "explanation_1": "Nutze Hinweise und gemeinsame Eigenschaften verschiedener Objekte und Fahrzeuge, um die richtige Antwort zu finden und die richtigen Entscheidungen zu treffen.",
+    "search_title": "Suche",
+    "search_placeholder": "Errate ein Fahrzeug, eine Waffe...",
+    "win_message": "🎉 Gefunden: {name}!",
+    "new_game": "Neues Spiel",
+    "unlock_faction_locked": "Fraktion wird bei Versuch {n} freigeschaltet (noch {remaining})",
+    "unlock_faction_unlocked": "Fraktion freigeschaltet",
+    "unlock_milieu_locked": "Umgebung wird bei Versuch {n} freigeschaltet (noch {remaining})",
+    "unlock_milieu_unlocked": "Umgebung freigeschaltet",
+    "table": {
+      "image": "Bild",
+      "name": "Name",
+      "faction": "Fraktion",
+      "milieu": "Umgebung",
+      "role": "Rolle",
+      "ammo": "Munition",
+      "cost": "Kosten (Bmat)",
+      "war": "Eingeführt im Krieg"
+    },
+    "tooltip": {
+      "image": "Bilder des Objekts/Fahrzeugs",
+      "name": "Name des Objekts/Fahrzeugs",
+      "faction": "Fraktion, zu der das Objekt/Fahrzeug gehört",
+      "milieu": "Umgebung, in der sich das Objekt/Fahrzeug bewegt (Land, Wasser, Luft)",
+      "role": "Rolle des Objekts/Fahrzeugs (Kampf, Unterstützung, Logistik, Aufklärung)",
+      "ammo": "Munition, die das Objekt/Fahrzeug verwendet",
+      "cost": "Produktionskosten, in Bmat-Äquivalent umgerechnet (pro Einheit und ohne MPF)",
+      "war": "Der Krieg, in dem das Objekt/Fahrzeug erstmals erschien"
+    },
+    "legend_title": "Legende",
+    "legend": {
+      "correct": "Richtig",
+      "partial": "Teilweise richtig",
+      "wrong": "Falsch / falscher Krieg",
+      "unknown": "Gesperrt",
+      "arrows": "↑ / ↓ : Der richtige Krieg liegt höher / niedriger als dein Vorschlag"
+    }
+  },
+  "role": {
+    "Combat": "Kampf",
+    "Soutien": "Unterstützung",
+    "Logistique": "Logistik",
+    "Reconnaissance": "Aufklärung"
+  },
+  "milieu": {
+    "Terrestre": "Land",
+    "Aquatique": "Wasser",
+    "Aérien": "Luft"
+  },
+  "faction": {
+    "Colonial": "Colonial",
+    "Warden": "Warden",
+    "None": "Neutral"
+  }
+}

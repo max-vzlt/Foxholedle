@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "classic": "Classic",
+    "zoom": "Zoom"
+  },
+  "classic": {
+    "title": "Classic",
+    "explanation_title": "How to play",
+    "explanation_1": "Using clues and characteristics shared between several objects and vehicles, identify the correct answer and make the right choices.",
+    "search_title": "Search",
+    "search_placeholder": "Guess a vehicle, a weapon...",
+    "win_message": "🎉 Found: {name}!",
+    "new_game": "New game",
+    "unlock_faction_locked": "Faction unlocks at guess {n} ({remaining} left)",
+    "unlock_faction_unlocked": "Faction unlocked",
+    "unlock_milieu_locked": "Terrain unlocks at guess {n} ({remaining} left)",
+    "unlock_milieu_unlocked": "Terrain unlocked",
+    "table": {
+      "image": "Image",
+      "name": "Name",
+      "faction": "Faction",
+      "milieu": "Terrain",
+      "role": "Role",
+      "ammo": "Ammo",
+      "cost": "Cost (Bmat)",
+      "war": "War added"
+    },
+    "tooltip": {
+      "image": "Image of the object/vehicle",
+      "name": "Name of the object/vehicle",
+      "faction": "Faction the object/vehicle belongs to",
+      "milieu": "Terrain the object/vehicle operates in (Land, Water, Air)",
+      "role": "Role of the object/vehicle (Combat, Support, Logistics, Reconnaissance)",
+      "ammo": "Ammo used by the object/vehicle",
+      "cost": "Production cost, converted to Bmat equivalent (one unit and without MPF)",
+      "war": "The War the object/vehicle was first released in"
+    },
+    "legend_title": "Legend",
+    "legend": {
+      "correct": "Correct",
+      "partial": "Partially correct",
+      "wrong": "Incorrect / wrong War",
+      "unknown": "Locked",
+      "arrows": "↑ / ↓ : the correct War is higher / lower than your guess"
+    }
+  },
+  "role": {
+    "Combat": "Combat",
+    "Soutien": "Support",
+    "Logistique": "Logistics",
+    "Reconnaissance": "Reconnaissance"
+  },
+  "milieu": {
+    "Terrestre": "Land",
+    "Aquatique": "Water",
+    "Aérien": "Air"
+  },
+  "faction": {
+    "Colonial": "Colonial",
+    "Warden": "Warden",
+    "None": "Neutral"
+  }
+}

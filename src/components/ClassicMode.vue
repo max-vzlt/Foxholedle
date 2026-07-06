@@ -57,20 +57,23 @@ const STAMP_IMAGES = {
 // ------------------------------------------------------------------
 // TABLE DE CONVERSION DES RESSOURCES EN ÉQUIVALENT BMAT
 // ------------------------------------------------------------------
-// À REMPLIR TOI-MÊME avec tes vrais taux d'équivalence.
-// Exemple : si tu considères que 1 Rmat "vaut" 20 Bmat, mets Rmat: 20.
-// Bmat doit toujours valoir 1 (c'est la référence).
 const RESOURCE_TO_BMAT = {
   Bmat: 1,
-  Rmat: 20,   // À AJUSTER
-  test: 15,   // À AJUSTER
-  // Ajoute ici toute autre unité que tu utilises dans "cost"
-  // (ex: Cmat: X, Fuel: X, ...)
+  AsmatI: 60,
+  AsmatII: 130,
+  AsmatIII: 275,
+  AsmatIV: 550,
+  AsmatV: 1100,
+  Rmat: 20,
+  PCmat: 55,
+  Cmat: 95,
+  ThermalShielding: 810,
+  RareAlloys: 1365,
+  SCmat: 240,
+  NavalHullSegments: 4285,
+  NavalShellPlating: 5125,
+  NavalTurbineComponents: 6375,
 }
-
-// Parse un tableau ["165-Rmat", "50-Emat"] -> total en équivalent Bmat.
-// Retourne null si le coût est absent ou si une unité est inconnue
-// (plutôt que de fausser silencieusement la comparaison).
 function parseCostToBmat(costArray) {
   if (!costArray || !costArray.length) return null
   let total = 0
@@ -78,7 +81,7 @@ function parseCostToBmat(costArray) {
     const [amountStr, unit] = entry.split('-')
     const amount = Number(amountStr)
     const rate = RESOURCE_TO_BMAT[unit]
-    if (Number.isNaN(amount) || rate == null) return null // unité inconnue -> on ne devine pas
+    if (Number.isNaN(amount) || rate == null) return null
     total += amount * rate
   }
   return total
@@ -352,18 +355,18 @@ function buildGuessResult(item) {
 </script>
 
 <template>
-  <h1 class="page-title">Classic</h1>
+  <h1 class="page-title">{{ $t('classic.title') }}</h1>
   <section class="main-minigame">
-    <h2>Explication</h2>
-    <p>À partir d'indices et de caractéristiques partagées entre plusieurs objets et véhicules, identifie la bonne réponse et fais les bons choix.</p>
+    <h2>{{ $t('classic.explanation_title') }}</h2>
+    <p>{{ $t('classic.explanation_1') }}</p>
     <hr>
     <div class="search-section">
-      <h2>Recherche</h2>
+      <h2>{{ $t('classic.search_title') }}</h2>
       <div class="search-bar" ref="searchWrapperRef">
         <input
           type="text"
           v-model="searchQuery"
-          placeholder="Devine un véhicule, une arme..."
+          :placeholder="$t('classic.search_placeholder')"
           @focus="openDropdown"
           @input="onSearchInput"
           @keydown.down.prevent="onArrowDown"
@@ -389,25 +392,30 @@ function buildGuessResult(item) {
 
     <p v-if="winRevealed" class="win-message">
       🎉 Trouvé : {{ target.name }} !
-      <button type="button" class="new-game-btn" @click="resetGame">Nouvelle partie</button>
+      <button type="button" class="new-game-btn" @click="resetGame">{{ $t('classic.new_game') }}</button>
     </p>
 
     <p class="unlock-hint">
-      Faction {{ factionUnlocked ? 'débloquée' : `débloquée au guess ${FACTION_UNLOCK_AT} (encore ${FACTION_UNLOCK_AT - guesses.length})` }}
-      · Milieu {{ milieuUnlocked ? 'débloqué' : `débloqué au guess ${MILIEU_UNLOCK_AT} (encore ${MILIEU_UNLOCK_AT - guesses.length})` }}
+      {{ factionUnlocked
+        ? $t('classic.unlock_faction_unlocked')
+        : $t('classic.unlock_faction_locked', { n: FACTION_UNLOCK_AT, remaining: FACTION_UNLOCK_AT - guesses.length }) }}
+      ·
+      {{ milieuUnlocked
+        ? $t('classic.unlock_milieu_unlocked')
+        : $t('classic.unlock_milieu_locked', { n: MILIEU_UNLOCK_AT, remaining: MILIEU_UNLOCK_AT - guesses.length }) }}
     </p>
 
     <table>
       <thead>
         <tr>
-          <th data-tooltip="Images de l'objet/véhicule">Image</th>
-          <th data-tooltip="Nom de l'objet/véhicule">Nom</th>
-          <th data-tooltip="Faction à laquelle appartient l'objet/véhicule">Faction</th>
-          <th data-tooltip="Milieu dans lequel évolue l'objet/véhicule (Terrestre, Aquatique, Aérien)">Milieu</th>
-          <th data-tooltip="Rôle de l'objet/véhicule (Combat, Soutien, Logistique, Reconnaissance)">Rôle</th>
-          <th data-tooltip="Munition qu'utilise l'objet/véhicule">Munition</th>
-          <th data-tooltip="Coût de production, converti en équivalent Bmat (à l'unité et sans MPF)">Coût (Bmat)</th>
-          <th data-tooltip="La Guerre de première parution de l'objet/véhicule">War d'ajout</th>
+          <th :data-tooltip="$t('classic.tooltip.image')">{{ $t('classic.table.image') }}</th>
+          <th :data-tooltip="$t('classic.tooltip.name')">{{ $t('classic.table.name') }}</th>
+          <th :data-tooltip="$t('classic.tooltip.faction')">{{ $t('classic.table.faction') }}</th>
+          <th :data-tooltip="$t('classic.tooltip.milieu')">{{ $t('classic.table.milieu') }}</th>
+          <th :data-tooltip="$t('classic.tooltip.role')">{{ $t('classic.table.role') }}</th>
+          <th :data-tooltip="$t('classic.tooltip.ammo')">{{ $t('classic.table.ammo') }}</th>
+          <th :data-tooltip="$t('classic.tooltip.cost')">{{ $t('classic.table.cost') }}</th>
+          <th :data-tooltip="$t('classic.tooltip.war')">{{ $t('classic.table.war') }}</th>
         </tr>
       </thead>
       <tbody>
@@ -545,13 +553,13 @@ function buildGuessResult(item) {
   </section>
 
   <section>
-    <h2>Légende</h2>
+    <h2>{{ $t('classic.legend_title') }}</h2>
     <div class="legende">
-      <p><span class="legend-symbol" style="background-color: rgba(46, 125, 50, 0.6);"></span> Correct</p>
-      <p><span class="legend-symbol" style="background-color: rgba(249, 168, 37, 0.6);"></span> Partiellement correct</p>
-      <p><span class="legend-symbol" style="background-color: rgba(157, 44, 44, 0.8);"></span> Incorrect / mauvaise War</p>
-      <p><span class="legend-symbol" style="background-color: rgba(120, 120, 120, 0.6);"></span> Inconnu / verrouillé</p>
-      <p>↑ / ↓ : la bonne War est plus haute / plus basse que ta proposition</p>
+      <p><span class="legend-symbol" style="background-color: rgba(46, 125, 50, 0.6);"></span> {{ $t('classic.legend.correct') }}</p>
+      <p><span class="legend-symbol" style="background-color: rgba(249, 168, 37, 0.6);"></span> {{ $t('classic.legend.partial') }}</p>
+      <p><span class="legend-symbol" style="background-color: rgba(157, 44, 44, 0.8);"></span> {{ $t('classic.legend.wrong') }}</p>
+      <p><span class="legend-symbol" style="background-color: rgba(120, 120, 120, 0.6);"></span> {{ $t('classic.legend.unknown') }}</p>
+      <p>{{ $t('classic.legend.arrows') }}</p>
     </div>
   </section>
 </template>
@@ -644,8 +652,8 @@ thead th:hover::after{
 
 .dropdown li.colonial::before {
   content: "";
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   background-image: url("@/assets/Colonial.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -654,8 +662,8 @@ thead th:hover::after{
 
 .dropdown li.warden::before {
   content: "";
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
   background-image: url("@/assets/Warden.png");
   background-size: contain;
   background-repeat: no-repeat;
@@ -676,7 +684,7 @@ thead th:hover::after{
 }
 
 .option-img {
-  width: 35px;
+  width: 40px;
   aspect-ratio: 1/1;
   object-fit: contain;
 }

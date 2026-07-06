@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "classic": "Classic",
+    "zoom": "Zoom"
+  },
+  "classic": {
+    "title": "Classic",
+    "explanation_title": "Explication",
+    "explanation_1": "À partir d'indices et de caractéristiques partagées entre plusieurs objets et véhicules, identifie la bonne réponse et fais les bons choix.",
+    "search_title": "Recherche",
+    "search_placeholder": "Devine un véhicule, une arme...",
+    "win_message": "🎉 Trouvé : {name} !",
+    "new_game": "Nouvelle partie",
+    "unlock_faction_locked": "Faction débloquée au guess {n} (encore {remaining})",
+    "unlock_faction_unlocked": "Faction débloquée",
+    "unlock_milieu_locked": "Milieu débloqué au guess {n} (encore {remaining})",
+    "unlock_milieu_unlocked": "Milieu débloqué",
+    "table": {
+      "image": "Image",
+      "name": "Nom",
+      "faction": "Faction",
+      "milieu": "Milieu",
+      "role": "Rôle",
+      "ammo": "Munition",
+      "cost": "Coût (Bmat)",
+      "war": "War d'ajout"
+    },
+    "tooltip": {
+      "image": "Images de l'objet/véhicule",
+      "name": "Nom de l'objet/véhicule",
+      "faction": "Faction à laquelle appartient l'objet/véhicule",
+      "milieu": "Milieu dans lequel évolue l'objet/véhicule (Terrestre, Aquatique, Aérien)",
+      "role": "Rôle de l'objet/véhicule (Combat, Soutien, Logistique, Reconnaissance)",
+      "ammo": "Munition qu'utilise l'objet/véhicule",
+      "cost": "Coût de production, converti en équivalent Bmat (à l'unité et sans MPF)",
+      "war": "La Guerre de première parution de l'objet/véhicule"
+    },
+    "legend_title": "Légende",
+    "legend": {
+      "correct": "Correct",
+      "partial": "Partiellement correct",
+      "wrong": "Incorrect / mauvaise War",
+      "unknown": "Verrouillé",
+      "arrows": "↑ / ↓ : la bonne War est plus haute / plus basse que ta proposition"
+    }
+  },
+  "role": {
+    "Combat": "Combat",
+    "Soutien": "Soutien",
+    "Logistique": "Logistique",
+    "Reconnaissance": "Reconnaissance"
+  },
+  "milieu": {
+    "Terrestre": "Terrestre",
+    "Aquatique": "Aquatique",
+    "Aérien": "Aérien"
+  },
+  "faction": {
+    "Colonial": "Colonial",
+    "Warden": "Warden",
+    "None": "Neutre"
+  }
+}

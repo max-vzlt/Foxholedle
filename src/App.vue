@@ -1,4 +1,5 @@
 <script setup>
+import LanguageSwitcher from './components/LanguageSwitcher.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@
         <router-link to="/timeline">Timeline</router-link>
         <router-link to="/cityguessr">Cityguessr</router-link>
       </nav>
+      <LanguageSwitcher />
     </header>
     <router-view />
     <footer>
@@ -43,6 +45,7 @@ nav {
 nav a {
   color: var(--light-color);
   text-decoration: none;
+  align-content: center;
 }
 
 nav a.router-link-active {
