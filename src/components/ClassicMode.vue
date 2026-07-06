@@ -55,6 +55,36 @@ const STAMP_IMAGES = {
 }
 
 // ------------------------------------------------------------------
+// TABLE DE CONVERSION DES RESSOURCES EN ÉQUIVALENT BMAT
+// ------------------------------------------------------------------
+// À REMPLIR TOI-MÊME avec tes vrais taux d'équivalence.
+// Exemple : si tu considères que 1 Rmat "vaut" 20 Bmat, mets Rmat: 20.
+// Bmat doit toujours valoir 1 (c'est la référence).
+const RESOURCE_TO_BMAT = {
+  Bmat: 1,
+  Rmat: 20,   // À AJUSTER
+  test: 15,   // À AJUSTER
+  // Ajoute ici toute autre unité que tu utilises dans "cost"
+  // (ex: Cmat: X, Fuel: X, ...)
+}
+
+// Parse un tableau ["165-Rmat", "50-Emat"] -> total en équivalent Bmat.
+// Retourne null si le coût est absent ou si une unité est inconnue
+// (plutôt que de fausser silencieusement la comparaison).
+function parseCostToBmat(costArray) {
+  if (!costArray || !costArray.length) return null
+  let total = 0
+  for (const entry of costArray) {
+    const [amountStr, unit] = entry.split('-')
+    const amount = Number(amountStr)
+    const rate = RESOURCE_TO_BMAT[unit]
+    if (Number.isNaN(amount) || rate == null) return null // unité inconnue -> on ne devine pas
+    total += amount * rate
+  }
+  return total
+}
+
+// ------------------------------------------------------------------
 // DÉBLOCAGE PROGRESSIF
 // ------------------------------------------------------------------
 // Le Rôle est désormais visible dès le début. C'est le Milieu qui est
@@ -64,6 +94,12 @@ const MILIEU_UNLOCK_AT = 3
 
 const factionUnlocked = computed(() => guesses.value.length >= FACTION_UNLOCK_AT)
 const milieuUnlocked = computed(() => guesses.value.length >= MILIEU_UNLOCK_AT)
+
+function factionClass(faction) {
+  if (faction === 'Colonial') return 'colonial'
+  if (faction === 'Warden') return 'warden'
+  return 'no-fac'
+}
 
 function resolvedStatus(realStatus, isUnlocked) {
   return isUnlocked ? realStatus : 'locked'
@@ -184,6 +220,10 @@ function displayAmmo(g) {
   if (Array.isArray(val)) return val.join(' + ')
   return val ?? '?'
 }
+function displayCost(g) {
+  const bmat = g.cost.value
+  return bmat != null ? `${bmat} Bmat` : '?'
+}
 function displayWar(g) {
   const base = g.war.value ? `War ${g.war.value[0]} (${g.war.value[1]})` : '?'
   return `${base} ${arrowFor(g.war.status)}`.trim()
@@ -202,8 +242,8 @@ const STAMP_STEP_DELAY = 220
 const STAMP_START_BUFFER = 200
 const STAMP_FALL_DURATION = 400 // doit correspondre à la durée de @keyframes stamp-drop
 
-const TEXT_COLUMNS = ['name', 'faction', 'milieu', 'role', 'ammo', 'war']
-const STAMP_COLUMNS = ['faction', 'milieu', 'role', 'ammo', 'war']
+const TEXT_COLUMNS = ['name', 'faction', 'milieu', 'role', 'ammo', 'cost', 'war']
+const STAMP_COLUMNS = ['faction', 'milieu', 'role', 'ammo', 'cost', 'war']
 
 function randomStampAngle() {
   const sign = Math.random() < 0.5 ? -1 : 1
@@ -220,6 +260,7 @@ function scheduleReveal(guessObj, onComplete) {
     role: displayRole(guessObj),
     milieu: displayMilieu(guessObj),
     ammo: displayAmmo(guessObj),
+    cost: displayCost(guessObj),
     war: displayWar(guessObj),
   }
 
@@ -287,18 +328,23 @@ function buildGuessResult(item) {
     role: { value: item.role, ...compareRole(item.role, target.value.role) },
     milieu: { value: item.milieu, ...compareExact(item.milieu, target.value.milieu) },
     ammo: { value: item.ammo, ...compareMultiValue(item.ammo, target.value.ammo) },
+    cost: {
+      value: parseCostToBmat(item.cost),
+      ...compareOrdinal(parseCostToBmat(item.cost), parseCostToBmat(target.value.cost), v => v)
+    },
     war: {
       value: item.war_added,
       ...compareOrdinal(item.war_added?.[0], target.value.war_added?.[0], v => v)
     },
     isWin: item.id === target.value.id,
-    revealCount: { name: 0, faction: 0, role: 0, milieu: 0, ammo: 0, war: 0 },
-    stampVisible: { faction: false, role: false, milieu: false, ammo: false, war: false },
+    revealCount: { name: 0, faction: 0, role: 0, milieu: 0, ammo: 0, cost: 0, war: 0 },
+    stampVisible: { faction: false, role: false, milieu: false, ammo: false, cost: false, war: false },
     stampRotation: {
       faction: randomStampAngle(),
       role: randomStampAngle(),
       milieu: randomStampAngle(),
       ammo: randomStampAngle(),
+      cost: randomStampAngle(),
       war: randomStampAngle(),
     },
   }
@@ -330,7 +376,7 @@ function buildGuessResult(item) {
           <li
             v-for="(opt, index) in filteredOptions"
             :key="opt.id"
-            :class="{ highlighted: index === highlightedIndex }"
+            :class="[factionClass(opt.faction), { highlighted: index === highlightedIndex }]"
             @mouseenter="highlightedIndex = index"
             @click="selectItem(opt)"
           >
@@ -360,12 +406,13 @@ function buildGuessResult(item) {
           <th data-tooltip="Milieu dans lequel évolue l'objet/véhicule (Terrestre, Aquatique, Aérien)">Milieu</th>
           <th data-tooltip="Rôle de l'objet/véhicule (Combat, Soutien, Logistique, Reconnaissance)">Rôle</th>
           <th data-tooltip="Munition qu'utilise l'objet/véhicule">Munition</th>
+          <th data-tooltip="Coût de production, converti en équivalent Bmat (à l'unité et sans MPF)">Coût (Bmat)</th>
           <th data-tooltip="La Guerre de première parution de l'objet/véhicule">War d'ajout</th>
         </tr>
       </thead>
       <tbody>
         <tr v-for="g in guesses" :key="g.id" :class="{ 'win-row': g.isWin && winRevealed }">
-          <td class="cell-img-anim">
+          <td class="cell-img-anim" :class="factionClass(g.faction.value)">
             <img :src="resolveImage(g.image)" :alt="g.name" class="cell-img" />
           </td>
 
@@ -452,6 +499,26 @@ function buildGuessResult(item) {
             />
           </td>
 
+          <!-- Coût (équivalent Bmat) : même mécanique que War (fond rouge + tampon Higher/Lower) -->
+          <td class="stampable" :class="{ ['bg-' + g.cost.status]: g.stampVisible.cost }">
+            <span class="cell-text">
+              <span
+                v-for="(c, i) in charsOf(displayCost(g))"
+                :key="i"
+                class="type-char"
+                :class="{ visible: i < g.revealCount.cost }"
+              >{{ c }}</span>
+            </span>
+            <img
+              v-if="g.stampVisible.cost"
+              :src="STAMP_IMAGES[g.cost.status]"
+              class="stamp-img"
+              :class="{ 'stamp-img-arrow': g.cost.status === 'higher' || g.cost.status === 'lower' }"
+              :style="{ '--stamp-rot': g.stampRotation.cost + 'deg' }"
+              alt=""
+            />
+          </td>
+
           <!-- War d'ajout : fond rouge (bg-higher/bg-lower) + tampon Higher/Lower quand ce n'est pas la bonne War -->
           <td class="stampable" :class="{ ['bg-' + g.war.status]: g.stampVisible.war }">
             <span class="cell-text">
@@ -484,7 +551,7 @@ function buildGuessResult(item) {
       <p><span class="legend-symbol" style="background-color: rgba(249, 168, 37, 0.6);"></span> Partiellement correct</p>
       <p><span class="legend-symbol" style="background-color: rgba(157, 44, 44, 0.8);"></span> Incorrect / mauvaise War</p>
       <p><span class="legend-symbol" style="background-color: rgba(120, 120, 120, 0.6);"></span> Inconnu / verrouillé</p>
-      <p>Tampon ↑ (Higher) / ↓ (Lower) : la bonne War est plus haute / plus basse que ta proposition</p>
+      <p>↑ / ↓ : la bonne War est plus haute / plus basse que ta proposition</p>
     </div>
   </section>
 </template>
@@ -575,9 +642,37 @@ thead th:hover::after{
   cursor: pointer;
 }
 
-.dropdown li.highlighted,
-.dropdown li:hover {
-  background: var(--darker-color);
+.dropdown li.colonial::before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  background-image: url("@/assets/Colonial.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dropdown li.warden::before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  background-image: url("@/assets/Warden.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.dropdown li.colonial.highlighted,
+.dropdown li.colonial:hover {
+  background-color: var(--dark-colonial-color);
+}
+.dropdown li.warden.highlighted,
+.dropdown li.warden:hover {
+  background-color: var(--dark-warden-color);
+}
+.dropdown li.no-fac.highlighted,
+.dropdown li.no-fac:hover {
+  background-color: var(--dark-nofac-color);
 }
 
 .option-img {
@@ -638,6 +733,16 @@ table tbody tr > *:first-child{
   width: 70px;
   height: 70px;
   padding: 5px;
+}
+
+table tbody tr > td.colonial:first-child {
+  background: var(--dark-colonial-color);
+}
+table tbody tr > td.warden:first-child {
+  background: var(--dark-warden-color);
+}
+table tbody tr > td.no-fac:first-child {
+  background: var(--dark-nofac-color);
 }
 
 .cell-img {
@@ -749,7 +854,7 @@ table *:last-child{
 
 .stamp-img-arrow {
   width: 45%;
-  max-width: 55px;
+  max-width: 45px;
 }
 
 @keyframes stamp-drop {

@@ -6,10 +6,11 @@
     <header>
       <nav>
         <router-link to="/">Classic</router-link>
-        <router-link to="/">Recon</router-link>
-        <router-link to="/">Armory</router-link>
-        <router-link to="/">Exadle</router-link>
-        <router-link to="/">Timeline</router-link>
+        <router-link to="/recon">Recon</router-link>
+        <router-link to="/armory">Armory</router-link>
+        <router-link to="/exadle">Exadle</router-link>
+        <router-link to="/timeline">Timeline</router-link>
+        <router-link to="/cityguessr">Cityguessr</router-link>
       </nav>
     </header>
     <router-view />
@@ -19,7 +20,7 @@
         <hr>
         <p>Fanmade training tool  </p>
         <p>Based on Foxhole (<a href="https://www.siegecamp.com/">© Siege Camp</a>). All rights belong to their respective owners.</p>
-        <p>Feedback / reports: <img src="@/assets/discord-icon.svg" alt="Discord"> <a href="https://discord.com/users/341220040424685568">lastro_</a></p>
+        <p>Feedback / reports: <img src="@/assets/discord-icon.svg" alt="Discord"> lastro_</p>
       </div>
     </footer>
   </div>
@@ -35,7 +36,7 @@ header{
 }
 nav {
   display: flex;
-  width: 1000px;
+  width: var(--page-content-width);
   gap: 16px;
 }
 
@@ -62,7 +63,7 @@ footer{
 footer div#footer-content{
   display: flex;
   flex-direction: column;
-  width: 1000px;
+  width: var(--page-content-width);
   gap: 16px;
 }
 

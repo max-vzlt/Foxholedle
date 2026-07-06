@@ -1,22 +1,17 @@
-[
-  {
+[{
     "id": "r-12-salus-ambulance",
     "name": "r-12 - \"Salus\" Ambulance",
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Ambulance",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "Aucun",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/r_12_Salus_Ambulance.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["150-Bmat"]
   },
   {
     "id": "dunne-responder-3e",
@@ -24,18 +19,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Ambulance",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "Aucun",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/Dunne_Responder_3e.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["150-Bmat"]
   },
   {
     "id": "t3-xiphos",
@@ -43,18 +34,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Armored Car",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "7.92mm",
-    "war_added": [
-      75,
-      "0.43"
-    ],
+    "war_added": [75,"0.43"],
     "image": "/images/T3_Xiphos.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["25-Rmat"]
   },
   {
     "id": "t12-actaeon-tankette",
@@ -62,18 +49,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Armored Car",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "12.7mm",
-    "war_added": [
-      50,
-      "0.34"
-    ],
+    "war_added": [50,"0.34"],
     "image": "/images/T12_Actaeon_Tankette.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["35-Rmat"]
   },
   {
     "id": "t5-percutio",
@@ -81,18 +64,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Armored Car",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "14.5mm",
-    "war_added": [
-      75,
-      "0.43"
-    ],
+    "war_added": [75,"0.43"],
     "image": "/images/T5_Percutio.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-Cmat", "10-AsmatI"]
   },
   {
     "id": "t8-gemini",
@@ -100,18 +79,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Armored Car",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "RPG",
-    "war_added": [
-      75,
-      "0.43"
-    ],
+    "war_added": [75,"0.43"],
     "image": "/images/T8_Gemini.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-Cmat", "10-AsmatI"]
   },
   {
     "id": "o-brien-v113-gravekeeper",
@@ -119,18 +94,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Armored Car",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "ARC/RPG",
-    "war_added": [
-      102,
-      "1.52"
-    ],
+    "war_added": [102,"1.52"],
     "image": "/images/O_Brien_v_113_Gravekeeper.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-PCmat", "10-AsmatI"]
   },
   {
     "id": "obrien-v121-highlander",
@@ -138,18 +109,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Armored Car",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "7.92mm",
-    "war_added": [
-      102,
-      "1.52"
-    ],
+    "war_added": [102,"1.52"],
     "image": "/images/O_Brien_v_121_Highlander.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-Cmat", "5-AsmatI"]
   },
   {
     "id": "obrien-v101-freeman",
@@ -157,18 +124,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Armored Car",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "40mm",
-    "war_added": [
-      102,
-      "1.52"
-    ],
+    "war_added": [102,"1.52"],
     "image": "/images/O_Brien_v_101_Freeman.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["15-Cmat", "15-AsmatI"]
   },
   {
     "id": "obrien-v110",
@@ -176,18 +139,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Armored Car",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "7.92mm",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/O_Brien_v_110.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["25-Rmat"]
   },
   {
     "id": "r-15-chariot",
@@ -195,18 +154,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Transport Bus",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      123,
-      "1.60"
-    ],
+    "war_added": [123,"1.60"],
     "image": "/images/R_15_Chariot.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["100-Bmat"]
   },
   {
     "id": "dunne-caravaner-2f",
@@ -214,18 +169,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Transport Bus",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      123,
-      "1.60"
-    ],
+    "war_added": [123,"1.60"],
     "image": "/images/Dunne_Caravaner_2f.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["100-Bmat"]
   },
   {
     "id": "aa-2-battering-ram",
@@ -233,18 +184,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Field AT Gun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "68mm",
-    "war_added": [
-      135,
-      "1.64"
-    ],
+    "war_added": [135,"1.64"],
     "image": "/images/AA_2_Battering_Ram.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Rmat"]
   },
   {
     "id": "68-45-smelter-heavy-field-gun",
@@ -252,19 +199,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Heavy Field Gun",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "40mm",
-    "war_added": [
-      71,
-      "0.42"
-    ],
+    "war_added": [71,"0.42"],
     "image": "/images/68_45_Smelter_Heavy_Field_Gun.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-PCmat", "5-AsmatIV"]
   },
   {
     "id": "120-68-koronides-field-gun",
@@ -272,19 +214,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Field Artillery",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "120mm",
-    "war_added": [
-      89,
-      "0.48"
-    ],
+    "war_added": [89,"0.48"],
     "image": "/images/120_68_Koronides_Field_Gun.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["50-Rmat"]
   },
   {
     "id": "g40-sagittarii",
@@ -292,19 +229,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Field Machine Gun",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "12.7mm",
-    "war_added": [
-      112,
-      "1.56"
-    ],
+    "war_added": [112,"1.56"],
     "image": "/images/G40_Sagittarii.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Rmat"]
   },
   {
     "id": "noble-widow-mk-xiv",
@@ -312,37 +244,29 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Destroyer Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "68mm",
-    "war_added": [
-      89,
-      "0.48"
-    ],
+    "war_added": [89,"0.48"],
     "image": "/images/Noble_Widow_MK_XIV.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["160-Rmat"]
   },
   {
-    "id": "collins-cannon-68mm",
+    "id": "68mm-anti-tank-cannon",
     "name": "Leary Shellbore 68mm",
     "faction": "Warden",
-    "category": "Vehicle",
-    "class": "Field AT Gun",
-    "role": [
-      "Combat"
-    ],
+    "category": "Weapon",
+    "class": "shipables",
+    "role": ["Combat"],
     "ammo": "68mm",
-    "war_added": [
-      108,
-      "1.54"
-    ],
-    "image": "/images/Collins_Cannon_68mm.png",
+    "war_added": [1, "0.10"],
+    "image": "/images/68mm_Anti_Tank_Cannon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": [""]
   },
   {
     "id": "balfour-rampart-40mm",
@@ -350,19 +274,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Heavy Field Cannon",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "68mm",
-    "war_added": [
-      108,
-      "1.54"
-    ],
+    "war_added": [108,"1.54"],
     "image": "/images/Balfour_Rampart_40mm.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-PCmat", "5-AsmatIV"]
   },
   {
     "id": "balfour-wolfhound-40mm",
@@ -370,19 +289,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Field Cannon",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "40mm",
-    "war_added": [
-      108,
-      "1.54"
-    ],
+    "war_added": [108,"1.54"],
     "image": "/images/Balfour_Wolfhound_40mm.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Rmat"]
   },
   {
     "id": "swallowtail-988-127-2",
@@ -390,19 +304,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Field Machine Gun",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "12.7mm",
-    "war_added": [
-      77,
-      "0.44"
-    ],
+    "war_added": [77,"0.44"],
     "image": "/images/Swallowtail_988_127_2.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Rmat"]
   },
   {
     "id": "balfour-falconer-250mm",
@@ -410,19 +319,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Field Mortar",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "250mm",
-    "war_added": [
-      75,
-      "0.42"
-    ],
+    "war_added": [75,"0.42"],
     "image": "/images/Balfour_Falconer_250mm.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["35-Rmat"]
   },
   {
     "id": "bms-packmule-flatbed",
@@ -430,18 +334,14 @@
     "faction": "None",
     "category": "Vehicle",
     "class": "Flatbed Truck",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/BMS_Packmule_Flatbed.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["30-Rmat"]
   },
   {
     "id": "hh-d-peltast",
@@ -449,19 +349,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Half-Track",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "Mortar Shell",
-    "war_added": [
-      61,
-      "0.38"
-    ],
+    "war_added": [61,"0.38"],
     "image": "/images/HH_d_Peltast.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-PCmat", "5-AsmatII", "3-AsmatIV", "55-Rmat"]
   },
   {
     "id": "hh-a-javelin",
@@ -469,19 +364,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Half-Track",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "Aucun",
-    "war_added": [
-      61,
-      "0.38"
-    ],
+    "war_added": [61,"0.38"],
     "image": "/images/HH_a_Javelin.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-PCmat", "5-AsmatII", "3-AsmatIV", "55-Rmat"]
   },
   {
     "id": "hh-b-hoplite",
@@ -489,19 +379,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Half-Track",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "Aucun",
-    "war_added": [
-      86,
-      "0.47"
-    ],
+    "war_added": [86,"0.47"],
     "image": "/images/HH_b_Hoplite.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["3-PCmat", "3-AsmatIV", "55-Rmat"]
   },
   {
     "id": "niska-mk-ii-blinder",
@@ -509,19 +394,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Half-Track",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "68mm",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/Niska_Mk_II_Blinder.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-PCmat", "10-AsmatII", "3-AsmatIV", "60-Rmat"]
   },
   {
     "id": "niska-mk-i-gun-motor-carriage",
@@ -529,19 +409,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Half-Track",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "Aucun",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/Niska_Mk_I_Gun_Motor_Carriage.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["60-Rmat"]
   },
   {
     "id": "bms-scrap-hauler",
@@ -549,18 +424,14 @@
     "faction": "None",
     "category": "Vehicle",
     "class": "Harvester",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/BMS_Scrap_Hauler.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["90-PCmat", "25-AsmatIV"]
   },
   {
     "id": "ab-8-acheron",
@@ -568,18 +439,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Landing APC",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      116,
-      "1.58"
-    ],
+    "war_added": [116,"1.58"],
     "image": "/images/AB_8_Acheron.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Rmat"]
   },
   {
     "id": "ab-11-doru",
@@ -587,18 +454,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Landing APC",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "12.7mm",
-    "war_added": [
-      119,
-      "1.59"
-    ],
+    "war_added": [119,"1.59"],
     "image": "/images/AB_11_Doru.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-PCmat", "3-AsmatIII", "20-Rmat"]
   },
   {
     "id": "mulloy-lpc",
@@ -606,18 +469,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Landing APC",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      59,
-      "0.37"
-    ],
+    "war_added": [59,"0.37"],
     "image": "/images/Mulloy_LPC.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Rmat"]
   },
   {
     "id": "hc-2-scorpion",
@@ -625,18 +484,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Light Infantry Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "12.7mm",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/HC_2_Scorpion.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["100-Rmat"]
   },
   {
     "id": "h5-hatchet",
@@ -644,18 +499,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Light Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "40mm",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/H5_Hatchet.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["115-Rmat"]
   },
   {
     "id": "h-8-kranesca",
@@ -663,18 +514,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Light Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "40mm",
-    "war_added": [
-      75,
-      "0.43"
-    ],
+    "war_added": [75,"0.43"],
     "image": "/images/H_8_Kranesca.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-PCmat", "20-AsmatI", "5-AsmatIV", "115-Rmat"]
   },
   {
     "id": "h-10-pelekys",
@@ -682,18 +529,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Light Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "68mm",
-    "war_added": [
-      75,
-      "0.43"
-    ],
+    "war_added": [75,"0.43"],
     "image": "/images/H_10_Pelekys.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["8-PCmat", "20-AsmatII", "5-AsmatIII", "115-Rmat"]
   },
   {
     "id": "86k-a-bardiche",
@@ -701,21 +544,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Assault Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "12.7mm",
-      "68mm"
-    ],
-    "war_added": [
-      83,
-      "0.46"
-    ],
+    "role": ["Combat"],
+    "ammo": ["12.7mm","68mm"],
+    "war_added": [83,"0.46"],
     "image": "/images/86K_a_Bardiche.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["165-Rmat"]
   },
   {
     "id": "85k-b-falchion",
@@ -723,15 +559,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Assault Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "40mm",
     "war_added": [71, "0.42"],
     "image": "/images/85K_b_Falchion.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["135-Rmat"]
   },
   {
     "id": "85k-a-spatha",
@@ -739,18 +574,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Assault Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "40mm",
-    "war_added": [
-      75,
-      "0.43"
-    ],
+    "war_added": [75,"0.43"],
     "image": "/images/85K_a_Spatha.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["12-PCmat", "10-AsmatI", "8-AsmatIV", "135-Rmat"]
   },
   {
     "id": "hc-7-ballista",
@@ -758,19 +589,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Seige Tank",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "250mm",
-    "war_added": [
-      59,
-      "0.37"
-    ],
+    "war_added": [59,"0.37"],
     "image": "/images/HC_7_Ballista.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["15-PCmat", "15-AsmatII", "100-Rmat"]
   },
   {
     "id": "03mm-caster",
@@ -778,18 +604,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Motorcyle",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "Aucun",
-    "war_added": [
-      59,
-      "0.37"
-    ],
+    "war_added": [59,"0.37"],
     "image": "/images/03MM_Caster.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["85-Bmat"]
   },
   {
     "id": "00ms-stinger",
@@ -797,37 +619,29 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Motorcyle",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "7.92mm",
-    "war_added": [
-      59,
-      "0.37"
-    ],
+    "war_added": [59,"0.37"],
     "image": "/images/00MS_Stinger.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-Cmat", "85-Bmat"]
   },
   {
     "id": "rr-3-stolon-tanker",
-    "name": "RR-3 \"Stolon\" Tanker.",
+    "name": "RR-3 \"Stolon\" Tanker",
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Fuel Tanker",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/RR_3_Stolon_Tanker.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["100-Bmat"]
   },
   {
     "id": "uv-05a-argonaut",
@@ -835,18 +649,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Light Utility Vehicle",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "Aucun",
-    "war_added": [
-      59,
-      "0.37"
-    ],
+    "war_added": [59,"0.37"],
     "image": "/images/UV_05a_Argonaut.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-Rmat"]
   },
   {
     "id": "uv-24-icarus",
@@ -854,18 +664,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Light Utility Vehicle",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "RPG",
-    "war_added": [
-      59,
-      "0.37"
-    ],
+    "war_added": [59,"0.37"],
     "image": "/images/UV_24_Icarus.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["3-Cmat", "10-AsmatII", "10-Rmat"]
   },
   {
     "id": "uv-5c-odyssey",
@@ -873,37 +679,29 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Light Utility Vehicle",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "Aucun",
-    "war_added": [
-      59,
-      "0.37"
-    ],
+    "war_added": [59,"0.37"],
     "image": "/images/UV_5c_Odyssey.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["3-Cmat", "10-Rmat"]
   },
   {
     "id": "t20-ixion-tankette",
-    "name": "Chenillette T20 \"Ixion\"",
+    "name": "T20 \"Ixion\" Tankette",
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Tankette",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "30mm",
-    "war_added": [
-      77,
-      "0.44"
-    ],
+    "war_added": [77,"0.44"],
     "image": "/images/T20_Ixion_Tankette.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-Cmat", "15-AsmatI", "35-Rmat"]
   },
   {
     "id": "r-1-hauler",
@@ -911,15 +709,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Truck",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
     "war_added": [1, "0.10"],
     "image": "/images/R_1_Hauler.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["100-Bmat"]
   },
   {
     "id": "r-5-atlas-hauler",
@@ -927,18 +724,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Truck",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      108,
-      "1.56"
-    ],
+    "war_added": [108,"1.56"],
     "image": "/images/R_5_Atlas_Hauler.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["120-Bmat"]
   },
   {
     "id": "r-5b-sisyphus-hauler",
@@ -946,18 +739,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Truck",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      67,
-      "0.41"
-    ],
+    "war_added": [67,"0.41"],
     "image": "/images/R_5b_Sisyphus_Hauler.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-Cmat", "100-Bmat"]
   },
   {
     "id": "r-9-speartip-escort",
@@ -965,19 +754,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Truck",
-    "role": [
-      "Logistique",
-      "Soutien"
-    ],
+    "role": ["Logistique","Soutien"],
     "ammo": "Aucun",
-    "war_added": [
-      105,
-      "1.53"
-    ],
+    "war_added": [105,"1.53"],
     "image": "/images/R_9_Speartip_Escort.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-Cmat", "100-Bmat"]
   },
   {
     "id": "devitt-caine-mk-iv-mmr",
@@ -985,18 +769,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Light Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Mortar Shell",
-    "war_added": [
-      59,
-      "0.37"
-    ],
+    "war_added": [59,"0.37"],
     "image": "/images/Devitt_Caine_Mk_IV_MMR.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["3-PCmat", "20-AsmatI", "3-AsmatIV", "120-Rmat"]
   },
   {
     "id": "devitt-ironhide-mk-iv",
@@ -1004,18 +784,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Light Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "40mm",
-    "war_added": [
-      59,
-      "0.37"
-    ],
+    "war_added": [59,"0.37"],
     "image": "/images/Devitt_Ironhide_Mk_IV.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["8-PCmat", "20-AsmatI", "5-AsmatIII", "120-Rmat"]
   },
   {
     "id": "devitt-mk-iii",
@@ -1023,18 +799,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Light Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "40mm",
-    "war_added": [
-      59,
-      "0.37"
-    ],
+    "war_added": [59,"0.37"],
     "image": "/images/Devitt_Mk_III.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["120-Rmat"]
   },
   {
     "id": "gallagher-outlaw-mk-ii",
@@ -1042,21 +814,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Cruiser Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "40mm",
-      "7.92mm"
-    ],
-    "war_added": [
-      83,
-      "0.46"
-    ],
+    "role": ["Combat"],
+    "ammo": ["40mm","7.92mm"],
+    "war_added": [83,"0.46"],
     "image": "/images/Gallagher_Outlaw_Mk_II.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-PCmat", "10-AsmatI", "10-AsmatIV", "150-Rmat"]
   },
   {
     "id": "silverhand-chieftain-mk-vi",
@@ -1064,21 +829,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Assault Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "250mm",
-      "12.7mm"
-    ],
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "role": ["Combat"],
+    "ammo": ["250mm","12.7mm"],
+    "war_added": [96,"1.50"],
     "image": "/images/Silverhand_Chieftain_Mk_VI.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-PCmat", "10-AsmatI", "8-AsmatIV", "160-Rmat"]
   },
   {
     "id": "silverhand-mk-iv",
@@ -1086,21 +844,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Assault Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "40mm",
-      "68mm"
-    ],
-    "war_added": [
-      59,
-      "0.37"
-    ],
+    "role": ["Combat"],
+    "ammo": ["40mm","68mm"],
+    "war_added": [59,"0.37"],
     "image": "/images/Silverhand_Mk_IV.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["160-Rmat"]
   },
   {
     "id": "kivela-power-wheel-80-1",
@@ -1108,18 +859,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Motorcycle",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "Aucun",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/Kivela_Power_Wheel_80_1.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["85-Bmat"]
   },
   {
     "id": "dunne-fuelrunner-2d",
@@ -1127,18 +874,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Fuel Tanker",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/Dunne_Fuelrunner_2d.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["100-Bmat"]
   },
   {
     "id": "king-gallant-mk-ii",
@@ -1146,18 +889,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Scout Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "30mm",
-    "war_added": [
-      77,
-      "0.44"
-    ],
+    "war_added": [77,"0.44"],
     "image": "/images/King_Gallant_MK_II.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-PCmat", "5-AsmatIII", "70-Rmat"]
   },
   {
     "id": "king-spire-mk-i",
@@ -1165,19 +904,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Scout Tank",
-    "role": [
-      "Combat",
-      "Reconnaissance"
-    ],
+    "role": ["Combat","Reconnaissance"],
     "ammo": "12.7mm",
-    "war_added": [
-      71,
-      "0.42"
-    ],
+    "war_added": [71,"0.42"],
     "image": "/images/King_Spire_MK_I.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["70-Rmat"]
   },
   {
     "id": "drummond-spitfire-100d",
@@ -1185,18 +919,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Light Utility Vehicle",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "7.92mm",
-    "war_added": [
-      67,
-      "0.41"
-    ],
+    "war_added": [67,"0.41"],
     "image": "/images/Drummond_Spitfire_100d.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["3-Cmat", "10-AsmatII", "10-Rmat"]
   },
   {
     "id": "drummond-loscann-55c",
@@ -1204,18 +934,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Light Utility Vehicle",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "Aucun",
-    "war_added": [
-      67,
-      "0.41"
-    ],
+    "war_added": [67,"0.41"],
     "image": "/images/Drummond_Loscann_55c.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["3-Cmat", "5-AsmatII", "10-Rmat"]
   },
   {
     "id": "drummond-100a",
@@ -1223,18 +949,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Light Utility Vehicle",
-    "role": [
-      "Reconnaissance"
-    ],
+    "role": ["Reconnaissance"],
     "ammo": "Aucun",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/Drummond_100a.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-Rmat"]
   },
   {
     "id": "dunne-leatherback-2a",
@@ -1242,18 +964,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Truck",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/Dunne_Leatherback_2a.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-Cmat", "100-Bmat"]
   },
   {
     "id": "dunne-loadlugger-3c",
@@ -1261,18 +979,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Truck",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/Dunne_Loadlugger_3c.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["120-Bmat"]
   },
   {
     "id": "dunne-landrunner-12c",
@@ -1280,18 +994,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Truck",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      67,
-      "0.41"
-    ],
+    "war_added": [67,"0.41"],
     "image": "/images/Dunne_Landrunner_12c.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-Cmat", "100-Bmat"]
   },
   {
     "id": "dunne-transport",
@@ -1299,18 +1009,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Truck",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/Dunne_Transport.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["100-Bmat"]
   },
   {
     "id": "bms-aquatipper",
@@ -1318,15 +1024,14 @@
     "faction": "None",
     "category": "Vehicle",
     "class": "Barge",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
     "war_added": [65, "0.40"],
     "image": "/images/BMS_Aquatipper.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["150-Bmat"]
   },
   {
     "id": "bms-ironship",
@@ -1334,15 +1039,14 @@
     "faction": "None",
     "category": "Vehicle",
     "class": "Freighter",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
     "war_added": [30, "0.26"],
     "image": "/images/BMS_Ironship.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["500-Bmat"]
   },
   {
     "id": "type-c-charon",
@@ -1350,18 +1054,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Gunboat",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Mortar Shell",
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "war_added": [1,"0.10"],
     "image": "/images/Type_C_Charon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["140-Rmat"]
   },
   {
     "id": "74b-1-ronan-gunship",
@@ -1369,18 +1069,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Gunboat",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Mortar Shell",
-    "war_added": [
-      10,
-      "0.14"
-    ],
+    "war_added": [10,"0.14"],
     "image": "/images/74b_1_Ronan_Gunship.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["140-Rmat"]
   },
   {
     "id": "bms-universal-assemly-rig",
@@ -1388,15 +1084,14 @@
     "faction": "None",
     "category": "Vehicle",
     "class": "Construction Vehicle",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
     "war_added": [96, "1.50"],
     "image": "/images/BMS_Universal_Assemly_Rig.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["100-Bmat"]
   },
   {
     "id": "bms-class-2-mobile-auto-crane",
@@ -1404,15 +1099,14 @@
     "faction": "None",
     "category": "Vehicle",
     "class": "Crane",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
     "war_added": [30, "0.26"],
     "image": "/images/BMS_Class_2_Mobile_Auto_Crane.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["125-Bmat"]
   },
   {
     "id": "ha1-sagaris",
@@ -1420,19 +1114,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Light Tank",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "Absol Anti-Aircraft Rounds",
-    "war_added": [
-      135,
-      "1.64"
-    ],
+    "war_added": [135,"1.64"],
     "image": "LightTank3CVehicleIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["125-Rmat"]
   },
   {
     "id": "LightTank3WVehicle",
@@ -1440,19 +1129,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Light Tank",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "Absol Anti-Aircraft Rounds",
-    "war_added": [
-      135,
-      "1.64"
-    ],
+    "war_added": [135,"1.64"],
     "image": "/images/LightTank3WVehicleIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["125-Rmat"]
   },
   {
     "id": "AircraftScoutC",
@@ -1460,18 +1144,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Amphibious Scout Aircraft",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "MG aérienne",
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "war_added": [132,"1.63"],
     "image": "/images/AircraftScoutCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["100-Rmat"]
   },
   {
     "id": "luminary-mk4-herald",
@@ -1479,22 +1159,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Amphibious Scout Aircraft",
-    "role": [
-      "Combat",
-      "Reconnaissance"
-    ],
-    "ammo": [
-      "Quillback Torpedo",
-      "20mm"
-    ],
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "role": ["Combat","Reconnaissance"],
+    "ammo": ["Quillback Torpedo","20mm"],
+    "war_added": [132,"1.63"],
     "image": "/images/AircraftScoutWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["100-Rmat"]
   },
   {
     "id": "luminary-mk2-harbinger",
@@ -1502,21 +1174,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Fighter Aircraft",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "20mm",
-      "14.5mm"
-    ],
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "role": ["Combat"],
+    "ammo": ["20mm","14.5mm"],
+    "war_added": [132,"1.63"],
     "image": "/images/AircraftFighterWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["40-PCmat", "50-AsmatIII", "50-AsmatIV", "10-ThermalShielding", "2-RareAlloys"]
   },
   {
     "id": "AircraftTorpedoW",
@@ -1524,21 +1189,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Aircraft",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "Moray Torpedo",
-      "12.7mm"
-    ],
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "role": ["Combat"],
+    "ammo": ["Moray Torpedo","12.7mm"],
+    "war_added": [132,"1.63"],
     "image": "/images/AircraftTorpedoWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["25-PCmat", "85-AsmatI", "100-AsmatII", "20-AsmatIII", "10-ThermalShielding", "6-RareAlloys"]
   },
   {
     "id": "storm-tank",
@@ -1546,15 +1204,14 @@
     "faction": "None",
     "category": "Vehicle",
     "class": "Super Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "40mm",
     "war_added": [19, "0.20"],
     "image": "/images/RelicLightTankVehicleIcon.png",
-    "classic_eligible": true,
+    "classic_eligible": false,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["120-RelicMaterials"]
   },
   {
     "id": "cascadier-873",
@@ -1562,18 +1219,15 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Pistol",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "8mm",
-    "war_added": [
-      99, 
-      "1.51"
-    ],
+    "war_added": [99, 
+      "1.51"],
     "image": "/images/Cascadier_873.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["1.5-Bmat"]
   },
   {
     "id": "cometa-t2-9",
@@ -1581,18 +1235,15 @@
     "faction": "None",
     "category": "Weapon",
     "class": "Revolver",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": ".44",
-    "war_added": [
-      89, 
-      "0.48"
-    ],
+    "war_added": [89, 
+      "0.48"],
     "image": "/images/Cometa_T2_9.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["2-Bmat"]
   },
   {
     "id": "the-hangman-757",
@@ -1600,18 +1251,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Heavy Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": ".44",
-    "war_added": [
-      80,
-      "0.45"
-    ],
+    "war_added": [80,"0.45"],
     "image": "/images/The_Hangman_757.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["6.25-Bmat"]
   },
   {
     "id": "no2-loughcaster",
@@ -1619,18 +1266,15 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.62mm",
-    "war_added": [
-      1, 
-      "0.10"
-    ],
+    "war_added": [1, 
+      "0.10"],
     "image": "/images/No_2_Loughcaster.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-Bmat"]
   },
   {
     "id": "blakerow-871",
@@ -1638,18 +1282,15 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.62mm",
-    "war_added": [
-      71, 
-      "0.42"
-    ],
+    "war_added": [71, 
+      "0.42"],
     "image": "/images/Blakerow_871.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["7-Bmat"]
   },
   {
     "id": "clancy-cinder-m3",
@@ -1657,18 +1298,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Long Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.62mm",
-    "war_added": [
-      83,
-      "0.46"
-    ],
+    "war_added": [83,"0.46"],
     "image": "/images/Clancy_Cinder_M3.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["8.67-Bmat"]
   },
   {
     "id": "sampo-auto-rifle-77",
@@ -1676,18 +1313,15 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.62mm",
-    "war_added": [
-      83, 
-      "0.46"
-    ],
+    "war_added": [83, 
+      "0.46"],
     "image": "/images/Sampo_Auto_Rifle_77.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["6.25-Bmat"]
   },
   {
     "id": "argenti-rii-rifle",
@@ -1695,18 +1329,15 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.62mm",
-    "war_added": [
-      71, 
-      "0.42"
-    ],
+    "war_added": [71, 
+      "0.42"],
     "image": "/images/Argenti_R_II.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-Bmat"]
   },
   {
     "id": "fuscina-pii",
@@ -1714,18 +1345,15 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.62mm",
-    "war_added": [
-      71, 
-      "0.42"
-    ],
+    "war_added": [71, 
+      "0.42"],
     "image": "/images/Fuscina_pi_I.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["7-Bmat"]
   },
   {
     "id": "krr2-790-omen",
@@ -1733,18 +1361,15 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Long Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.62mm",
-    "war_added": [
-      83, 
-      "0.46"
-    ],
+    "war_added": [83, 
+      "0.46"],
     "image": "/images/KRR2_790_Omen.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10.33-Bmat"]
   },
   {
     "id": "volta-ri-repeater",
@@ -1752,18 +1377,15 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Heavy Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.62mm",
-    "war_added": [
-      45, 
-      "0.32"
-    ],
+    "war_added": [45, 
+      "0.32"],
     "image": "/images/Volta_r_I_Repeater.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["6.67-Bmat"]
   },
   {
     "id": "fiddler-submachine-gun-model-868",
@@ -1771,18 +1393,15 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Submachine Gun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "9mm SMG",
-    "war_added": [
-      71, 
-      "0.42"
-    ],
+    "war_added": [71, 
+      "0.42"],
     "image": "/images/Fiddler_Submachine_Gun_Model_868.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["6-Bmat"]
   },
   {
     "id": "no1-the-liar-submachinegun",
@@ -1790,18 +1409,15 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Submachine Gun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "9mm",
-    "war_added": [
-      75, 
-      "0.43"
-    ],
+    "war_added": [75, 
+      "0.43"],
     "image": "/images/No_1_The_Liar_Submachine_Gun.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["6-Bmat"]
   },
   {
     "id": "the-pitch-gun-mc-v",
@@ -1809,18 +1425,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Submachine Gun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "9mm SMG",
-    "war_added": [
-      71,
-      "0.42"
-    ],
+    "war_added": [71,"0.42"],
     "image": "/images/The_Pitch_Gun_mc_V.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["4-Bmat"]
   },
   {
     "id": "lionclaw-mcviii",
@@ -1828,18 +1440,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Submachine Gun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "9mm SMG",
-    "war_added": [
-      75,
-      "0.43"
-    ],
+    "war_added": [75,"0.43"],
     "image": "/images/Lionclaw_mc_VIII.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["6-Bmat"]
   },
   {
     "id": "catara-moii",
@@ -1847,18 +1455,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Light Machine Gun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "12.7mm",
-    "war_added": [
-      54,
-      "0.32"
-    ],
+    "war_added": [54,"0.32"],
     "image": "/images/Catara_mo_II.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["0.75-Rmat"]
   },
   {
     "id": "dusk-ceiii",
@@ -1866,18 +1470,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Assault Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.92mm",
-    "war_added": [
-      75,
-      "0.43"
-    ],
+    "war_added": [75,"0.43"],
     "image": "/images/Dusk_ce_III.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["0.75-Rmat"]
   },
   {
     "id": "clancy-raca-m4",
@@ -1885,18 +1485,15 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Sniper Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.62mm",
-    "war_added": [
-      83, 
-      "0.46"
-    ],
+    "war_added": [83, 
+      "0.46"],
     "image": "/images/Clancy_Raca_M4.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["16.67-Cmat", "13.33-PCmat", "33.3-Bmat"]
   },
   {
     "id": "krr3-792-auger",
@@ -1904,18 +1501,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Sniper Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.62mm",
-    "war_added": [
-      92,
-      "0.49"
-    ],
+    "war_added": [92,"0.49"],
     "image": "/images/KRR3_792_Auger.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-Cmat", "8-PCmat", "20-Bmat"]
   },
   {
     "id": "krn886-127-gast-machine-gun",
@@ -1923,18 +1516,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Machine Gun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "12.7mm",
-    "war_added": [
-      71,
-      "0.42"
-    ],
+    "war_added": [71,"0.42"],
     "image": "/images/KRN886_127_Gast_Machine_Gun.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-Rmat"]
   },
   {
     "id": "malone-mk2",
@@ -1942,18 +1531,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Machine Gun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "12.7mm",
-    "war_added": [
-      71,
-      "0.42"
-    ],
+    "war_added": [71,"0.42"],
     "image": "/images/Malone_MK_2.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-Rmat"]
   },
   {
     "id": "pt-815-smoke-grenade",
@@ -1961,15 +1546,14 @@
     "faction": "None",
     "category": "Weapon",
     "class": "Smoke Grenade",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "Aucun",
     "war_added": [1, "0.10"],
     "image": "/images/PT_815_Smoke_Grenade.png",
     "classic_eligible": false,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": [""]
   },
   {
     "id": "typhon-raxii",
@@ -1977,18 +1561,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Mounted Anti-Tank Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "20mm",
-    "war_added": [
-      86,
-      "0.47"
-    ],
+    "war_added": [86,"0.47"],
     "image": "/images/Typhon_ra_XII.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Bmat", "1-Rmat"]
   },
   {
     "id": "135-neville-anti-tank-rifle",
@@ -1996,18 +1576,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Anti-Tank Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "14.5mm",
-    "war_added": [
-      86,
-      "0.47"
-    ],
+    "war_added": [86,"0.47"],
     "image": "/images/135_Neville_Anti_Tank_Rifle.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["50-Bmat"]
   },
   {
     "id": "daucus-isgiii",
@@ -2015,18 +1591,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Infantry Support Gun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "30mm",
-    "war_added": [
-      86,
-      "0.47"
-    ],
+    "war_added": [86,"0.47"],
     "image": "/images/Daucus_isg_III.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Bmat", "1-Rmat"]
   },
   {
     "id": "cutler-launcher-4",
@@ -2034,15 +1606,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "RPG",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "R.P.G. Shell",
     "war_added": [21, "0.21"],
     "image": "/images/Cutler_Launcher_4.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Bmat", "7-Rmat"]
   },
   {
     "id": "cutler-foebreaker",
@@ -2050,15 +1621,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Mounted RPG Launcher",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "R.P.G. Shell",
     "war_added": [86, "0.47"],
     "image": "/images/Cutler_Foebreaker.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Bmat", "1-Rmat"]
   },
   {
     "id": "venom-cii-35",
@@ -2066,15 +1636,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Anti-Tank RPG",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "AP/RPG",
     "war_added": [83, "0.46"],
     "image": "/images/Venom_c_II.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Bmat", "3-Rmat"]
   },
   {
     "id": "ignifist-30",
@@ -2082,15 +1651,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Anti-Tank RPG",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Aucun",
     "war_added": [71, "0.42"],
     "image": "/images/Ignifist_30.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": [""]
   },
   {
     "id": "bane-45",
@@ -2098,15 +1666,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Anti-Tank RPG",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "AP/RPG",
     "war_added": [83, "0.46"],
     "image": "/images/Bane_45.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["30-Bmat", "8-Rmat"]
   },
   {
     "id": "bonesaw-mk3",
@@ -2114,15 +1681,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Anti-Tank RPG",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "ARC/RPG",
     "war_added": [83, "0.46"],
     "image": "/images/Bonesaw_MK_3.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Bmat", "5-Rmat"]
   },
   {
     "id": "mounted-bonesaw-mk3",
@@ -2130,15 +1696,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Anti-Tank RPG",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "ARC/RPG",
     "war_added": [86, "0.47"],
     "image": "/images/Mounted_Bonesaw_MK_3.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Bmat", "1-Rmat"]
   },
   {
     "id": "cremari-mortar",
@@ -2146,16 +1711,14 @@
     "faction": "None",
     "category": "Weapon",
     "class": "Mortar",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "Mortar Shell",
     "war_added": [10, "0.14"],
     "image": "/images/Cremari_Mortar.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Bmat", "5-Rmat"]
   },
   {
     "id": "green-ash-grenade",
@@ -2163,15 +1726,14 @@
     "faction": "None",
     "category": "Weapon",
     "class": "Gas Grenade",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Aucun",
     "war_added": [1, "0.10"],
     "image": "/images/Green_Ash_Grenade.png",
     "classic_eligible": false,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": [""]
   },
   {
     "id": "bomastone-grenade",
@@ -2179,15 +1741,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Grenade",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Aucun",
     "war_added": [71, "0.42"],
     "image": "/images/Bomastone_Grenade.png",
     "classic_eligible": false,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": [""]
   },
   {
     "id": "a3-harpa-fragmentation-grenade",
@@ -2195,15 +1756,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Grenade",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Aucun",
     "war_added": [71, "0.42"],
     "image": "/images/A3_Harpa_Fragmentation_Grenade.png",
     "classic_eligible": false,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": [""]
   },
   {
     "id": "mammon-91-b",
@@ -2211,15 +1771,14 @@
     "faction": "None",
     "category": "Weapon",
     "class": "HE Grenade",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Aucun",
     "war_added": [1, "0.10"],
     "image": "/images/Mammon_91_b.png",
     "classic_eligible": false,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": [""]
   },
   {
     "id": "bf5-white-ash-flask-grenade",
@@ -2227,15 +1786,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Anti-Tank Grenade",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Aucun",
     "war_added": [71, "0.42"],
     "image": "/images/BF5_White_Ash_Flask_Grenade.png",
     "classic_eligible": false,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": [""]
   },
   {
     "id": "lamentum-mmiv",
@@ -2243,18 +1801,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Mounted machinegun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "12.7mm",
-    "war_added": [
-      86,
-      "0.47"
-    ],
+    "war_added": [86,"0.47"],
     "image": "/images/Lamentum_mm_IV.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Bmat", "1-Rmat"]
   },
   {
     "id": "malone-ratcatcher-mk1",
@@ -2262,34 +1816,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Mounted Machinegun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "12.7mm",
-    "war_added": [
-      86,
-      "0.47"
-    ],
+    "war_added": [86,"0.47"],
     "image": "/images/Malone_Ratcatcher_MK_1.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
-  },
-  {
-    "id": "68mm-anti-tank-cannon",
-    "name": "Leary Shellbore 68mm",
-    "faction": "None",
-    "category": "Weapon",
-    "class": "shipables",
-    "role": [
-      "Combat"
-    ],
-    "ammo": "68mm",
-    "war_added": [1, "0.10"],
-    "image": "/images/68mm_Anti_Tank_Cannon.png",
-    "classic_eligible": true,
-    "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-Bmat", "1-Rmat"]
   },
   {
     "id": "50-500-thunderbolt-cannon",
@@ -2297,16 +1831,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "shipables",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "150mm",
     "war_added": [54, "0.36"],
     "image": "/images/50_500_Thunderbolt_Cannon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["195-Rmat"]
   },
   {
     "id": "huber-exalt-150mm",
@@ -2314,16 +1846,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "shipables",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "150mm",
     "war_added": [30, "0.26"],
     "image": "/images/Huber_Exalt_150mm.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["175-Rmat"]
   },
   {
     "id": "huber-lariat-120mm",
@@ -2331,33 +1861,29 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "shipables",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "120mm",
     "war_added": [30, "0.26"],
     "image": "/images/Huber_Lariat_120mm.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["35-Rmat"]
   },
   {
     "id": "127-anti-infantry-flak-gun",
     "name": "Leary Snare Trap 20mm",
-    "faction": "None",
+    "faction": "Warden",
     "category": "Weapon",
     "class": "shipables",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "20mm",
     "war_added": [54, "0.36"],
     "image": "/images/12_7_Anti_Infantry_Flak_Gun.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["100-Bmat"]
   },
   {
     "id": "pl1-phalanx",
@@ -2365,15 +1891,14 @@
     "faction": "None",
     "category": "Weapon",
     "class": "Emplaced Weapon",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "40mm",
     "war_added": [77, "0.44"],
     "image": "/images/ColonialRelicMediumTankVehicleIcon.png",
-    "classic_eligible": true,
+    "classic_eligible": false,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["600-RelicMaterials"]
   },
   {
     "id": "LargeshipAircraft",
@@ -2381,18 +1906,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Aircraft Carrier",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "20mm",
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "war_added": [132,"1.63"],
     "image": "/images/LargeshipAircraftCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": [""]
   },
   {
     "id": "MediumTankLargeC",
@@ -2400,18 +1921,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Assault Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "75mm",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/MediumTankLargeCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["3-SCmat", "10-AsmatI", "15-AsmatIII", "15-AsmatIV", "135-Rmat"]
   },
   {
     "id": "MediumTank2TwinCVehicle",
@@ -2419,21 +1936,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Assault Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "12.7mm",
-      "RPG"
-    ],
-    "war_added": [
-      92,
-      "0.49"
-    ],
+    "role": ["Combat"],
+    "ammo": ["12.7mm","RPG"],
+    "war_added": [92,"0.49"],
     "image": "/images/MediumTank2TwinCVehicleIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-PCmat", "10-AsmatII", "10-AsmatIII", "165-Rmat"]
   },
   {
     "id": "MediumTank3CItem",
@@ -2441,21 +1951,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Assault Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "68mm",
-      "Tremola"
-    ],
-    "war_added": [
-      119,
-      "1.59"
-    ],
+    "role": ["Combat"],
+    "ammo": ["68mm","Tremola"],
+    "war_added": [119,"1.59"],
     "image": "/images/MediumTank3CItemIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["150-Rmat"]
   },
   {
     "id": "BattleTankATC",
@@ -2463,18 +1966,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Battle Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "94.5mm",
-    "war_added": [
-      99,
-      "1.51"
-    ],
+    "war_added": [99,"1.51"],
     "image": "/images/BattleTankATCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["60-SCmat", "65-AsmatIII", "45-AsmatIV", "65-AsmatV"]
   },
   {
     "id": "BattleTankC",
@@ -2482,21 +1981,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Battle Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "75mm",
-      "12.7mm"
-    ],
-    "war_added": [
-      1,
-      "0.10"
-    ],
+    "role": ["Combat"],
+    "ammo": ["75mm","12.7mm"],
+    "war_added": [1,"0.10"],
     "image": "/images/BattleTankC.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["50-SCmat", "30-AsmatIII", "60-AsmatIV", "35-AsmatV"]
   },
   {
     "id": "LargeShipBattleshipC",
@@ -2504,24 +1996,16 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "BattleShip",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
-    "ammo": [
-      "150mm",
-      "120mm",
+    "role": ["Combat","Soutien"],
+    "ammo": ["150mm","120mm",
       "68mm",
-      "12.7mm"
-    ],
-    "war_added": [
-      108,
-      "1.54"
-    ],
+      "12.7mm"],
+    "war_added": [108,"1.54"],
     "image": "/images/LargeShipBattleshipCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["20-NavalHullSegments", "20-NavalShellPlating", "4-NavalTurbineComponents"]
   },
   {
     "id": "CombatCarCVehicle",
@@ -2529,21 +2013,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Combat Car",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "40mm",
-      "12.7mm"
-    ],
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "role": ["Combat"],
+    "ammo": ["40mm","12.7mm"],
+    "war_added": [96,"1.50"],
     "image": "/images/CombatCarCVehicleIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["30-SCmat", "30-AsmatI", "30-AsmatIV"]
   },
   {
     "id": "LargeShipDestroyerC",
@@ -2551,24 +2028,16 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Destroyer",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
-    "ammo": [
-      "120mm",
-      "68mm",
+    "role": ["Combat","Soutien"],
+    "ammo": ["120mm","68mm",
       "Depth Charge",
-      "12.7mm"
-    ],
-    "war_added": [
-      108,
-      "1.54"
-    ],
+      "12.7mm"],
+    "war_added": [108,"1.54"],
     "image": "/images/LargeShipDestroyerCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["12-NavalHullSegments", "12-NavalShellPlating"]
   },
   {
     "id": "AircraftDiveC",
@@ -2576,21 +2045,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Dive Bomber Aircraft",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "912 Shrike Rounds",
-      "12.7mm"
-    ],
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "role": ["Combat"],
+    "ammo": ["912 Shrike Rounds","12.7mm"],
+    "war_added": [132,"1.63"],
     "image": "/images/AircraftDiveCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["40-PCmat", "85-AsmatI", "175-AsmatII", "50-AsmatIII", "10-ThermalShielding", "4-RareAlloys"]
   },
   {
     "id": "FieldAT2C",
@@ -2598,18 +2060,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Field AT Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "14.5mm",
-    "war_added": [
-      108,
-      "1.54"
-    ],
+    "war_added": [108,"1.54"],
     "image": "/images/FieldAT2CIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["30-Cmat", "20-AsmatII", "20-Rmat"]
   },
   {
     "id": "FieldMortarC",
@@ -2617,19 +2075,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Field Mortar",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "250mm",
-    "war_added": [
-      123,
-      "1.60"
-    ],
+    "war_added": [123,"1.60"],
     "image": "/images/FieldMortarCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["35-Rmat"]
   },
   {
     "id": "AircraftFigtherC",
@@ -2637,18 +2090,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Fighter Aircraft",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "20mm",
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "war_added": [132,"1.63"],
     "image": "/images/AircraftFigtherCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["40-PCmat", "50-AsmatIII", "50-AsmatIV", "10-ThermalShielding", "2-RareAlloys"]
   },
   {
     "id": "AmbulanceFlameC",
@@ -2656,19 +2105,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Fire Engine",
-    "role": [
-      "Soutien",
-      "Logistique"
-    ],
+    "role": ["Soutien","Logistique"],
     "ammo": "Water",
-    "war_added": [
-      123,
-      "1.60"
-    ],
+    "war_added": [123,"1.60"],
     "image": "/images/AmbulanceFlameC.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["15-Cmat", "5-AsmatII", "150-Bmat"]
   },
   {
     "id": "MediumBoatC",
@@ -2676,22 +2120,15 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Gunship",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "40mm",
-      "30mm",
-      "12.7mm"
-    ],
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "role": ["Combat"],
+    "ammo": ["40mm","30mm",
+      "12.7mm"],
+    "war_added": [132,"1.63"],
     "image": "/images/MediumBoatCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["500-Bmat"]
   },
   {
     "id": "HeavyTruckCVehicle",
@@ -2699,18 +2136,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Heavy-Duty Truck",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      108,
-      "1.54"
-    ],
+    "war_added": [108,"1.54"],
     "image": "/images/HeavyTruckCVehicleIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["40-PCmat"]
   },
   {
     "id": "AircraftBomberC",
@@ -2718,22 +2151,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Heavy Bomber Aircraft",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
-    "ammo": [
-      "Mark II Raidbreaker",
-      "12.7mm"
-    ],
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "role": ["Combat","Soutien"],
+    "ammo": ["Mark II Raidbreaker","12.7mm"],
+    "war_added": [132,"1.63"],
     "image": "/images/AircraftBomberCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["60-SCmat", "25-AsmatIII", "40-AsmatIV", "65-AsmatV", "12-RareAlloys"]
   },
   {
     "id": "LightBoatInfantryC",
@@ -2741,19 +2166,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Heavy-Duty Truck",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "20mm",
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "war_added": [132,"1.63"],
     "image": "/images/LightBoatInfantryCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["200-Bmat"]
   },
   {
     "id": "LandingShipC",
@@ -2761,18 +2181,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Landing Ship",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "Aucun",
-    "war_added": [
-      108,
-      "1.54"
-    ],
+    "war_added": [108,"1.54"],
     "image": "/images/LandingShipCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["10-Bmat"]
   },
   {
     "id": "FieldATHeavyC",
@@ -2780,18 +2196,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Large Field Gun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "94.5mm",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/FieldATHeavyCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["15-SCmat", "20-AsmatII", "15-AsmatIII", "20-Rmat"]
   },
   {
     "id": "LargeFieldMortarC",
@@ -2799,19 +2211,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Large Field Mortar",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "250mm",
-    "war_added": [
-      126,
-      "1.61"
-    ],
+    "war_added": [126,"1.61"],
     "image": "/images/LargeFieldMortarCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-SCmat", "20-AsmatII", "15-AsmatIII", "35-Rmat"]
   },
   {
     "id": "LightTankFlameC",
@@ -2819,18 +2226,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Light Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Flame Ammo",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/LightTankFlameCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["8-PCmat", "20-AsmatII", "5-AsmatIII", "115-Rmat"]
   },
   {
     "id": "AircraftScout2C",
@@ -2838,22 +2241,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Scout Aircraft",
-    "role": [
-      "Combat",
-      "Reconnaissance"
-    ],
-    "ammo": [
-      "Quillback Torpedo",
-      "20mm"
-    ],
-    "war_added": [
-      135,
-      "1.64"
-    ],
+    "role": ["Combat","Reconnaissance"],
+    "ammo": ["Quillback Torpedo","20mm"],
+    "war_added": [135,"1.64"],
     "image": "/images/AircraftScout2CIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["100-Rmat"]
   },
   {
     "id": "GunBoat2CVehicle",
@@ -2861,18 +2256,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Siege Boat",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "Shatter Missile",
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "war_added": [132,"1.63"],
     "image": "/images/GunBoat2CVehicleIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["100-Rmat"]
   },
   {
     "id": "LargeShipSubmarineC",
@@ -2880,23 +2271,15 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Submarine",
-    "role": [
-      "Combat",
-      "Soutien",
-      "Reconnaissance"
-    ],
-    "ammo": [
-      "Moray Torpedo",
-      "120mm"
-    ],
-    "war_added": [
-      108,
-      "1.56"
-    ],
+    "role": ["Combat","Soutien",
+      "Reconnaissance"],
+    "ammo": ["Moray Torpedo","120mm"],
+    "war_added": [108,"1.56"],
     "image": "/images/LargeShipSubmarineCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["15-NavalHullSegments", "15-NavalShellPlating"]
   },
   {
     "id": "SuperTankCtem",
@@ -2904,18 +2287,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Super Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "75mm",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/SuperTankCtemIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["275-SCmat", "105-AsmatIII", "95-AsmatIV", "105-AsmatV", "3-RareAlloys"]
   },
   {
     "id": "TanketteMultiC",
@@ -2923,18 +2302,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Tankette",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "4C-Fire Rocket",
-    "war_added": [
-      105,
-      "1.53"
-    ],
+    "war_added": [105,"1.53"],
     "image": "/images/TanketteMultiCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-PCmat", "15-AsmatI", "3-AsmatIII", "35-Rmat"]
   },
   {
     "id": "TanketteFlameC",
@@ -2942,18 +2317,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Tankette",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Flame Ammo",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/TanketteFlameCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-PCmat", "15-AsmatI", "35-Rmat"]
   },
   {
     "id": "AircraftParatrooperC",
@@ -2961,18 +2332,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Transport Aircraft",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "12.7mm",
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "war_added": [132,"1.63"],
     "image": "/images/AircraftParatrooperCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["5-SCmat", "20-AsmatIII", "20-AsmatIV", "4-RareAlloys"]
   },
   {
     "id": "TruckMultiC",
@@ -2980,18 +2347,14 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Truck",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "3C-High Explosive Rocket",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/TruckMultiCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["70-PCmat", "10-AsmatI", "8-AsmatIII", "100-Bmat"]
   },
   {
     "id": "LargeShipBattleshipAircraftW",
@@ -2999,21 +2362,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Aircraft Carrier",
-    "role": [
-      "Soutien"
-    ],
-    "ammo": [
-      "20mm",
-      "12.7mm"
-    ],
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "role": ["Soutien"],
+    "ammo": ["20mm","12.7mm"],
+    "war_added": [132,"1.63"],
     "image": "/images/LargeShipBattleshipAircraftWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aquatique",
+    "cost": ["16-NavalHullSegments", "20-NavalShellPlating"]
   },
   {
     "id": "AircraftWaterW",
@@ -3021,18 +2377,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Amphibious Fighter Aircraft",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "20mm",
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "war_added": [132,"1.63"],
     "image": "/images/AircraftWaterWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["40-PCmat", "200-AsmatII", "50-AsmatIII", "10-ThermalShielding", "2-RareAlloys"]
   },
   {
     "id": "ArmoredCarFlameWarVehicle",
@@ -3040,18 +2392,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Armoured Car",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Flame Ammo",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/ArmoredCarFlameWarVehicleIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-Cmat", "10-AsmatI", "25-Rmat"]
   },
   {
     "id": "ArmoredCarTwinW",
@@ -3059,22 +2407,15 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Armoured Car",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "Tremola",
-      "Grenades",
-      "B2 Varsi"
-    ],
-    "war_added": [
-      99,
-      "1.51"
-    ],
+    "role": ["Combat"],
+    "ammo": ["Tremola","Grenades",
+      "B2 Varsi"],
+    "war_added": [99,"1.51"],
     "image": "/images/ArmoredCarTwinWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["40-Rmat"]
   },
   {
     "id": "ArmoredCar2MultiW",
@@ -3082,18 +2423,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Armoured Rocket Platform",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "3C-High Explosive Rocket",
-    "war_added": [
-      126,
-      "1.61"
-    ],
+    "war_added": [126,"1.61"],
     "image": "/images/ArmoredCar2MultiWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["35-PCmat", "10-AsmatI", "8-AsmatIII", "40-Rmat"]
   },
   {
     "id": "MediumTankATW",
@@ -3101,18 +2438,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Assault Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "94.5mm",
-    "war_added": [
-      102,
-      "1.52"
-    ],
+    "war_added": [102,"1.52"],
     "image": "/images/MediumTankATWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["15-SCmat", "25-AsmatII", "25-AsmatIII", "160-Rmat"]
   },
   {
     "id": "BattleTankWarDefensiveVehicle",
@@ -3120,21 +2453,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Battle Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "75mm",
-      "Flame Ammo"
-    ],
-    "war_added": [
-      65,
-      "0.40"
-    ],
+    "role": ["Combat"],
+    "ammo": ["75mm","Flame Ammo"],
+    "war_added": [65,"0.40"],
     "image": "/images/BattleTankWarDefensiveVehicleIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["40-SCmat", "65-AsmatIII", "30-AsmatIV", "45-AsmatV"]
   },
   {
     "id": "BattleTankWar",
@@ -3142,21 +2468,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Battle Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "75mm",
-      "12.7mm"
-    ],
-    "war_added": [
-      19,
-      "0.20"
-    ],
+    "role": ["Combat"],
+    "ammo": ["75mm","12.7mm"],
+    "war_added": [19,"0.20"],
     "image": "/images/BattleTankWar.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["50-SCmat", "30-AsmatIII", "60-AsmatIV", "35-AsmatV"]
   },
   {
     "id": "BattleTankHeavyArtilleryW",
@@ -3164,18 +2483,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Battle Tank",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "150mm",
-    "war_added": [
-      108,
-      "1.54"
-    ],
+    "war_added": [108,"1.54"],
     "image": "/images/BattleTankHeavyArtilleryWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["150-SCmat", "65-AsmatIII", "40-AsmatIV", "85-AsmatV"]
   },
   {
     "id": "LargeShipBattleshipW",
@@ -3183,24 +2498,16 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Battleship",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
-    "ammo": [
-      "150mm",
-      "120mm",
+    "role": ["Combat","Soutien"],
+    "ammo": ["150mm","120mm",
       "30mm",
-      "12.7mm"
-    ],
-    "war_added": [
-      108,
-      "1.54"
-    ],
+      "12.7mm"],
+    "war_added": [108,"1.54"],
     "image": "/images/LargeShipBattleshipWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["20-NavalHullSegments", "20-NavalShellPlating", "4-NavalTurbineComponents"]
   },
   {
     "id": "CombatCarWVehicle",
@@ -3208,18 +2515,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Combat Car",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "40mm",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/CombatCarWVehicleIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["30-SCmat", "30-AsmatI", "30-AsmatIV"]
   },
   {
     "id": "MediumTank2W",
@@ -3227,21 +2530,15 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Cruiser Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "30mm",
-      "7.92mm"
-    ],
-    "war_added": [
-      119, 
-      "1.59"
-    ],
+    "role": ["Combat"],
+    "ammo": ["30mm","7.92mm"],
+    "war_added": [119, 
+      "1.59"],
     "image": "/images/MediumTank2WIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["150-Rmat"]
   },
   {
     "id": "MediumTank2MultiW",
@@ -3249,21 +2546,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Cruiser Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "14.5mm",
-      "12.7mm"
-    ],
-    "war_added": [
-      92,
-      "0.49"
-    ],
+    "role": ["Combat"],
+    "ammo": ["14.5mm","12.7mm"],
+    "war_added": [92,"0.49"],
     "image": "/images/MediumTank2MultiWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-PCmat", "10-AsmatII", "5-AsmatIII", "150-Rmat"]
   },
   {
     "id": "MediumTank2IndirectW",
@@ -3271,21 +2561,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Cruiser Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "ARC/RPG",
-      "7.92mm"
-    ],
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "role": ["Combat"],
+    "ammo": ["ARC/RPG","7.92mm"],
+    "war_added": [96,"1.50"],
     "image": "/images/MediumTank2IndirectWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["60-PCmat", "10-AsmatI", "15-AsmatIII", "15-AsmatIV", "150-Rmat"]
   },
   {
     "id": "DestroyerTankFlameW",
@@ -3293,18 +2576,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Destroyer Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Flame Ammo",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/DestroyerTankFlameWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-PCmat", "10-AsmatII", "15-AsmatIII", "160-Rmat"]
   },
   {
     "id": "FieldAT2W",
@@ -3312,18 +2591,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Field AT Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "14.5mm",
-    "war_added": [
-      108,
-      "1.54"
-    ],
+    "war_added": [108,"1.54"],
     "image": "/images/FieldAT2WIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["30-Cmat", "20-AsmatII", "20-Rmat"]
   },
   {
     "id": "FieldMultiWItem",
@@ -3331,18 +2606,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Field Launcher",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "4C-Fire Rocket",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/FieldMultiWItemIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["20-PCmat", "15-AsmatII", "3-AsmatIV"]
   },
   {
     "id": "AmbulanceFlameW",
@@ -3350,19 +2621,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Fire Engine",
-    "role": [
-      "Soutien",
-      "Logistique"
-    ],
+    "role": ["Soutien","Logistique"],
     "ammo": "Water",
-    "war_added": [
-      99,
-      "1.51"
-    ],
+    "war_added": [99,"1.51"],
     "image": "/images/AmbulanceFlameW.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["15-Cmat", "5-AsmatII", "150-Bmat"]
   },
   {
     "id": "MediumBoatWVehicle",
@@ -3370,21 +2636,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Gunship",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "RPG",
-      "30mm"
-    ],
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "role": ["Combat"],
+    "ammo": ["RPG","30mm"],
+    "war_added": [132,"1.63"],
     "image": "/images/MediumBoatWVehicleIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["450-Bmat"]
   },
   {
     "id": "HalftrackTwinW",
@@ -3392,18 +2651,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Half-Track",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.92mm",
-    "war_added": [
-      108,
-      "1.54"
-    ],
+    "war_added": [108,"1.54"],
     "image": "/images/HalftrackTwinW.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-PCmat", "5-AsmatIV", "60-Rmat"]
   },
   {
     "id": "HalftrackMultiW",
@@ -3411,18 +2666,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Half-Track",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "4C-Fire Rocket",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/HalftrackMultiWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["10-PCmat", "10-AsmatI", "8-AsmatIII", "60-Rmat"]
   },
   {
     "id": "AircraftBomberW",
@@ -3430,22 +2681,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Heavy Bomber Aircraft",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
-    "ammo": [
-      "Mark II Raidbreaker",
-      "12.7mm"
-    ],
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "role": ["Combat","Soutien"],
+    "ammo": ["Mark II Raidbreaker","12.7mm"],
+    "war_added": [132,"1.63"],
     "image": "/images/AircraftBomberWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["60-SCmat", "25-AsmatIII", "40-AsmatIV", "65-AsmatV", "12-RareAlloys"]
   },
   {
     "id": "HeavyTruckWItem",
@@ -3453,18 +2696,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Heavy-Duty Truck",
-    "role": [
-      "Logistique"
-    ],
+    "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [
-      108,
-      "1.54"
-    ],
+    "war_added": [108,"1.54"],
     "image": "/images/HeavyTruckWItemIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["40-PCmat"]
   },
   {
     "id": "LightBoatInfantryWVehicle",
@@ -3472,19 +2711,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Infantry Boat",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
+    "role": ["Combat","Soutien"],
     "ammo": "20mm",
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "war_added": [132,"1.63"],
     "image": "/images/LightBoatInfantryWVehicleIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["250-Bmat"]
   },
   {
     "id": "LandingShipW",
@@ -3492,18 +2726,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Landing Ship",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "Aucun",
-    "war_added": [
-      108,
-      "1.54"
-    ],
+    "war_added": [108,"1.54"],
     "image": "/images/LandingShipWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["10-Bmat"]
   },
   {
     "id": "FieldCannonHeavyW",
@@ -3511,18 +2741,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Large Field Gun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "75mm",
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "war_added": [96,"1.50"],
     "image": "/images/FieldCannonHeavyWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["15-SCmat", "20-AsmatII", "15-AsmatIII", "20-Rmat"]
   },
   {
     "id": "LargeShipDestroyerW",
@@ -3530,24 +2756,16 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Light Frigate",
-    "role": [
-      "Combat",
-      "Soutien"
-    ],
-    "ammo": [
-      "120mm",
-      "68mm",
+    "role": ["Combat","Soutien"],
+    "ammo": ["120mm","68mm",
       "Depth Charge",
-      "12.7mm"
-    ],
-    "war_added": [
-      112,
-      "1.56"
-    ],
+      "12.7mm"],
+    "war_added": [112,"1.56"],
     "image": "/images/LargeShipDestroyerWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["12-NavalHullSegments", "12-NavalShellPlating"]
   },
   {
     "id": "AircraftScout2W",
@@ -3555,22 +2773,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Scout Aircraft",
-    "role": [
-      "Combat",
-      "Reconnaissance"
-    ],
-    "ammo": [
-      "E681-B Hullbreaker Mine",
-      "20mm"
-    ],
-    "war_added": [
-      135,
-      "1.64"
-    ],
+    "role": ["Combat","Reconnaissance"],
+    "ammo": ["E681-B Hullbreaker Mine","20mm"],
+    "war_added": [135,"1.64"],
     "image": "/images/AircraftScout2WIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["100-Rmat"]
   },
   {
     "id": "ScoutTankMultiW",
@@ -3578,18 +2788,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Scout Tank",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Shatter Missile",
-    "war_added": [
-      105,
-      "1.53"
-    ],
+    "war_added": [105,"1.53"],
     "image": "/images/ScoutTankMultiWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5-SCmat", "15-AsmatI", "3-AsmatIII", "70-Rmat"]
   },
   {
     "id": "Gunboat2W",
@@ -3597,18 +2803,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Siege Boat",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "250mm",
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "war_added": [132,"1.63"],
     "image": "/images/Gunboat2WIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["100-Rmat"]
   },
   {
     "id": "LargeShipSubmarineW",
@@ -3616,23 +2818,15 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Submarine",
-    "role": [
-      "Combat",
-      "Soutien",
-      "Reconnaissance"
-    ],
-    "ammo": [
-      "Moray Torpedo",
-      "68mm"
-    ],
-    "war_added": [
-      108,
-      "1.54"
-    ],
+    "role": ["Combat","Soutien",
+      "Reconnaissance"],
+    "ammo": ["Moray Torpedo","68mm"],
+    "war_added": [108,"1.54"],
     "image": "/images/LargeShipSubmarineWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aquatique"
+    "milieu": "Aquatique",
+    "cost": ["15-NavalHullSegments", "15-NavalShellPlating"]
   },
   {
     "id": "SuperTankWVehicle",
@@ -3640,22 +2834,15 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Super Tank",
-    "role": [
-      "Combat"
-    ],
-    "ammo": [
-      "94.5mm",
-      "Grenades",
-      "B2 Varsi"
-    ],
-    "war_added": [
-      96,
-      "1.50"
-    ],
+    "role": ["Combat"],
+    "ammo": ["94.5mm","Grenades",
+      "B2 Varsi"],
+    "war_added": [96,"1.50"],
     "image": "/images/SuperTankWVehicleIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["275-SCmat", "105-AsmatIII", "95-AsmatIV", "105-AsmatV", "3-RareAlloys"]
   },
   {
     "id": "AircraftParatrooperW",
@@ -3663,18 +2850,14 @@
     "faction": "Warden",
     "category": "Vehicle",
     "class": "Transport Aircraft",
-    "role": [
-      "Soutien"
-    ],
+    "role": ["Soutien"],
     "ammo": "12.7mm",
-    "war_added": [
-      132,
-      "1.63"
-    ],
+    "war_added": [132,"1.63"],
     "image": "/images/AircraftParatrooperWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Aérien"
+    "milieu": "Aérien",
+    "cost": ["5-SCmat", "20-AsmatIII", "20-AsmatIV", "4-RareAlloys"]
   },
   {
     "id": "Aalto_Storm_Rifle_24",
@@ -3682,18 +2865,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Assault Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.92mm",
-    "war_added": [
-      77, 
-      "0.44"
-    ],
+    "war_added": [77, "0.44"],
     "image": "/images/Aalto_Storm_Rifle_24.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["0.75-Rmat"]
   },
   {
     "id": "AssaultRifleHeavyWItem",
@@ -3701,18 +2880,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Assault Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.92mm",
-    "war_added": [
-      75, 
-      "0.43"
-    ],
+    "war_added": [75, "0.43"],
     "image": "/images/AssaultRifleHeavyWItemIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["0.75-Rmat"]
   },
   {
     "id": "PistolWItem",
@@ -3720,18 +2895,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Pistol",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "8mm",
-    "war_added": [
-      80, 
-      "0.45"
-    ],
+    "war_added": [80, "0.45"],
     "image": "/images/PistolWItemIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["0-Bmat"]
   },
   {
     "id": "RifleShortW",
@@ -3739,18 +2910,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.62mm",
-    "war_added": [
-      105, 
-      "1.53"
-    ],
+    "war_added": [105, "1.53"],
     "image": "/images/RifleShortWIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["4.67-Bmat"]
   },
   {
     "id": "ShotgunWItem",
@@ -3758,18 +2925,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Shotgun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Buckshot",
-    "war_added": [
-      119, 
-      "1.59"
-    ],
+    "war_added": [119, "1.59"],
     "image": "/images/ShotgunWItemIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["5.33-Bmat"]
   },
   {
     "id": "PistolItem",
@@ -3777,18 +2940,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Pistol",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "8mm",
-    "war_added": [
-      1, 
-      "0.10"
-    ],
+    "war_added": [1, "0.10"],
     "image": "/images/PistolItemIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["0-Bmat"]
   },
   {
     "id": "RifleAutomaticC",
@@ -3796,18 +2955,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "7.62mm",
-    "war_added": [
-      105, 
-      "1.53"
-    ],
+    "war_added": [105, "1.53"],
     "image": "/images/RifleAutomaticCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["8-Bmat"]
   },
   {
     "id": "ShotgunCItem",
@@ -3815,18 +2970,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Shotgun",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Buckshot",
-    "war_added": [
-      119, 
-      "1.59"
-    ],
+    "war_added": [119, "1.59"],
     "image": "/images/ShotgunCItemIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["8.67-Bmat"]
   },
   {
     "id": "ATRifleLightC",
@@ -3834,18 +2985,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Anti-Tank Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "14.5mm",
-    "war_added": [
-      119, 
-      "1.59"
-    ],
+    "war_added": [119, "1.59"],
     "image": "/images/ATRifleLightCIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["1-PCmat", "1.67-AsmatII", "5-Rmat"]
   },
   {
     "id": "FlamegunC",
@@ -3853,18 +3000,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Flamethrower",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "\"Molten Wind\" v.II Ammo",
-    "war_added": [
-      96, 
-      "1.50"
-    ],
+    "war_added": [96, "1.50"],
     "image": "/images/FlamegunCICon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["18.5-Bmat", "2.5-Rmat"]
   },
   {
     "id": "ATRifleSniperC",
@@ -3872,18 +3015,14 @@
     "faction": "Colonial",
     "category": "Weapon",
     "class": "Sniper Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "14.5mm",
-    "war_added": [
-      119, 
-      "1.59"
-    ],
+    "war_added": [119, "1.59"],
     "image": "/images/ATRifleSniperCIcontga.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["8.33-PCmat", "1.67-AsmatI", "5-Rmat"]
   },
   {
     "id": "ATRifleAutomaticWItem",
@@ -3891,18 +3030,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Anti-Tank Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "14.5mm",
-    "war_added": [
-      119, 
-      "1.59"
-    ],
+    "war_added": [119, "1.59"],
     "image": "/images/ATRifleAutomaticWItemIcon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["1-PCmat", "1.67-AsmatI", "5-Rmat"]
   },
   {
     "id": "ATRifleAssaultW",
@@ -3910,18 +3045,14 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Assault Rifle",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "14.5mm",
-    "war_added": [
-      119, 
-      "1.59"
-    ],
+    "war_added": [119, "1.59"],
     "image": "/images/ATRifleAssaultWIcontga.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
+    "milieu": "Terrestre",
+    "cost": ["0.6-PCmat", "1-AsmatII", "30-Bmat"]
   },
   {
     "id": "FlamegunW",
@@ -3929,17 +3060,12 @@
     "faction": "Warden",
     "category": "Weapon",
     "class": "Flamethrower",
-    "role": [
-      "Combat"
-    ],
+    "role": ["Combat"],
     "ammo": "Willow's Bane Ammo",
-    "war_added": [
-      96, 
-      "1.50"
-    ],
+    "war_added": [96, "1.50"],
     "image": "/images/FlamegunWICon.png",
     "classic_eligible": true,
     "still_ingame": true,
-    "milieu": "Terrestre"
-  }
-]
+    "milieu": "Terrestre",
+    "cost": ["16.5-Bmat", "3-Rmat"]
+  }]
