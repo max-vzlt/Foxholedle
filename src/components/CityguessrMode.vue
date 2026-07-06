@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <h1 class="page-title">Recon</h1>
+  <h1 class="page-title">Cityguessr</h1>
   <section class="main-minigame">
     <h2>Work in progress</h2>
   </section>

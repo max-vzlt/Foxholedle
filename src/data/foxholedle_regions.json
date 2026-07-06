@@ -1,0 +1,321 @@
+[
+    {
+        "name": "Acrithia",
+        "major": ["The Brinehold", "Camp Omicron", "Heir Apparent", "Legion Ranch", "Nereid Keep", "Patridia", "Swordfort", "Thetus Ring"],
+        "minor": ["Astero's Spear", "Duelling Kegs", "Fated Heel", "Final March", "Riverlands", "Weary Slumber"],
+        "image": "1180px-AcrithiaHex_merged.webp"
+    },
+    {
+        "name": "Allod's Bight",
+        "major": ["Belaying Trace", "Homesick", "Mercy's Wail", "Rumhold", "Scurvyshire", "The Stone Plank", "The Turncoat"],
+        "minor": ["A Captain's Repose", "Allod's Children", "Blunder Bight", "Breath of Cetus", "Gangrenous Hollow", "Harpy's Perch", "The List", "The Rumroad", "Titan's End", "Witch's Last Flight"],
+        "image": "1180px-AllodsBightHex_merged.webp"
+    },
+    {
+        "name": "Ash Fields",
+        "major": ["The Ashfort", "Ashtown", "The Calamity", "Camp Omega", "Cometa", "Electi", "Sootflow"],
+        "minor": ["Gunslinger's Pass", "Mount Blackmoth", "Mount Brimstone", "Omega Valley", "The Red River", "The Stillness", "Tar Creek", "Twin Flames", "Wasteful Calm"],
+        "image": "1180px-AshFieldsHex_merged.webp"
+    },
+    {
+        "name": "Basin Sionnach",
+        "major": ["Basinhome", "Cuttail Station", "The Den", "Lamplight", "Sess", "Stoic"],
+        "minor": ["Basin Sionnach", "Cunning Cross", "The Foxfields", "Radiant Shore", "Torchwood"],
+        "image": "1180px-BasinSionnachHex_merged.png"
+    },
+    {
+        "name": "Callahan's Passage",
+        "major": ["Cragstown", "The Crumbling Passage", "Crumbling Post", "The Latch", "Lochan Berth", "Overlook Hill", "The Procession", "Scáth Passing", "Solas Gorge", "White Chapel"],
+        "minor": ["Callahan's Eye", "Chapel Access", "Cragsfield", "Cragsroad", "The Key", "The Lance", "Lingering Lashes", "Lochan", "Lost Tops", "The Rust Road", "Sioc Approach", "Solas Gateway", "Soured Fields", "The Squeeze", "The Stern"],
+        "image": "1180px-CallahansPassageHex_merged.png"
+    },
+    {
+        "name": "Callum's Cape",
+        "major": ["Callum's Keep", "Camp Hollow", "Holdout", "Ire", "Lookout", "Naofa", "Scouts Jest"],
+        "minor": ["The Dreg", "The Gunwall", "Hollowhill", "Princefal Burn", "The River Vein", "Trail of the Dead", "Valta Downs", "Vex"],
+        "image": "1180px-CallumsCapeHex_merged.webp"
+    },
+    {
+        "name": "Clanshead Valley",
+        "major": ["Fallen Crown", "Fort Ealar", "Fort Esterwild", "Fort Windham", "The King", "The Pike", "Sweetholt"],
+        "minor": ["The Bastard's Channel", "Bramble Field", "Lost Orphans", "Tallowild", "Throne of Druiminn", "The Weathered Advance"],
+        "image": "1180px-ClansheadValleyHex_merged.png"
+    },
+    {
+        "name": "Deadlands",
+        "major": ["Abandoned Ward", "Brine Glen", "Callahan's Boot", "Callahan's Gate", "Iron's End", "Liberation Point", "The Pits", "The Salt Farms", "The Salt March", "The Spine", "Sun's Hollow"],
+        "minor": ["The Abbey Drag", "Biting Tarn", "The Blade", "The Boneyard", "Border Concourse", "Border Thicket", "Callahan's Belt", "Carpal Trail", "Cemetary Junction", "Cemetary Lane", "Coracoid Footpath", "The Crossing", "Crumbling Passage", "The Great March", "Hope's Causeway", "The Iron Passage", "The Iron Road", "Jaspar Range", "Mandible Crossroads", "Marrow Copse", "Mercy Meadow", "Mercy's End", "Overgrown Pasture", "Path to the Sun", "The Plaza", "Pommel Annex", "The Salt Trail"],
+        "image": "1180px-DeadLandsHex_merged.png"
+    },
+    {
+        "name": "Endless Shore",
+        "major": ["Brackish Point", "Enduring Wake", "The Evil Eye", "Iron Junction", "The Old Jack Tar", "The Overland", "Saltbrook Channel", "Sídhe Fall", "Tuatha Watchpost", "Wellchurch", "Woodbind"],
+        "minor": ["Balor's Crown", "Battered Landing", "Dannan Coast", "The Dark Road", "Dearg's Fang", "Kelpie's Mane", "Kelpie's Tail", "Liegehearth", "Merrow's Rest", "The North Star", "The Selkie Bluffs", "The Styx", "The Whispering Waves"],
+        "image": "1180px-EndlessShoreHex_merged.webp"
+    },
+    {
+        "name": "Farranac Coast",
+        "major": ["The Bone Haft", "Huskhollow", "The Jade Cove", "Macha's Keening", "Mara", "Pleading Wharf", "Scarp of Ambrose", "Scythe", "Terra", "Transient Valley", "Victa"],
+        "minor": ["Apollo's Landing", "The Bay of Artemis", "Cackling Strand", "Carrion Fields", "Cora Lushlands", "Cormac Beach", "Gulf of the Daughters", "The Heart Road", "Hermes Inlet", "Iuxta Gulf", "Kardia", "Liberation Street", "McCarthy Fields", "The Mirror", "Mooring Dens", "The Reaping Fields", "The River Mercy", "Sickle Hill", "Skeleton Road", "The Snag", "Sunder Beach"],
+        "image": "1180px-FarranacCoastHex_merged.png"
+    },
+    {
+        "name": "Fisherman's Row",
+        "major": ["Arcadia", "Black Well", "Dankana Post", "Eidolo", "Fort Ember", "Hangman's Court", "Oceanwatch", "Peripti Landing", "The Satyr Stone"],
+        "minor": ["Bident Crossroads", "Heart of Rites", "House Roloi", "Lake Nerites", "Liberty Hill", "Progonos Watch", "The Rite Road", "Torch of Demeter"],
+        "image": "1180px-FishermansRowHex_merged.png"
+    },
+    {
+        "name": "Godcrofts",
+        "major": ["Argosa", "The Axehead", "Exile", "Fleecewatch", "Isawa", "Lipsia", "Protos", "Saegio", "Ursa Base"],
+        "minor": ["Barreller's Way", "Den of Thieves", "Peripti Depths", "Perpetua Channel", "Pig Island", "Primus Trames", "Vicit Bay"],
+        "image": "1180px-GodcroftsHex_merged.webp"
+    },
+    {
+        "name": "Great March",
+        "major": ["Camp Senti", "Dendró Field", "Leto", "Lionsfort", "Myrmidon's Stay", "Remnant Villa", "Sitaria", "The Swan", "Violethome"],
+        "minor": ["The Black Wing", "Dalton Meadow", "Eristown", "Fateless Grove", "Fengari", "The Great March", "Halting Valley", "Jack Field", "Jackboot Creek", "Legacy Pasture", "The Midmarch", "Milowood", "Mors Range", "Remnant Acreage", "The River Senti", "Schala Estate", "Scrabbling Motte", "Serpent Charm", "The Spice Road", "Violet Fields", "The White Wing", "Zealous Approach"],
+        "image": "1180px-GreatMarchHex_merged.png"
+    },
+    {
+        "name": "Howl County",
+        "major": ["Fort Red", "Fort Rider", "Great Warden Dam", "Hungry Wolf", "Little Lamb", "Sickleshire", "Slipgate Outpost", "Teller Farm"],
+        "minor": ["Austriaca Reservoir", "Checkpoint Titim", "The Hunting Grounds", "Snakewall", "Viperwalk"],
+        "image": "1180px-HowlCountyHex_merged.png"
+    },
+    {
+        "name": "Kalokai",
+        "major": ["Baccae Ridge", "Camp Tau", "Hallow", "Lost Greensward", "Night's Regret", "Sourtooth", "Sweethearth"],
+        "minor": ["Bleary", "Clarity Meadow", "Ichorus Amphitheatre", "South March", "The Stumble", "The Vineroad", "Vinum Rillet"],
+        "image": "1180px-KalokaiHex_merged.png"
+    },
+    {
+        "name": "King's Cage",
+        "major": ["The Bailie", "Den of Knaves", "Eastknife", "Gibbet Fields", "The Manacle", "Scarlethold", "Slipchain", "Southblade"],
+        "minor": ["Blackguard's Wood", "Bloodcroft", "Celes Thicket", "Concubine", "Jester's Foil", "Leafless Whim", "Ocelot Bridge", "The River Blaise", "Wolfsbait"],
+        "image": "1180px-KingsCageHex_merged.png"
+    },
+    {
+        "name": "Kuura Strand",
+        "major": ["Faden Point", "Lumia", "Martti", "Menneen", "Suosalo", "Talven"],
+        "minor": ["Diskanttileke", "Pitkäjänne", "Sointuvasalmi", "Staccatosola", "Ukkos Gulf", "Virebridge"],
+        "image": "1180px-KuuraStrandHex_merged.png"
+    },
+    {
+        "name": "Loch Mór",
+        "major": ["Feirmor", "Market Road", "Mercy's Wish", "Moon's Copse", "The Roilfort", "Tomb of the First", "Westmarch"],
+        "minor": ["Bastard's Blade", "Chattering Prairie", "Escape", "Fallen Fields", "The Founding Fields", "The Glean", "Lake Severspring", "Loch Mor", "Missing Bones", "Ousterdown", "Pockfields", "The Reaping Road", "Rip", "Tear", "Widow's Wail"],
+        "image": "1180px-LochMorHex_merged.png"
+    },
+    {
+        "name": "Lykos Isle",
+        "major": ["Aetherwood", "Astutia", "Cyrus", "Erebus Islet", "Fort Guile", "Mārudia", "The Squall"],
+        "minor": ["Dancing Waves", "Duelling Daggers", "Floria Pass", "Mount Lynel", "Rolling Die"],
+        "image": "1180px-LykosIsleHex_merged.png"
+    },
+    {
+        "name": "Marban Hollow",
+        "major": ["Checkpoint Bua", "Lockheed", "Maiden's Veil", "Mox", "Oster Wall", "Sanctum", "The Spitrocks"],
+        "minor": ["Bleating Plateau", "Bubble Basin", "The Claim", "The Clutch", "The Curse", "Deepfleet Valley", "Gaping Maw", "Lockheed Breakers", "Lughbone Dam", "Mount Mac Tire", "Pilgrimage", "Slender Cove"],
+        "image": "1180px-MarbanHollow_merged.png"
+    },
+    {
+        "name": "Morgen's Crossing",
+        "major": ["Allsight", "Bastard's Block", "Callum's Descent", "Eversus", "Lividus", "Quietus"],
+        "minor": ["The Bastard Sea", "Crimson Thread", "Rising Calm", "Ultimus", "Velian Storm", "Warmonger Bay"],
+        "image": "1180px-MorgensCrossingHex_merged.png"
+    },
+    {
+        "name": "Nevish Line",
+        "major": ["Blackcoat Way", "Blinding Stones", "Grief Mother", "Mistle Shrine", "Princefal", "The Scrying Belt", "Tomb Father", "Unruly"],
+        "minor": ["The Aging Ocean", "The Arrow", "Blackburn Canal", "The Burndocks", "Graven Falls", "Interloper's Hook", "Nevish Trail", "Plumage", "Princefal Burn", "Tear Road"],
+        "image": "1180px-NevishLineHex_merged.png"
+    },
+    {
+        "name": "Olavi's Wake",
+        "major": ["Ilmari Bridge", "Iltaku", "Koskinla", "Kulkue", "Yöohja"],
+        "minor": ["Arkku", "The Corpse Road", "Jumakäärme", "Kaantörmä", "Verisuisto", "Äidintyyni"],
+        "image": "1180px-OlavisWakeHex_merged.webp"
+    },
+    {
+        "name": "Ónyx",
+        "major": ["Beholder's Span", "The Brink", "Cisterna Run", "Dexam", "Garland", "The Waif"],
+        "minor": ["Achates Hills", "The Adamant", "Lapis Coastlands", "Lazuli Hills", "Opallios Flight"],
+        "image": "1180px-OnyxHex_merged.webp"
+    },
+    {
+        "name": "Origin",
+        "major": ["Arise", "Dormio", "Finis", "Initium", "The Steel Road", "Teichotima", "World Star"],
+        "minor": ["Cado", "The Dreamer's Road", "The Echo", "Exorior", "Noventus Passage", "Obsidio Island", "The Sundering", "Temple Field"],
+        "image": "1180px-OriginHex_merged.png"
+    },
+    {
+        "name": "Palantine Berm",
+        "major": ["The Droll", "Dryfeld", "Leiri Hermanni", "The Pippeli Stones", "Underlook", "Vendett", "Windburn Landing"],
+        "minor": ["Ensiferum", "Ikimeri", "Kaamos Lea", "Lumivyöry Hillscape", "Parkukoti", "Rolling Boulders", "Wire Tail Islet"],
+        "image": "1180px-PalantineBermHex_merged.png"
+    },
+    {
+        "name": "Pari Peak",
+        "major": ["Camp Surista", "Itään", "Kohina Base", "Little Raakkua", "Pariah"],
+        "minor": ["Kuunvaara", "Peittävä Ascent", "Sanguine Comet", "Sydänkolo", "Sykerö Bay", "Yaga's Leg"],
+        "image": "1180px-PariPeakHex_merged.png"
+    },
+    {
+        "name": "Piper's Enclave",
+        "major": ["Aegocerus Fortress", "House of Lyterius", "Maenalius Cove", "Pan's Villa", "Reedhurst", "Syrinx Pass"],
+        "minor": ["Balefire River", "The Cairn", "Fulgur Forelands", "Hook and Crow", "Levin Row", "Nitid Mountains", "Nomios Crossroads"],
+        "image": "1180px-PipersEnclaveHex_merged.webp"
+    },
+    {
+        "name": "Reaching Trail",
+        "major": ["The Ark", "Brodytown", "Dwyerstown", "Elksford", "Fort Mac Conaill", "Harpy", "Ice Ranch", "Limestone Holdfast", "Mousetrap", "Nightchurch", "Reprieve"],
+        "minor": ["The Bait", "The Cairns", "Camp Eos", "Caragtais", "The Chicken Coop", "The Deckard", "Duffy's Farm", "Dugan's Approach", "Dwyersfield", "Featherfield", "Fisherman's Floe", "Hookhall", "Humidus", "The Knot", "Mac Conaill's Pass", "Pitfall", "Puncta", "The Reaching Heights", "The Rime Ledge", "The Rousing Fields", "The Scar", "Scorpion", "Thýlak", "Windy Way"],
+        "image": "1180px-ReachingTrailHex_merged.png"
+    },
+    {
+        "name": "Reaver's Pass",
+        "major": ["The Bilge", "Breakwater", "Clay Coffer", "Fort Rictus", "Keelhaul", "Scuttletown", "Thimble Base"],
+        "minor": ["Billhook Reach", "Binnacle Pitch", "Blackjack Junction", "Blissfin Beach", "The Bustle", "Cape Balderstone", "The Foreward Fathom", "The Furl", "Jeweller's Bay", "Mount Haulwind", "Privateer's Bounty", "Sharkfin River", "The Whaler"],
+        "image": "1180px-ReaversPassHex_merged.webp"
+    },
+    {
+        "name": "Red River",
+        "major": ["Camp Upsilon", "Cannonsmoke", "Climb", "Fort Matchwood", "Judicium", "Minos", "Penance", "Victoria Hill"],
+        "minor": ["Fragment Knolls", "Gunpowder Lane", "Perish", "Red Crossing", "The Red River", "Twelve Drops"],
+        "image": "1180px-RedRiverHex_merged.png"
+    },
+    {
+        "name": "Sableport",
+        "major": ["Barronhome", "Cinderwick", "Light's End", "The Pendant", "The Robin's Nest", "Talonsfort", "The Whetstone"],
+        "minor": ["Aeyrie Bay", "Creeping Drought", "Glimmerhaven", "Groggy Pinion", "Lord's Cellar", "Lye Fields", "Riven Downs", "Simmerset", "Slumbering Meadow", "Suture Lowlands", "Waspwood", "Wormskive"],
+        "image": "1180px-SableportHex_merged.webp"
+    },
+    {
+        "name": "Shackled Chasm",
+        "major": ["The Bell Toll", "Firstmarch", "Gorgon Grove", "The Grave of Erastos", "Limewood Holdfast", "Reflection", "Savages", "Silk Farms", "Simo's Run", "The Vanguard"],
+        "minor": ["A Careless Net", "A New Spring", "Autumn Pyres", "The Blue", "Final Step", "The First Rung", "The Foolish Maidens", "Hades Ladder", "Legion's Dawn", "Manky Hills", "The Plunging", "Southreach", "Widow's Web"],
+        "image": "1180px-ShackledChasmHex_merged.png"
+    },
+    {
+        "name": "Speaking Woods",
+        "major": ["The Filament", "Fort Blather", "Hush", "Inari Base", "Sotto Bank", "Stem", "Tine", "Wound"],
+        "minor": ["Calmland", "Cursed Court", "Mount Rell", "Mute", "Reaching River", "Rell Foothills"],
+        "image": "1180px-SpeakingWoodsHex_merged.png"
+    },
+    {
+        "name": "Stema Landing",
+        "major": ["Acies Overlook", "Alchimio Estate", "Base Ferveret", "Base Sagitta", "The Flair", "The Spearhead", "Ustio", "Verge Wing", "The Wane"],
+        "minor": ["Burnish Beach", "The Coil", "Desolation Beach", "Foreland", "Isle of Eros", "The North Wind", "Stema Approach", "The Wending Tether", "The West Line"],
+        "image": "1180px-StemaLandingHex_merged.png"
+    },
+    {
+        "name": "Stlican Shelf",
+        "major": ["Breaker Town", "Briar", "Fort Hoarfrost", "The Old Mourn", "The Pale House", "Port of Rime", "The South Wind", "Thornhold", "Vulpine Watch"],
+        "minor": ["Broken Zephyr", "Calving", "Crystalfleet Inlet", "Desiccated Front", "Diarmaid's Plan", "Glassy Flats", "Revenant's Walk", "Searing Blind"],
+        "image": "1180px-StlicanShelfHex_merged.png"
+    },
+    {
+        "name": "Stonecradle",
+        "major": ["Buckler Sound", "The Cord", "The Dais", "Fading Lights", "The Heir's Knife", "The Long Fast", "The Reach", "Trammel Pool", "World's End"],
+        "minor": ["Daihbi Point", "The Loneliest Shore", "Longing", "The Pram", "The Roiling Comets", "The Whorl"],
+        "image": "1180px-StonecradleHex_merged.png"
+    },
+    {
+        "name": "Tempest Island",
+        "major": ["Blackwatch", "The Gale", "The Iris", "Isle of Psyche", "Liar's Haven", "Plana Fada", "Reef", "The Rush", "Surge Gate"],
+        "minor": ["Anchor", "Cirris Valve", "Eros Lagoon", "Liar's League", "Lost Airchal", "The Outwood", "Pale Cnap", "Sclera", "Skodio Isle", "Stratos Valve", "Surge Field", "Sweetworm"],
+        "image": "1180px-TempestIslandHex_merged.png"
+    },
+    {
+        "name": "Terminus",
+        "major": ["Bloody Palm Fort", "Cerberus Wake", "Therizó", "Thunderbolt", "Warlord's Stead", "Winding Bolas"],
+        "minor": ["Aspisa", "Bay of the Ward", "Dogbone", "The Legion's Bounty", "Martyr's Fang", "The Phalanx", "The Respite", "Rising Loom", "Sever", "Three Siblings", "Thunder Plains"],
+        "image": "1180px-TerminusHex_merged.png"
+    },
+    {
+        "name": "The Clahstra",
+        "major": ["Bewailing Fort", "East Narthex", "Third Chapter", "Transept", "The Treasury", "The Vault", "Watchful Nave", "Weephome"],
+        "minor": ["The Four Pillars", "The Garth", "The Laity", "Penitent Inlet", "Saint's Crossing", "Second Prayer", "Sleeping Choir", "Sly Passage", "Woodlouse Ledge"],
+        "image": "1180px-ClahstraHex_merged.webp"
+    },
+    {
+        "name": "The Drowned Vale",
+        "major": ["The Baths", "Bootnap", "Coaldrifter Stead", "Eastmarch", "Loggerhead", "The Saltcaps", "Singing Serpents", "Splinter Pens", "Vessel", "The Wash", "Wisp's Warning"],
+        "minor": ["Esterfal", "Fleetsfall River", "Linger", "The Other Vein", "Sop Fields", "Sprite's Game", "The Turtlerocks", "The Willow Wood"],
+        "image": "1180px-DrownedValeHex_merged.png"
+    },
+    {
+        "name": "The Fingers",
+        "major": ["Fort Barley", "Headsman's Villa", "The Old Captain", "Plankhouse", "Second Man", "Tethys Base", "Titancall"],
+        "minor": ["Captain's Dread", "Cavitatis", "Grapeshot Islands", "Mount Talio", "Rusty Anchor", "Tears of Tethys", "The Tusk", "The Wary Nymphae"],
+        "image": "1180px-TheFingersHex_merged.png"
+    },
+    {
+        "name": "The Gutter",
+        "major": ["Kuoppa", "Lost Kaivo", "The Parras", "Rikki Sarana", "Rotko Camp", "Salaoja Road", "Suojus"],
+        "minor": ["Likainoja", "Maanpää", "Mutalanko", "Roskisranta", "Sumun Koti Spillway", "Ämpäri"],
+        "image": "1180px-GutterHex_merged.png"
+    },
+    {
+        "name": "The Heartlands",
+        "major": ["Barronswall", "Barrony Ranch", "The Blemish", "The Breach", "Deeplaw Post", "Fort Providence", "Greenfield Orchard", "Oleander Homestead", "The Plough", "Proexí"],
+        "minor": ["18th Sideroad", "Barronshire", "Barrony Road", "Cageroad", "Crater Basin", "Erimos Ranch", "The Fuming Pen", "Harvester's Range", "Janus Field", "Kos Meadows", "Loftmire", "Lower Barrony Field", "Oleander Fields", "The Orchard Wall", "Pandora Compound", "Providence Field", "The Rollcage", "The Salt Crossing", "Upper Barrony Field", "Upper Heartlands"],
+        "image": "1180px-HeartlandsHex_merged.png"
+    },
+    {
+        "name": "The Linn of Mercy",
+        "major": ["The Crimson Gardens", "The First Coin", "Fort Duncan", "Hardline", "The Last Grove", "Lathair", "The Long Whine", "Outwich Ranch", "The Prairie Bazaar", "Rotdust", "Ulster Falls"],
+        "minor": ["Blackroad", "The Drone", "Gallant Gough Boulevard", "The Great Scale", "Merciful Strait", "Mudhole", "Nathair", "The River Mercy", "Solas Burn"],
+        "image": "1180px-LinnMercyHex_merged.png"
+    },
+    {
+        "name": "The Moors",
+        "major": ["Borderlane", "The Cut", "Gravekeeper's Holdfast", "Headstone", "Luch's Workshop", "MacConmara Barrows", "Morrighan's Grave", "Ogmaran", "Reaching River", "The Spade", "Wiccwalk", "The Wind Hills"],
+        "minor": ["The Graveyard", "Lyon's Wood", "Moon's Walk", "The Mound", "Riverhill", "Scáth Copse", "Wiccwood"],
+        "image": "1180px-MooringCountyHex_merged.png"
+    },
+    {
+        "name": "The Oarbreaker Isles",
+        "major": ["The Conclave", "The Dirk", "Fort Fogwood", "Gold", "Grisly Refuge", "Integrum", "Partisan Island", "Posterus", "Silver"],
+        "minor": ["Barrenson", "Bronze", "Castor", "Cat Step", "Kofteri Channel", "Lion's Head Pass", "Obitum", "Pollux", "Reliqua Lagoon", "Sandalwood Beach", "Skull Beach"],
+        "image": "1180px-OarbreakerHex_merged.png"
+    },
+    {
+        "name": "Tyrant Foothills",
+        "major": ["Azmar", "Bandolier Base", "Duelist's Scarp", "Lugria", "Northern Sky Hold", "Onioncap", "Scrapegrace"],
+        "minor": ["Epomisward", "Harpe Balliwick", "Sauroter Livery", "Strigil Croft", "The Thorax", "Velia Grip"],
+        "image": "1180px-TyrantFoothillsHex_merged.png"
+    },
+    {
+        "name": "Umbral Wildwood",
+        "major": ["Amethyst", "Atropos' Fate", "Clotho's Refuge", "The Foundry", "Goldenroot Ranch", "Hermit's Rest", "Lachesis' Tally", "Sentry", "Stray", "Thunderfoot", "Vagrant Bastion"],
+        "minor": ["Adze Crossroads", "Dredgefield", "The Dredgewood", "The Frontier", "The Gap", "Golden Concourse", "Leatherback Pathway", "Steely Fields", "The Strands", "Terrapin Woods", "Thunder Row", "Wasting Holt", "Weaver's Trail"],
+        "image": "1180px-UmbralWildwoodHex_merged.png"
+    },
+    {
+        "name": "Viper Pit",
+        "major": ["Blackthroat", "Earl Crowley", "Fleck Crossing", "Fort Viper", "The Friars", "Kirknell", "Moltworth", "Serenity's Blight"],
+        "minor": ["Afric's Approach", "Austriaca River", "The Bloody Bowery", "Deadsteps", "Earl's Welcome", "Hardcaps", "The Lady's Lake", "Lake Mioira", "Path of the Charmed", "The Rockaway", "The Slithering Scales", "Snakehead Lake", "The Tongue", "Twin Fangs"],
+        "image": "1180px-ViperPitHex_merged.png"
+    },
+    {
+        "name": "Weathered Expanse",
+        "major": ["Crow's Nest", "Foxcatcher", "Frostmarch", "Huntsfort", "Necropolis", "Shattered Advance", "Spirit Watch", "The Weathering Halls", "Wightwalk"],
+        "minor": ["Barrowsfield", "Dullahan's Crest", "Eapoe", "The Ivory Bank", "The Ivory Sea", "Kirkyard", "Revenant's Path", "Rime Wastes", "Shadeport", "The Spear", "The Stand", "The Weathered Wall", "Wraith's Gate"],
+        "image": "1180px-WeatheredExpanseHex_merged.png"
+    },
+    {
+        "name": "Westgate",
+        "major": ["The Gallows", "Holdfast", "Kingstone", "Longstone", "Lord's Mouth", "Lost Partition", "Rancher's Fast", "Westgate Keep", "Wyattwick", "Zeus' Demise"],
+        "minor": ["The Aging Ocean", "The Bulwark", "Candle Hills", "Cattle March", "Ceo Highlands", "Coasthill", "Cobber's Lane", "The Divide", "Fand's Chain", "Fields of Badb", "Flidais' Pasture", "Handsome Hideaway", "The Hem", "Hillcrest", "Inkwell Lane", "Kardia Road", "Killian Quarter", "The King's Road", "The Knight's Edge", "Reaver's Cove", "Sanctified Path", "Síochána Valley", "Taswell Point", "Triton's Curse", "Warden Walk", "Western Heartlands", "Wire Road"],
+        "image": "1180px-WestgateHex_merged.png"
+    },
+    {
+        "name": "Wresta",
+        "major": ["Adripio", "Argan Isle", "Garion Slip", "Latro Manor", "Ratchet", "Scallyhold", "Toad's Plinth"],
+        "minor": ["Blue Jack Rut", "The Capstan", "Flintknap", "Holystone Fell", "Wyrd Bridge", "Yeaning Hideaway"],
+        "image": "1180px-WrestaHex_merged.png"
+    }
+
+]

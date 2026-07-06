@@ -91,7 +91,7 @@
   {
     "id": "o-brien-v113-gravekeeper",
     "name": "O'Brien v.113 Gravekeeper",
-    "faction": "Colonial",
+    "faction": "Warden",
     "category": "Vehicle",
     "class": "Armored Car",
     "role": ["Reconnaissance"],
@@ -726,7 +726,7 @@
     "class": "Truck",
     "role": ["Logistique"],
     "ammo": "Aucun",
-    "war_added": [108,"1.56"],
+    "war_added": [58,"0.37"],
     "image": "/images/R_5_Atlas_Hauler.png",
     "classic_eligible": true,
     "still_ingame": true,

@@ -1,5 +1,6 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { useI18n } from 'vue-i18n'
 import allItems from '../data/foxholedle_classic_pool.json'
 import stampApproved from '@/assets/stamps/Approved.png'
 import stampDenied from '@/assets/stamps/Denied.png'
@@ -11,23 +12,17 @@ import stampLower from '@/assets/stamps/Lower.png'
 // ------------------------------------------------------------------
 // DONNÉES
 // ------------------------------------------------------------------
+const { t } = useI18n()
+
 const pool = allItems.filter(i => i.classic_eligible)
 
 // ------------------------------------------------------------------
 // RÉSOLUTION DES IMAGES
 // ------------------------------------------------------------------
-// Les images réelles vivent dans src/assets/icons/ (donc traitées par
-// Vite au build, contrairement à public/). Le JSON ne contient qu'un
-// chemin/nom de fichier en dur (ex: "/images/lance-36.png"), qui ne
-// pointe vers rien de réel une fois bundlé. import.meta.glob charge
-// tous les fichiers du dossier d'un coup et nous donne leurs vraies
-// URLs générées par Vite ; on ne garde que le nom de fichier (basename)
-// du JSON pour retrouver la bonne image dans cette liste.
 const iconModules = import.meta.glob('@/assets/icons/*.{png,jpg,jpeg,webp}', {
   eager: true,
   import: 'default',
 })
-// iconModules ressemble à { '/src/assets/icons/lance-36.png': 'url-résolue-par-vite', ... }
 
 function resolveImage(path) {
   if (!path) return ''
@@ -40,8 +35,6 @@ function pickRandomTarget() {
   return pool[Math.floor(Math.random() * pool.length)]
 }
 
-// La réponse est tirée au hasard à chaque partie (donc à chaque
-// montage du composant, et aussi à chaque clic sur "Nouvelle partie").
 const target = ref(pickRandomTarget())
 
 const STAMP_IMAGES = {
@@ -90,8 +83,6 @@ function parseCostToBmat(costArray) {
 // ------------------------------------------------------------------
 // DÉBLOCAGE PROGRESSIF
 // ------------------------------------------------------------------
-// Le Rôle est désormais visible dès le début. C'est le Milieu qui est
-// verrouillé jusqu'au 3e guess (à la place du Rôle avant).
 const FACTION_UNLOCK_AT = 5
 const MILIEU_UNLOCK_AT = 3
 
@@ -171,13 +162,6 @@ function compareExact(guessVal, targetVal) {
   return { status: guessVal === targetVal ? 'correct' : 'wrong' }
 }
 
-// Compare deux valeurs qui peuvent être soit une string unique, soit un
-// tableau de plusieurs valeurs (ex: le Rôle, ou les Munitions quand un
-// véhicule a plusieurs armes comme le Bardiche avec 12.7mm + 68mm).
-// - 'correct' si les deux ensembles sont rigoureusement identiques
-// - 'partial' si au moins une valeur est en commun mais pas toutes
-// - 'wrong' si aucune valeur en commun
-// - 'unknown' si l'une des deux valeurs est absente/non renseignée
 function toValueArray(val) {
   if (val == null) return null
   return Array.isArray(val) ? val : [val]
@@ -195,8 +179,6 @@ function compareMultiValue(guessVal, targetVal) {
   return { status: 'wrong' }
 }
 
-// Alias conservé pour le rôle (comportement inchangé, réutilise juste
-// la logique générique ci-dessus)
 function compareRole(guessArr, targetArr) {
   return compareMultiValue(guessArr, targetArr)
 }
@@ -215,9 +197,16 @@ function arrowFor(status) {
   return ''
 }
 
-function displayFaction(g) { return g.faction.value }
-function displayRole(g) { return g.role.value?.join(', ') || '?' }
-function displayMilieu(g) { return g.milieu.value || '?' }
+// Traduit une valeur de donnée (Rôle/Milieu/Faction) via les clés i18n
+// role.*, milieu.*, faction.* — jamais utilisé sur g.name (les noms
+// d'objets/véhicules ne sont JAMAIS traduits).
+function tFaction(val) { return val ? t('faction.' + val) : '?' }
+function tMilieu(val) { return val ? t('milieu.' + val) : '?' }
+function tRole(val) { return val ? t('role.' + val) : val }
+
+function displayFaction(g) { return tFaction(g.faction.value) }
+function displayRole(g) { return g.role.value?.map(tRole).join(', ') || '?' }
+function displayMilieu(g) { return tMilieu(g.milieu.value) }
 function displayAmmo(g) {
   const val = g.ammo.value
   if (Array.isArray(val)) return val.join(' + ')
@@ -243,7 +232,7 @@ const COLUMN_BASE_DELAY = 150
 const CHAR_STEP_DELAY = 25
 const STAMP_STEP_DELAY = 220
 const STAMP_START_BUFFER = 200
-const STAMP_FALL_DURATION = 400 // doit correspondre à la durée de @keyframes stamp-drop
+const STAMP_FALL_DURATION = 400
 
 const TEXT_COLUMNS = ['name', 'faction', 'milieu', 'role', 'ammo', 'cost', 'war']
 const STAMP_COLUMNS = ['faction', 'milieu', 'role', 'ammo', 'cost', 'war']
@@ -253,9 +242,6 @@ function randomStampAngle() {
   return sign * (6 + Math.random() * 14)
 }
 
-// onComplete (optionnel) est appelé une fois que TOUT est fini d'apparaître :
-// tout le texte de la ligne + tous les tampons (y compris leur propre chute).
-// C'est ce qu'on utilise pour retarder le message de victoire.
 function scheduleReveal(guessObj, onComplete) {
   const texts = {
     name: guessObj.name,
@@ -299,26 +285,31 @@ function scheduleReveal(guessObj, onComplete) {
 // ------------------------------------------------------------------
 const guesses = ref([])
 const hasWon = computed(() => guesses.value.some(g => g.id === target.value.id))
-
-// Contrairement à hasWon (vrai dès la soumission, sert à bloquer la
-// recherche), winRevealed ne passe à true qu'une fois TOUTE l'animation
-// de la ligne gagnante terminée (texte + tampons) — c'est lui qui
-// contrôle l'affichage du message de victoire.
 const winRevealed = ref(false)
+
+const GIVE_UP_UNLOCK_AT = 15
+const gaveUp = ref(false)
+const canGiveUp = computed(() => !hasWon.value && !gaveUp.value && guesses.value.length >= GIVE_UP_UNLOCK_AT)
+
+function giveUp() {
+  if (hasWon.value) return
+  gaveUp.value = true
+}
 
 function resetGame() {
   target.value = pickRandomTarget()
   guesses.value = []
   winRevealed.value = false
+  gaveUp.value = false
   searchQuery.value = ''
   showDropdown.value = false
 }
 
 function submitGuess(item) {
-  if (hasWon.value) return
+  if (hasWon.value || gaveUp.value) return
   const result = buildGuessResult(item)
   guesses.value.unshift(result)
-  const reactiveGuess = guesses.value[0] // version réactive, pas la variable locale
+  const reactiveGuess = guesses.value[0]
   scheduleReveal(reactiveGuess, reactiveGuess.isWin ? () => { winRevealed.value = true } : null)
 }
 
@@ -372,7 +363,7 @@ function buildGuessResult(item) {
           @keydown.down.prevent="onArrowDown"
           @keydown.up.prevent="onArrowUp"
           @keydown.enter.prevent="onEnter"
-          :disabled="hasWon"
+          :disabled="hasWon || gaveUp"
         />
 
         <ul v-if="showDropdown && filteredOptions.length" class="dropdown">
@@ -391,9 +382,24 @@ function buildGuessResult(item) {
     </div>
 
     <p v-if="winRevealed" class="win-message">
-      🎉 Trouvé : {{ target.name }} !
+      {{ $t('classic.win_message', { name: target.name }) }}
+      ({{ guesses.length }} {{ guesses.length > 1 ? $t('classic.guesses_plural') : $t('classic.guesses_singular') }})
       <button type="button" class="new-game-btn" @click="resetGame">{{ $t('classic.new_game') }}</button>
     </p>
+
+    <p v-if="gaveUp" class="win-message give-up-message">
+      {{ $t('classic.give_up_message', { name: target.name }) }}
+      <button type="button" class="new-game-btn" @click="resetGame">{{ $t('classic.new_game') }}</button>
+    </p>
+
+    <button
+      v-if="canGiveUp"
+      type="button"
+      class="give-up-btn"
+      @click="giveUp"
+    >
+      {{ $t('classic.give_up_button') }}
+    </button>
 
     <p class="unlock-hint">
       {{ factionUnlocked
@@ -451,7 +457,6 @@ function buildGuessResult(item) {
             />
           </td>
 
-          <!-- Milieu : verrouillé jusqu'au 3e guess -->
           <td class="stampable" :class="{ ['bg-' + resolvedStatus(g.milieu.status, milieuUnlocked)]: g.stampVisible.milieu }">
             <span class="cell-text">
               <span
@@ -470,7 +475,6 @@ function buildGuessResult(item) {
             />
           </td>
 
-          <!-- Rôle : plus de verrouillage, affiché dès le début -->
           <td class="stampable" :class="{ ['bg-' + g.role.status]: g.stampVisible.role }">
             <span class="cell-text">
               <span
@@ -507,7 +511,6 @@ function buildGuessResult(item) {
             />
           </td>
 
-          <!-- Coût (équivalent Bmat) : même mécanique que War (fond rouge + tampon Higher/Lower) -->
           <td class="stampable" :class="{ ['bg-' + g.cost.status]: g.stampVisible.cost }">
             <span class="cell-text">
               <span
@@ -527,7 +530,6 @@ function buildGuessResult(item) {
             />
           </td>
 
-          <!-- War d'ajout : fond rouge (bg-higher/bg-lower) + tampon Higher/Lower quand ce n'est pas la bonne War -->
           <td class="stampable" :class="{ ['bg-' + g.war.status]: g.stampVisible.war }">
             <span class="cell-text">
               <span
@@ -706,6 +708,23 @@ thead th:hover::after{
 
 .new-game-btn:hover {
   background: var(--light-color);
+}
+
+.give-up-btn {
+  padding: 10px;
+  cursor: pointer;
+  background: #592727;
+  color: var(--light-color);
+  border: 1px solid var(--dark-color);
+  align-self: flex-start;
+}
+
+.give-up-btn:hover {
+  background: #471F1F;
+}
+
+.give-up-message {
+  color: rgba(157, 44, 44, 0.9);
 }
 
 .unlock-hint {
