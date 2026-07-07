@@ -3,6 +3,34 @@
     "classic": "Classic",
     "zoom": "Zoom"
   },
+  "notfound": {
+    "text" : {
+      "random1": "Renseignements indisponibles.",
+      "random2": "On dirait que la Logistique a oublié de livrer cette page.",
+      "random3": "La carte indique que cette page existe. La carte s'est trompée."
+    },
+    "link" : "Retour à l'accueil"
+  },
+  "exadle": {
+    "title": "Exaguessr",
+    "explanation_title": "Explication",
+    "explanation_1": "Devine l'hexagone mystère à partir de ses lieux-dits.",
+    "explanation_major": "Mode Normal : noms majeurs.",
+    "explanation_minor": "Mode Expert : noms mineurs.",
+    "mode_title": "Mode",
+    "mode_normal": "Normal",
+    "mode_expert": "Expert",
+    "search_title": "Recherche",
+    "search_placeholder": "Devine le nom de l'hexagone...",
+    "hints_title": "Indices révélés",
+    "history_title": "Historique",
+    "win_message": "Trouvé : {name} !",
+    "guesses_singular": "essai",
+    "guesses_plural": "essais",
+    "give_up_button": "Abandonner",
+    "give_up_message": "La réponse était : {name}.",
+    "new_game": "Nouvelle partie"
+  },
   "classic": {
     "title": "Classic",
     "explanation_title": "Explication",

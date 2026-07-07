@@ -713,14 +713,14 @@ thead th:hover::after{
 .give-up-btn {
   padding: 10px;
   cursor: pointer;
-  background: #592727;
+  background: #7C3636;
   color: var(--light-color);
   border: 1px solid var(--dark-color);
   align-self: flex-start;
 }
 
 .give-up-btn:hover {
-  background: #471F1F;
+  background: #592727;
 }
 
 .give-up-message {

@@ -3,6 +3,34 @@
     "classic": "Klassisch",
     "zoom": "Zoom"
   },
+  "notfound": {
+    "text" : {
+      "random1": "Informationen nicht verfügbar.",
+      "random2": "Anscheinend hat die Logistik vergessen, diese Seite zu liefern.",
+      "random3": "Die Karte behauptet, diese Seite existiert. Die Karte lag falsch."
+    },
+    "link" : "Zur Startseite"
+  },
+  "exadle": {
+    "title": "Exaguessr",
+    "explanation_title": "Erklärung",
+    "explanation_1": "Errate das geheimnisvolle Hexfeld anhand seiner Ortsnamen.",
+    "explanation_major": "Normalmodus: wichtige Ortsnamen.",
+    "explanation_minor": "Expertenmodus: kleinere Ortsnamen.",
+    "mode_title": "Modus",
+    "mode_normal": "Normal",
+    "mode_expert": "Experte",
+    "search_title": "Suche",
+    "search_placeholder": "Errate den Namen des Hexfeldes...",
+    "hints_title": "Aufgedeckte Hinweise",
+    "history_title": "Verlauf",
+    "win_message": "Gefunden: {name}!",
+    "guesses_singular": "Versuch",
+    "guesses_plural": "Versuche",
+    "give_up_button": "Aufgeben",
+    "give_up_message": "Die richtige Antwort war: {name}.",
+    "new_game": "Neues Spiel"
+  },
   "classic": {
     "title": "Klassisch",
     "explanation_title": "Erklärung",

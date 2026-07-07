@@ -7,11 +7,11 @@ import LanguageSwitcher from './components/LanguageSwitcher.vue'
     <header>
       <nav>
         <router-link to="/">Classic</router-link>
-        <router-link to="/recon">Recon</router-link>
-        <router-link to="/armory">Armory</router-link>
-        <router-link to="/exadle">Exadle</router-link>
-        <router-link to="/timeline">Timeline</router-link>
-        <router-link to="/cityguessr">Cityguessr</router-link>
+        <router-link to="/recon" class="work-in-progress">Recon</router-link>
+        <router-link to="/armory" class="work-in-progress">Armory</router-link>
+        <router-link to="/timeline" class="work-in-progress">Timeline</router-link>
+        <router-link to="/exaguessr">Exaguessr</router-link>
+        <router-link to="/cityguessr" class="work-in-progress">Cityguessr</router-link>
       </nav>
       <LanguageSwitcher />
     </header>
@@ -51,6 +51,16 @@ nav a {
 nav a.router-link-active {
   font-weight: bold;
   text-decoration: underline;
+}
+
+nav a:hover{
+  color: var(--medium-color);
+}
+
+a.work-in-progress{
+  color: var(--medium-color);
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 
 footer{
