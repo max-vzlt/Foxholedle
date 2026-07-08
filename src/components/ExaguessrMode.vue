@@ -156,14 +156,16 @@ startNewRound()
 </script>
 
 <template>
-  <h1 class="page-title">{{ $t('exadle.title') }}</h1>
+  <h1 class="page-title">{{ $t('exaguessr.title') }}</h1>
   <section class="main-minigame">
-    <h2>{{ $t('exadle.explanation_title') }}</h2>
-    <p>{{ $t('exadle.explanation_1') }}</p>
+    <h2>{{ $t('exaguessr.explanation_title') }}</h2>
+    <p>{{ $t('exaguessr.explanation_1') }}</p>
+    <p>- {{ $t('exaguessr.explanation_major') }}</p>
+    <p>- {{ $t('exaguessr.explanation_minor') }}</p>
     <hr>
 
     <div class="mode-section">
-      <h2>{{ $t('exadle.mode_title') }}</h2>
+      <h2>{{ $t('exaguessr.mode_title') }}</h2>
       <div class="mode-buttons">
         <button
           type="button"
@@ -171,7 +173,7 @@ startNewRound()
           :class="{ active: mode === 'normal' }"
           @click="setMode('normal')"
         >
-          {{ $t('exadle.mode_normal') }}
+          {{ $t('exaguessr.mode_normal') }}
         </button>
         <button
           type="button"
@@ -179,18 +181,18 @@ startNewRound()
           :class="{ active: mode === 'expert' }"
           @click="setMode('expert')"
         >
-          {{ $t('exadle.mode_expert') }}
+          {{ $t('exaguessr.mode_expert') }}
         </button>
       </div>
     </div>
 
     <div class="search-section">
-      <h2>{{ $t('exadle.search_title') }}</h2>
+      <h2>{{ $t('exaguessr.search_title') }}</h2>
       <div class="search-bar" ref="searchWrapperRef">
         <input
           type="text"
           v-model="searchQuery"
-          :placeholder="$t('exadle.search_placeholder')"
+          :placeholder="$t('exaguessr.search_placeholder')"
           @focus="openDropdown"
           @input="onSearchInput"
           @keydown.down.prevent="onArrowDown"
@@ -215,7 +217,7 @@ startNewRound()
 
     <!-- Indices révélés progressivement -->
     <div class="hints">
-      <h2>{{ $t('exadle.hints_title') }}</h2>
+      <h2>{{ $t('exaguessr.hints_title') }}</h2>
       <TransitionGroup name="hint-pop" tag="div" class="hint-list">
         <span v-for="hint in revealedNames" :key="hint" class="hint-chip">{{ hint }}</span>
       </TransitionGroup>
@@ -223,7 +225,7 @@ startNewRound()
 
     <!-- Historique des propositions -->
     <div v-if="guesses.length" class="guess-history">
-      <h2>{{ $t('exadle.history_title') }}</h2>
+      <h2>{{ $t('exaguessr.history_title') }}</h2>
       <ul>
         <li v-for="(g, i) in guesses" :key="i" :class="g.correct ? 'guess-correct' : 'guess-wrong'">
           {{ g.name }} {{ g.correct ? '✅' : '❌' }}
@@ -232,18 +234,18 @@ startNewRound()
     </div>
 
     <p v-if="hasWon" class="win-message">
-      {{ $t('exadle.win_message', { name: target.name }) }}
-      ({{ guesses.length }} {{ guesses.length > 1 ? $t('exadle.guesses_plural') : $t('exadle.guesses_singular') }})
-      <button type="button" class="new-game-btn" @click="startNewRound">{{ $t('exadle.new_game') }}</button>
+      {{ $t('exaguessr.win_message', { name: target.name }) }}
+      ({{ guesses.length }} {{ guesses.length > 1 ? $t('exaguessr.guesses_plural') : $t('exaguessr.guesses_singular') }})
+      <button type="button" class="new-game-btn" @click="startNewRound">{{ $t('exaguessr.new_game') }}</button>
     </p>
 
     <p v-if="gaveUp" class="win-message give-up-message">
-      {{ $t('exadle.give_up_message', { name: target.name }) }}
-      <button type="button" class="new-game-btn" @click="startNewRound">{{ $t('exadle.new_game') }}</button>
+      {{ $t('exaguessr.give_up_message', { name: target.name }) }}
+      <button type="button" class="new-game-btn" @click="startNewRound">{{ $t('exaguessr.new_game') }}</button>
     </p>
 
     <button v-if="!isOver" type="button" class="give-up-btn" @click="giveUp">
-      {{ $t('exadle.give_up_button') }}
+      {{ $t('exaguessr.give_up_button') }}
     </button>
 
     <!-- Image de l'hexagone, révélée une fois trouvé ou abandonné -->
