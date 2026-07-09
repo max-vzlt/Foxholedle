@@ -11,6 +11,19 @@
     },
     "link" : "Retour à l'accueil"
   },
+  "armory": {
+    "explanation_title": "Explication",
+    "explanation_1": "Identifiez l'arme mystère à partir de sa silhouette.",
+    "search_title": "Recherche",
+    "search_placeholder": "Devine l'arme",
+    "win_message": "Trouvé : {name} !",
+    "new_game": "Nouvelle partie",
+    "give_up_button": "Abandonner",
+    "give_up_message": "La réponse était : {name}.",
+    "history_title": "Historique",
+    "guesses_singular": "essai",
+    "guesses_plural": "essais"
+  },
   "exaguessr": {
     "title": "Exaguessr",
     "explanation_title": "Explication",

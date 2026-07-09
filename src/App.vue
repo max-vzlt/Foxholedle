@@ -8,7 +8,7 @@ import LanguageSwitcher from './components/LanguageSwitcher.vue'
       <nav>
         <router-link to="/">Classic</router-link>
         <router-link to="/recon" class="work-in-progress">Recon</router-link>
-        <router-link to="/armory" class="work-in-progress">Armory</router-link>
+        <router-link to="/armory">Armory</router-link>
         <router-link to="/timeline" class="work-in-progress">Timeline</router-link>
         <router-link to="/exaguessr">Exaguessr</router-link>
         <router-link to="/cityguessr" class="work-in-progress">Cityguessr</router-link>

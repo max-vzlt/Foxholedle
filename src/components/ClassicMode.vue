@@ -287,7 +287,7 @@ const guesses = ref([])
 const hasWon = computed(() => guesses.value.some(g => g.id === target.value.id))
 const winRevealed = ref(false)
 
-const GIVE_UP_UNLOCK_AT = 15
+const GIVE_UP_UNLOCK_AT = 5
 const gaveUp = ref(false)
 const canGiveUp = computed(() => !hasWon.value && !gaveUp.value && guesses.value.length >= GIVE_UP_UNLOCK_AT)
 

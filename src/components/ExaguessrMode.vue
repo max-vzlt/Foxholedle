@@ -215,6 +215,21 @@ startNewRound()
       </div>
     </div>
 
+    <p v-if="gaveUp" class="win-message give-up-message">
+      {{ $t('exaguessr.give_up_message', { name: target.name }) }}
+      <button type="button" class="new-game-btn" @click="startNewRound">{{ $t('exaguessr.new_game') }}</button>
+    </p>
+
+    <p v-if="hasWon" class="win-message">
+      {{ $t('exaguessr.win_message', { name: target.name }) }}
+      ({{ guesses.length }} {{ guesses.length > 1 ? $t('exaguessr.guesses_plural') : $t('exaguessr.guesses_singular') }})
+      <button type="button" class="new-game-btn" @click="startNewRound">{{ $t('exaguessr.new_game') }}</button>
+    </p>
+
+    <button v-if="!isOver" type="button" class="give-up-btn" @click="giveUp">
+      {{ $t('exaguessr.give_up_button') }}
+    </button>
+
     <!-- Indices révélés progressivement -->
     <div class="hints">
       <h2>{{ $t('exaguessr.hints_title') }}</h2>
@@ -233,21 +248,6 @@ startNewRound()
       </ul>
     </div>
 
-    <p v-if="hasWon" class="win-message">
-      {{ $t('exaguessr.win_message', { name: target.name }) }}
-      ({{ guesses.length }} {{ guesses.length > 1 ? $t('exaguessr.guesses_plural') : $t('exaguessr.guesses_singular') }})
-      <button type="button" class="new-game-btn" @click="startNewRound">{{ $t('exaguessr.new_game') }}</button>
-    </p>
-
-    <p v-if="gaveUp" class="win-message give-up-message">
-      {{ $t('exaguessr.give_up_message', { name: target.name }) }}
-      <button type="button" class="new-game-btn" @click="startNewRound">{{ $t('exaguessr.new_game') }}</button>
-    </p>
-
-    <button v-if="!isOver" type="button" class="give-up-btn" @click="giveUp">
-      {{ $t('exaguessr.give_up_button') }}
-    </button>
-
     <!-- Image de l'hexagone, révélée une fois trouvé ou abandonné -->
     <div v-if="isOver" class="region-reveal">
       <img :src="resolveRegionImage(target.image)" :alt="target.name" class="region-img" />
@@ -258,6 +258,12 @@ startNewRound()
 <style scoped>
 p {
   margin: 0;
+}
+
+button{
+  display: block;
+  margin: 0;
+  width: fit-content;
 }
 
 .mode-section {
@@ -412,7 +418,6 @@ p {
   background: var(--lighter-color);
   color: var(--dark-color);
   border: 1px solid var(--dark-color);
-  align-self: flex-start;
   width: 100%;
 }
 .new-game-btn:hover {
