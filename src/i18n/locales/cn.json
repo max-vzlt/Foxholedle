@@ -1,0 +1,127 @@
+{
+  "nav": {
+    "classic": "经典模式",
+    "zoom": "缩放模式"
+  },
+  "notfound": {
+    "text": {
+      "random1": "情报不可用",
+      "random2": "看来后勤部忘记运送这个页面了。",
+      "random3": "地图显示这个页面存在……但地图错了。"
+    },
+    "link": "返回首页"
+  },
+  "timeline": {
+    "title": "时间线",
+    "explanation_title": "说明",
+    "explanation_1": "猜测该物品是在第几场战争中加入游戏的。越接近正确答案，获得的分数越高！",
+    "no_data": "目前没有可用于时间线模式的物品。",
+    "round_label": "第 {current} / {total} 回合",
+    "slider_label": "战争 {war} — 更新 {update}",
+    "validate_button": "确认",
+    "result_text": "正确答案是第 {actual} 场战争（更新 {update}",
+    "result_score": "+{score} 分",
+    "marker_guess": "你的答案",
+    "marker_actual": "正确答案",
+    "next_round": "下一回合",
+    "see_final_score": "查看最终得分",
+    "final_score_title": "最终得分：{score} / 1000",
+    "result_detail": "你的答案：第 {guess} 场战争 — 正确答案：第 {actual} 场战争（更新 {update}",
+    "new_game": "新游戏"
+  },
+  "armory": {
+    "title": "军械库",
+    "explanation_title": "玩法说明",
+    "explanation_1": "根据武器的剪影猜出神秘武器。",
+    "search_title": "搜索",
+    "search_placeholder": "猜测武器",
+    "win_message": "已找到：{name!",
+    "new_game": "新游戏",
+    "give_up_button": "放弃",
+    "give_up_message": "正确答案是：{name}。",
+    "history_title": "历史记录",
+    "guesses_singular": "次猜测",
+    "guesses_plural": "次猜测"
+  },
+  "exaguessr": {
+    "title": "Exaguessr",
+    "explanation_title": "玩法说明",
+    "explanation_1": "根据地图中的地点名称猜出神秘六边形区域。",
+    "explanation_major": "普通模式：主要地点名称",
+    "explanation_minor": "专家模式：次要地点名称",
+    "mode_title": "模式",
+    "mode_normal": "普通",
+    "mode_expert": "专家",
+    "search_title": "搜索",
+    "search_placeholder": "猜测六边形区域名称……",
+    "hints_title": "已揭示的提示",
+    "history_title": "历史记录",
+    "win_message": "已找到：{name!",
+    "guesses_singular": "次猜测",
+    "guesses_plural": "次猜测",
+    "give_up_button": "放弃",
+    "give_up_message": "正确答案是：{name}。",
+    "new_game": "新游戏"
+  },
+  "classic": {
+    "title": "经典模式",
+    "explanation_title": "玩法说明",
+    "explanation_1": "根据多个物品和载具共有的线索与特征，找出正确答案并做出正确选择。",
+    "search_title": "搜索",
+    "search_placeholder": "猜测一个载具、武器……",
+    "win_message": "🎉 找到了：{name} !",
+    "guesses_singular": "次猜测",
+    "guesses_plural": "次猜测",
+    "give_up_button": "放弃",
+    "give_up_message": "正确答案是：{name}。",
+    "new_game": "新游戏",
+    "unlock_faction_locked": "阵营将在第 {n} 次猜测时解锁 (剩余 {remaining} 次)",
+    "unlock_faction_unlocked": "阵营已解锁",
+    "unlock_milieu_locked": "地形将在第 {n} 次猜测时解锁 (剩余 {remaining} 次)",
+    "unlock_milieu_unlocked": "地形已解锁",
+    "table": {
+      "image": "图片",
+      "name": "名称",
+      "faction": "阵营",
+      "milieu": "环境",
+      "role": "用途",
+      "ammo": "弹药",
+      "cost": "成本 (Bmat)",
+      "war": "加入战争"
+    },
+    "tooltip": {
+      "image": "物品/载具的图片",
+      "name": "物品/载具的名称",
+      "faction": "物品/载具所属阵营",
+      "milieu": "物品/载具所处环境 (陆地、水域、空中)",
+      "role": "物品/载具的用途 (战斗、支援、后勤、侦察)",
+      "ammo": "物品/载具使用的弹药",
+      "cost": "生产成本，已换算为 Bmat 等价值 (单件，不含 MPF)",
+      "war": "物品/载具首次加入游戏的战争版本"
+    },
+    "legend_title": "图例",
+    "legend": {
+      "correct": "正确",
+      "partial": "部分正确",
+      "wrong": "错误 / 战争版本错误",
+      "unknown": "已锁定",
+      "arrows": "↑ / ↓：正确的战争版本高于 / 低于你的猜测"
+    }
+  },
+  "role": {
+    "Combat": "战斗",
+    "Soutien": "支援",
+    "Logistique": "后勤",
+    "Reconnaissance": "侦察"
+  },
+  "milieu": {
+    "Terrestre": "陆地",
+    "Aquatique": "水域",
+    "Aérien": "空中"
+  },
+  "faction": {
+    "Colonial": "殖民军",
+    "Warden": "守望军",
+    "None": "中立"
+  }
+}

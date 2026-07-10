@@ -11,7 +11,26 @@
     },
     "link" : "Zur Startseite"
   },
+  "timeline": {
+    "title": "Timeline",
+    "explanation_title": "Erklärung",
+    "explanation_1": "Errate, in welchem Krieg der Gegenstand zum Spiel hinzugefügt wurde. Je näher du dran bist, desto mehr Punkte erhältst du!",
+    "no_data": "Derzeit sind keine geeigneten Gegenstände für den Timeline-Modus verfügbar.",
+    "round_label": "Runde {current} / {total}",
+    "slider_label": "Krieg {war} — Update {update}",
+    "validate_button": "Bestätigen",
+    "result_text": "Es war Krieg {actual} (Update {update})",
+    "result_score": "+{score} Punkte",
+    "marker_guess": "Deine Antwort",
+    "marker_actual": "Lösung",
+    "next_round": "Nächste Runde",
+    "see_final_score": "Endergebnis anzeigen",
+    "final_score_title": "Endpunktzahl: {score} / 1000",
+    "result_detail": "Deine Antwort: Krieg {guess} — Tatsächlich: Krieg {actual} (Update {update})",
+    "new_game": "Neues Spiel"
+  },
   "armory": {
+    "title": "Armory",
     "explanation_title": "Erklärung",
     "explanation_1": "Erraten Sie die unbekannte Waffe anhand ihrer Silhouette.",
     "search_title": "Suche",

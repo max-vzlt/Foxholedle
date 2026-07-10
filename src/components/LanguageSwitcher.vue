@@ -11,6 +11,7 @@ const LANGUAGES = [
   { code: 'fr', label: 'Français', flagCode: 'fr' },
   { code: 'en', label: 'English', flagCode: 'gb' },
   { code: 'de', label: 'Deutsch', flagCode: 'de' },
+  { code: 'cn', label: '简体中文', flagCode: 'cn' },
 ]
 
 const showDropdown = ref(false)

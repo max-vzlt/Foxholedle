@@ -9,6 +9,7 @@
     "war_added": [1,"0.10"],
     "image": "r_12_Salus_Ambulance.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["150-Bmat"]
@@ -24,6 +25,7 @@
     "war_added": [1,"0.10"],
     "image": "Dunne_Responder_3e.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["150-Bmat"]
@@ -39,6 +41,7 @@
     "war_added": [75,"0.43"],
     "image": "T3_Xiphos.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["25-Rmat"]
@@ -54,6 +57,7 @@
     "war_added": [50,"0.34"],
     "image": "T12_Actaeon_Tankette.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["35-Rmat"]
@@ -69,6 +73,7 @@
     "war_added": [75,"0.43"],
     "image": "T5_Percutio.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-Cmat", "10-AsmatI"]
@@ -84,6 +89,7 @@
     "war_added": [75,"0.43"],
     "image": "T8_Gemini.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-Cmat", "10-AsmatI"]
@@ -99,6 +105,7 @@
     "war_added": [102,"1.52"],
     "image": "O_Brien_v_113_Gravekeeper.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-PCmat", "10-AsmatI"]
@@ -114,6 +121,7 @@
     "war_added": [102,"1.52"],
     "image": "O_Brien_v_121_Highlander.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-Cmat", "5-AsmatI"]
@@ -129,6 +137,7 @@
     "war_added": [102,"1.52"],
     "image": "O_Brien_v_101_Freeman.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["15-Cmat", "15-AsmatI"]
@@ -144,6 +153,7 @@
     "war_added": [1,"0.10"],
     "image": "O_Brien_v_110.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["25-Rmat"]
@@ -159,6 +169,7 @@
     "war_added": [123,"1.60"],
     "image": "R_15_Chariot.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["100-Bmat"]
@@ -174,6 +185,7 @@
     "war_added": [123,"1.60"],
     "image": "Dunne_Caravaner_2f.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["100-Bmat"]
@@ -189,6 +201,7 @@
     "war_added": [135,"1.64"],
     "image": "AA_2_Battering_Ram.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["20-Rmat"]
@@ -204,6 +217,7 @@
     "war_added": [71,"0.42"],
     "image": "68_45_Smelter_Heavy_Field_Gun.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-PCmat", "5-AsmatIV"]
@@ -219,6 +233,7 @@
     "war_added": [89,"0.48"],
     "image": "120_68_Koronides_Field_Gun.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["50-Rmat"]
@@ -234,6 +249,7 @@
     "war_added": [112,"1.56"],
     "image": "G40_Sagittarii.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["20-Rmat"]
@@ -249,6 +265,7 @@
     "war_added": [75,"0.43"],
     "image": "Noble_Widow_MK_XIV.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["160-Rmat"]
@@ -264,6 +281,7 @@
     "war_added": [1, "0.10"],
     "image": "68mm_Anti_Tank_Cannon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": [""]
@@ -279,6 +297,7 @@
     "war_added": [108,"1.54"],
     "image": "Balfour_Rampart_40mm.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-PCmat", "5-AsmatIV"]
@@ -294,6 +313,7 @@
     "war_added": [108,"1.54"],
     "image": "Balfour_Wolfhound_40mm.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["20-Rmat"]
@@ -309,6 +329,7 @@
     "war_added": [77,"0.44"],
     "image": "Swallowtail_988_127_2.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["20-Rmat"]
@@ -324,6 +345,7 @@
     "war_added": [75,"0.42"],
     "image": "Balfour_Falconer_250mm.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["35-Rmat"]
@@ -339,6 +361,7 @@
     "war_added": [1,"0.10"],
     "image": "BMS_Packmule_Flatbed.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["30-Rmat"]
@@ -354,6 +377,7 @@
     "war_added": [61,"0.38"],
     "image": "HH_d_Peltast.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-PCmat", "5-AsmatII", "3-AsmatIV", "55-Rmat"]
@@ -369,6 +393,7 @@
     "war_added": [61,"0.38"],
     "image": "HH_a_Javelin.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-PCmat", "5-AsmatII", "3-AsmatIV", "55-Rmat"]
@@ -384,6 +409,7 @@
     "war_added": [86,"0.47"],
     "image": "HH_b_Hoplite.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["3-PCmat", "3-AsmatIV", "55-Rmat"]
@@ -399,6 +425,7 @@
     "war_added": [96,"1.50"],
     "image": "Niska_Mk_II_Blinder.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-PCmat", "10-AsmatII", "3-AsmatIV", "60-Rmat"]
@@ -414,6 +441,7 @@
     "war_added": [1,"0.10"],
     "image": "Niska_Mk_I_Gun_Motor_Carriage.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["60-Rmat"]
@@ -429,6 +457,7 @@
     "war_added": [1,"0.10"],
     "image": "BMS_Scrap_Hauler.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["90-PCmat", "25-AsmatIV"]
@@ -444,6 +473,7 @@
     "war_added": [116,"1.58"],
     "image": "AB_8_Acheron.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["20-Rmat"]
@@ -459,6 +489,7 @@
     "war_added": [119,"1.59"],
     "image": "AB_11_Doru.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-PCmat", "3-AsmatIII", "20-Rmat"]
@@ -474,6 +505,7 @@
     "war_added": [59,"0.37"],
     "image": "Mulloy_LPC.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["20-Rmat"]
@@ -489,6 +521,7 @@
     "war_added": [96,"1.50"],
     "image": "HC_2_Scorpion.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["100-Rmat"]
@@ -504,6 +537,7 @@
     "war_added": [1,"0.10"],
     "image": "H5_Hatchet.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["115-Rmat"]
@@ -519,6 +553,7 @@
     "war_added": [75,"0.43"],
     "image": "H_8_Kranesca.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-PCmat", "20-AsmatI", "5-AsmatIV", "115-Rmat"]
@@ -534,6 +569,7 @@
     "war_added": [75,"0.43"],
     "image": "H_10_Pelekys.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["8-PCmat", "20-AsmatII", "5-AsmatIII", "115-Rmat"]
@@ -549,6 +585,7 @@
     "war_added": [83,"0.46"],
     "image": "86K_a_Bardiche.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["165-Rmat"]
@@ -564,6 +601,7 @@
     "war_added": [71, "0.42"],
     "image": "85K_b_Falchion.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["135-Rmat"]
@@ -579,6 +617,7 @@
     "war_added": [75,"0.43"],
     "image": "85K_a_Spatha.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["12-PCmat", "10-AsmatI", "8-AsmatIV", "135-Rmat"]
@@ -594,6 +633,7 @@
     "war_added": [59,"0.37"],
     "image": "HC_7_Ballista.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["15-PCmat", "15-AsmatII", "100-Rmat"]
@@ -609,6 +649,7 @@
     "war_added": [59,"0.37"],
     "image": "03MM_Caster.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["85-Bmat"]
@@ -624,6 +665,7 @@
     "war_added": [59,"0.37"],
     "image": "00MS_Stinger.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-Cmat", "85-Bmat"]
@@ -639,6 +681,7 @@
     "war_added": [96,"1.50"],
     "image": "RR_3_Stolon_Tanker.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["100-Bmat"]
@@ -654,6 +697,7 @@
     "war_added": [59,"0.37"],
     "image": "UV_05a_Argonaut.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-Rmat"]
@@ -669,6 +713,7 @@
     "war_added": [59,"0.37"],
     "image": "UV_24_Icarus.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["3-Cmat", "10-AsmatII", "10-Rmat"]
@@ -684,6 +729,7 @@
     "war_added": [59,"0.37"],
     "image": "UV_5c_Odyssey.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["3-Cmat", "10-Rmat"]
@@ -699,6 +745,7 @@
     "war_added": [77,"0.44"],
     "image": "T20_Ixion_Tankette.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-Cmat", "15-AsmatI", "35-Rmat"]
@@ -714,6 +761,7 @@
     "war_added": [1, "0.10"],
     "image": "R_1_Hauler.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["100-Bmat"]
@@ -729,6 +777,7 @@
     "war_added": [58,"0.37"],
     "image": "R_5_Atlas_Hauler.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["120-Bmat"]
@@ -744,6 +793,7 @@
     "war_added": [67,"0.41"],
     "image": "R_5b_Sisyphus_Hauler.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-Cmat", "100-Bmat"]
@@ -759,6 +809,7 @@
     "war_added": [105,"1.53"],
     "image": "R_9_Speartip_Escort.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-Cmat", "100-Bmat"]
@@ -774,6 +825,7 @@
     "war_added": [59,"0.37"],
     "image": "Devitt_Caine_Mk_IV_MMR.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["3-PCmat", "20-AsmatI", "3-AsmatIV", "120-Rmat"]
@@ -789,6 +841,7 @@
     "war_added": [59,"0.37"],
     "image": "Devitt_Ironhide_Mk_IV.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["8-PCmat", "20-AsmatI", "5-AsmatIII", "120-Rmat"]
@@ -804,6 +857,7 @@
     "war_added": [59,"0.37"],
     "image": "Devitt_Mk_III.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["120-Rmat"]
@@ -819,6 +873,7 @@
     "war_added": [83,"0.46"],
     "image": "Gallagher_Outlaw_Mk_II.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-PCmat", "10-AsmatI", "10-AsmatIV", "150-Rmat"]
@@ -834,6 +889,7 @@
     "war_added": [80,"0.45"],
     "image": "Silverhand_Chieftain_Mk_VI.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-PCmat", "10-AsmatI", "8-AsmatIV", "160-Rmat"]
@@ -849,6 +905,7 @@
     "war_added": [59,"0.37"],
     "image": "Silverhand_Mk_IV.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["160-Rmat"]
@@ -864,6 +921,7 @@
     "war_added": [1,"0.10"],
     "image": "Kivela_Power_Wheel_80_1.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["85-Bmat"]
@@ -879,6 +937,7 @@
     "war_added": [1,"0.10"],
     "image": "Dunne_Fuelrunner_2d.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["100-Bmat"]
@@ -894,6 +953,7 @@
     "war_added": [77,"0.44"],
     "image": "King_Gallant_MK_II.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-PCmat", "5-AsmatIII", "70-Rmat"]
@@ -909,6 +969,7 @@
     "war_added": [71,"0.42"],
     "image": "King_Spire_MK_I.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["70-Rmat"]
@@ -924,6 +985,7 @@
     "war_added": [67,"0.41"],
     "image": "Drummond_Spitfire_100d.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["3-Cmat", "10-AsmatII", "10-Rmat"]
@@ -939,6 +1001,7 @@
     "war_added": [67,"0.41"],
     "image": "Drummond_Loscann_55c.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["3-Cmat", "5-AsmatII", "10-Rmat"]
@@ -954,6 +1017,7 @@
     "war_added": [1,"0.10"],
     "image": "Drummond_100a.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-Rmat"]
@@ -969,6 +1033,7 @@
     "war_added": [1,"0.10"],
     "image": "Dunne_Leatherback_2a.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-Cmat", "100-Bmat"]
@@ -984,6 +1049,7 @@
     "war_added": [1,"0.10"],
     "image": "Dunne_Loadlugger_3c.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["120-Bmat"]
@@ -999,6 +1065,7 @@
     "war_added": [67,"0.41"],
     "image": "Dunne_Landrunner_12c.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-Cmat", "100-Bmat"]
@@ -1014,6 +1081,7 @@
     "war_added": [1,"0.10"],
     "image": "Dunne_Transport.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["100-Bmat"]
@@ -1029,6 +1097,7 @@
     "war_added": [65, "0.40"],
     "image": "BMS_Aquatipper.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["150-Bmat"]
@@ -1044,6 +1113,7 @@
     "war_added": [30, "0.26"],
     "image": "BMS_Ironship.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["500-Bmat"]
@@ -1059,6 +1129,7 @@
     "war_added": [1,"0.10"],
     "image": "Type_C_Charon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["140-Rmat"]
@@ -1074,6 +1145,7 @@
     "war_added": [10,"0.14"],
     "image": "74b_1_Ronan_Gunship.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["140-Rmat"]
@@ -1089,6 +1161,7 @@
     "war_added": [96, "1.50"],
     "image": "BMS_Universal_Assemly_Rig.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["100-Bmat"]
@@ -1104,6 +1177,7 @@
     "war_added": [30, "0.26"],
     "image": "BMS_Class_2_Mobile_Auto_Crane.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["125-Bmat"]
@@ -1119,6 +1193,7 @@
     "war_added": [135,"1.64"],
     "image": "LightTank3CVehicleIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["125-Rmat"]
@@ -1134,6 +1209,7 @@
     "war_added": [135,"1.64"],
     "image": "LightTank3WVehicleIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["125-Rmat"]
@@ -1149,6 +1225,7 @@
     "war_added": [132,"1.63"],
     "image": "AircraftScoutCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["100-Rmat"]
@@ -1164,6 +1241,7 @@
     "war_added": [132,"1.63"],
     "image": "AircraftScoutWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["100-Rmat"]
@@ -1179,6 +1257,7 @@
     "war_added": [132,"1.63"],
     "image": "AircraftFighterWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["40-PCmat", "50-AsmatIII", "50-AsmatIV", "10-ThermalShielding", "2-RareAlloys"]
@@ -1194,6 +1273,7 @@
     "war_added": [132,"1.63"],
     "image": "AircraftTorpedoWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["25-PCmat", "85-AsmatI", "100-AsmatII", "20-AsmatIII", "10-ThermalShielding", "6-RareAlloys"]
@@ -1225,6 +1305,7 @@
       "1.51"],
     "image": "Cascadier_873.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1242,6 +1323,7 @@
       "0.48"],
     "image": "Cometa_T2_9.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1258,6 +1340,7 @@
     "war_added": [80,"0.45"],
     "image": "The_Hangman_757.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1275,6 +1358,7 @@
       "0.10"],
     "image": "No_2_Loughcaster.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1292,6 +1376,7 @@
       "0.42"],
     "image": "Blakerow_871.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1308,6 +1393,7 @@
     "war_added": [83,"0.46"],
     "image": "Clancy_Cinder_M3.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1325,6 +1411,7 @@
       "0.46"],
     "image": "Sampo_Auto_Rifle_77.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1342,6 +1429,7 @@
       "0.42"],
     "image": "Argenti_R_II.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1359,6 +1447,7 @@
       "0.42"],
     "image": "Fuscina_pi_I.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1376,6 +1465,7 @@
       "0.46"],
     "image": "KRR2_790_Omen.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1393,6 +1483,7 @@
       "0.32"],
     "image": "Volta_r_I_Repeater.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1410,6 +1501,7 @@
       "0.42"],
     "image": "Fiddler_Submachine_Gun_Model_868.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1427,6 +1519,7 @@
       "0.43"],
     "image": "No_1_The_Liar_Submachine_Gun.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1443,6 +1536,7 @@
     "war_added": [71,"0.42"],
     "image": "The_Pitch_Gun_mc_V.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1459,6 +1553,7 @@
     "war_added": [75,"0.43"],
     "image": "Lionclaw_mc_VIII.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1475,6 +1570,7 @@
     "war_added": [54,"0.32"],
     "image": "Catara_mo_II.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1491,6 +1587,7 @@
     "war_added": [75,"0.43"],
     "image": "Dusk_ce_III.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1508,6 +1605,7 @@
       "0.46"],
     "image": "Clancy_Raca_M4.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1524,6 +1622,7 @@
     "war_added": [92,"0.49"],
     "image": "KRR3_792_Auger.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1540,6 +1639,7 @@
     "war_added": [71,"0.42"],
     "image": "KRN886_127_Gast_Machine_Gun.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1556,6 +1656,7 @@
     "war_added": [71,"0.42"],
     "image": "Malone_MK_2.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1572,6 +1673,7 @@
     "war_added": [1, "0.10"],
     "image": "PT_815_Smoke_Grenade.png",
     "classic_eligible": false,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": [""]
@@ -1587,6 +1689,7 @@
     "war_added": [86,"0.47"],
     "image": "Typhon_ra_XII.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1603,6 +1706,7 @@
     "war_added": [86,"0.47"],
     "image": "135_Neville_Anti_Tank_Rifle.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1619,6 +1723,7 @@
     "war_added": [86,"0.47"],
     "image": "Daucus_isg_III.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1635,6 +1740,7 @@
     "war_added": [21, "0.21"],
     "image": "Cutler_Launcher_4.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1651,6 +1757,7 @@
     "war_added": [86, "0.47"],
     "image": "Cutler_Foebreaker.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1667,6 +1774,7 @@
     "war_added": [83, "0.46"],
     "image": "Venom_c_II.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1683,6 +1791,7 @@
     "war_added": [71, "0.42"],
     "image": "Ignifist_30.png",
     "classic_eligible": false,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": [""]
@@ -1698,6 +1807,7 @@
     "war_added": [83, "0.46"],
     "image": "Bane_45.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1714,6 +1824,7 @@
     "war_added": [83, "0.46"],
     "image": "Bonesaw_MK_3.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1730,6 +1841,7 @@
     "war_added": [86, "0.47"],
     "image": "Mounted_Bonesaw_MK_3.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1746,6 +1858,7 @@
     "war_added": [10, "0.14"],
     "image": "Cremari_Mortar.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1762,6 +1875,7 @@
     "war_added": [1, "0.10"],
     "image": "Green_Ash_Grenade.png",
     "classic_eligible": false,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": [""]
@@ -1777,6 +1891,7 @@
     "war_added": [71, "0.42"],
     "image": "Bomastone_Grenade.png",
     "classic_eligible": false,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": [""]
@@ -1792,6 +1907,7 @@
     "war_added": [71, "0.42"],
     "image": "A3_Harpa_Fragmentation_Grenade.png",
     "classic_eligible": false,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": [""]
@@ -1807,6 +1923,7 @@
     "war_added": [1, "0.10"],
     "image": "Mammon_91_b.png",
     "classic_eligible": false,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": [""]
@@ -1822,6 +1939,7 @@
     "war_added": [71, "0.42"],
     "image": "BF5_White_Ash_Flask_Grenade.png",
     "classic_eligible": false,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": [""]
@@ -1837,6 +1955,7 @@
     "war_added": [86,"0.47"],
     "image": "Lamentum_mm_IV.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1853,6 +1972,7 @@
     "war_added": [86,"0.47"],
     "image": "Malone_Ratcatcher_MK_1.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -1869,6 +1989,7 @@
     "war_added": [54, "0.36"],
     "image": "50_500_Thunderbolt_Cannon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["195-Rmat"]
@@ -1884,6 +2005,7 @@
     "war_added": [30, "0.26"],
     "image": "Huber_Exalt_150mm.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["175-Rmat"]
@@ -1899,6 +2021,7 @@
     "war_added": [30, "0.26"],
     "image": "Huber_Lariat_120mm.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["35-Rmat"]
@@ -1914,6 +2037,7 @@
     "war_added": [54, "0.36"],
     "image": "12_7_Anti_Infantry_Flak_Gun.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["100-Bmat"]
@@ -1944,6 +2068,7 @@
     "war_added": [132,"1.63"],
     "image": "LargeshipAircraftCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": [""]
@@ -1959,6 +2084,7 @@
     "war_added": [96,"1.50"],
     "image": "MediumTankLargeCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["3-SCmat", "10-AsmatI", "15-AsmatIII", "15-AsmatIV", "135-Rmat"]
@@ -1974,6 +2100,7 @@
     "war_added": [92,"0.49"],
     "image": "MediumTank2TwinCVehicleIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-PCmat", "10-AsmatII", "10-AsmatIII", "165-Rmat"]
@@ -1989,6 +2116,7 @@
     "war_added": [119,"1.59"],
     "image": "MediumTank3CItemIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["150-Rmat"]
@@ -2004,6 +2132,7 @@
     "war_added": [99,"1.51"],
     "image": "BattleTankATCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["60-SCmat", "65-AsmatIII", "45-AsmatIV", "65-AsmatV"]
@@ -2019,6 +2148,7 @@
     "war_added": [1,"0.10"],
     "image": "BattleTankC.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["50-SCmat", "30-AsmatIII", "60-AsmatIV", "35-AsmatV"]
@@ -2036,6 +2166,7 @@
     "war_added": [108,"1.54"],
     "image": "LargeShipBattleshipCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["20-NavalHullSegments", "20-NavalShellPlating", "4-NavalTurbineComponents"]
@@ -2051,6 +2182,7 @@
     "war_added": [96,"1.50"],
     "image": "CombatCarCVehicleIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["30-SCmat", "30-AsmatI", "30-AsmatIV"]
@@ -2068,6 +2200,7 @@
     "war_added": [108,"1.54"],
     "image": "LargeShipDestroyerCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["12-NavalHullSegments", "12-NavalShellPlating"]
@@ -2083,6 +2216,7 @@
     "war_added": [132,"1.63"],
     "image": "AircraftDiveCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["40-PCmat", "85-AsmatI", "175-AsmatII", "50-AsmatIII", "10-ThermalShielding", "4-RareAlloys"]
@@ -2098,6 +2232,7 @@
     "war_added": [108,"1.54"],
     "image": "FieldAT2CIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["30-Cmat", "20-AsmatII", "20-Rmat"]
@@ -2113,6 +2248,7 @@
     "war_added": [123,"1.60"],
     "image": "FieldMortarCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["35-Rmat"]
@@ -2128,6 +2264,7 @@
     "war_added": [132,"1.63"],
     "image": "AircraftFigtherCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["40-PCmat", "50-AsmatIII", "50-AsmatIV", "10-ThermalShielding", "2-RareAlloys"]
@@ -2143,6 +2280,7 @@
     "war_added": [123,"1.60"],
     "image": "AmbulanceFlameC.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["15-Cmat", "5-AsmatII", "150-Bmat"]
@@ -2159,6 +2297,7 @@
     "war_added": [132,"1.63"],
     "image": "MediumBoatCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["500-Bmat"]
@@ -2174,6 +2313,7 @@
     "war_added": [108,"1.54"],
     "image": "HeavyTruckCVehicleIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["40-PCmat"]
@@ -2189,6 +2329,7 @@
     "war_added": [132,"1.63"],
     "image": "AircraftBomberCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["60-SCmat", "25-AsmatIII", "40-AsmatIV", "65-AsmatV", "12-RareAlloys"]
@@ -2204,6 +2345,7 @@
     "war_added": [132,"1.63"],
     "image": "LightBoatInfantryCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["200-Bmat"]
@@ -2219,6 +2361,7 @@
     "war_added": [108,"1.54"],
     "image": "LandingShipCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["10-Bmat"]
@@ -2234,6 +2377,7 @@
     "war_added": [96,"1.50"],
     "image": "FieldATHeavyCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["15-SCmat", "20-AsmatII", "15-AsmatIII", "20-Rmat"]
@@ -2249,6 +2393,7 @@
     "war_added": [126,"1.61"],
     "image": "LargeFieldMortarCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-SCmat", "20-AsmatII", "15-AsmatIII", "35-Rmat"]
@@ -2264,6 +2409,7 @@
     "war_added": [96,"1.50"],
     "image": "LightTankFlameCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["8-PCmat", "20-AsmatII", "5-AsmatIII", "115-Rmat"]
@@ -2279,6 +2425,7 @@
     "war_added": [135,"1.64"],
     "image": "AircraftScout2CIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["100-Rmat"]
@@ -2294,6 +2441,7 @@
     "war_added": [132,"1.63"],
     "image": "GunBoat2CVehicleIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["100-Rmat"]
@@ -2310,6 +2458,7 @@
     "war_added": [108,"1.56"],
     "image": "LargeShipSubmarineCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["15-NavalHullSegments", "15-NavalShellPlating"]
@@ -2325,6 +2474,7 @@
     "war_added": [96,"1.50"],
     "image": "SuperTankCtemIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["275-SCmat", "105-AsmatIII", "95-AsmatIV", "105-AsmatV", "3-RareAlloys"]
@@ -2340,6 +2490,7 @@
     "war_added": [105,"1.53"],
     "image": "TanketteMultiCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["20-PCmat", "15-AsmatI", "3-AsmatIII", "35-Rmat"]
@@ -2355,6 +2506,7 @@
     "war_added": [96,"1.50"],
     "image": "TanketteFlameCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-PCmat", "15-AsmatI", "35-Rmat"]
@@ -2370,6 +2522,7 @@
     "war_added": [132,"1.63"],
     "image": "AircraftParatrooperCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["5-SCmat", "20-AsmatIII", "20-AsmatIV", "4-RareAlloys"]
@@ -2385,6 +2538,7 @@
     "war_added": [96,"1.50"],
     "image": "TruckMultiCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["70-PCmat", "10-AsmatI", "8-AsmatIII", "100-Bmat"]
@@ -2400,6 +2554,7 @@
     "war_added": [132,"1.63"],
     "image": "LargeShipBattleshipAircraftWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["16-NavalHullSegments", "20-NavalShellPlating"]
@@ -2415,6 +2570,7 @@
     "war_added": [132,"1.63"],
     "image": "AircraftWaterWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["40-PCmat", "200-AsmatII", "50-AsmatIII", "10-ThermalShielding", "2-RareAlloys"]
@@ -2430,6 +2586,7 @@
     "war_added": [96,"1.50"],
     "image": "ArmoredCarFlameWarVehicleIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-Cmat", "10-AsmatI", "25-Rmat"]
@@ -2446,6 +2603,7 @@
     "war_added": [99,"1.51"],
     "image": "ArmoredCarTwinWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["40-Rmat"]
@@ -2461,6 +2619,7 @@
     "war_added": [126,"1.61"],
     "image": "ArmoredCar2MultiWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["35-PCmat", "10-AsmatI", "8-AsmatIII", "40-Rmat"]
@@ -2476,6 +2635,7 @@
     "war_added": [102,"1.52"],
     "image": "MediumTankATWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["15-SCmat", "25-AsmatII", "25-AsmatIII", "160-Rmat"]
@@ -2491,6 +2651,7 @@
     "war_added": [65,"0.40"],
     "image": "BattleTankWarDefensiveVehicleIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["40-SCmat", "65-AsmatIII", "30-AsmatIV", "45-AsmatV"]
@@ -2506,6 +2667,7 @@
     "war_added": [19,"0.20"],
     "image": "BattleTankWar.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["50-SCmat", "30-AsmatIII", "60-AsmatIV", "35-AsmatV"]
@@ -2521,6 +2683,7 @@
     "war_added": [108,"1.54"],
     "image": "BattleTankHeavyArtilleryWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["150-SCmat", "65-AsmatIII", "40-AsmatIV", "85-AsmatV"]
@@ -2538,6 +2701,7 @@
     "war_added": [108,"1.54"],
     "image": "LargeShipBattleshipWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["20-NavalHullSegments", "20-NavalShellPlating", "4-NavalTurbineComponents"]
@@ -2553,6 +2717,7 @@
     "war_added": [96,"1.50"],
     "image": "CombatCarWVehicleIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["30-SCmat", "30-AsmatI", "30-AsmatIV"]
@@ -2569,6 +2734,7 @@
       "1.59"],
     "image": "MediumTank2WIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["150-Rmat"]
@@ -2584,6 +2750,7 @@
     "war_added": [92,"0.49"],
     "image": "MediumTank2MultiWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-PCmat", "10-AsmatII", "5-AsmatIII", "150-Rmat"]
@@ -2599,6 +2766,7 @@
     "war_added": [96,"1.50"],
     "image": "MediumTank2IndirectWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["60-PCmat", "10-AsmatI", "15-AsmatIII", "15-AsmatIV", "150-Rmat"]
@@ -2614,6 +2782,7 @@
     "war_added": [96,"1.50"],
     "image": "DestroyerTankFlameWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-PCmat", "10-AsmatII", "15-AsmatIII", "160-Rmat"]
@@ -2629,6 +2798,7 @@
     "war_added": [108,"1.54"],
     "image": "FieldAT2WIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["30-Cmat", "20-AsmatII", "20-Rmat"]
@@ -2644,6 +2814,7 @@
     "war_added": [96,"1.50"],
     "image": "FieldMultiWItemIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["20-PCmat", "15-AsmatII", "3-AsmatIV"]
@@ -2659,6 +2830,7 @@
     "war_added": [99,"1.51"],
     "image": "AmbulanceFlameW.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["15-Cmat", "5-AsmatII", "150-Bmat"]
@@ -2674,6 +2846,7 @@
     "war_added": [132,"1.63"],
     "image": "MediumBoatWVehicleIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["450-Bmat"]
@@ -2689,6 +2862,7 @@
     "war_added": [108,"1.54"],
     "image": "HalftrackTwinW.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-PCmat", "5-AsmatIV", "60-Rmat"]
@@ -2704,6 +2878,7 @@
     "war_added": [96,"1.50"],
     "image": "HalftrackMultiWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["10-PCmat", "10-AsmatI", "8-AsmatIII", "60-Rmat"]
@@ -2719,6 +2894,7 @@
     "war_added": [132,"1.63"],
     "image": "AircraftBomberWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["60-SCmat", "25-AsmatIII", "40-AsmatIV", "65-AsmatV", "12-RareAlloys"]
@@ -2734,6 +2910,7 @@
     "war_added": [108,"1.54"],
     "image": "HeavyTruckWItemIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["40-PCmat"]
@@ -2749,6 +2926,7 @@
     "war_added": [132,"1.63"],
     "image": "LightBoatInfantryWVehicleIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["250-Bmat"]
@@ -2764,6 +2942,7 @@
     "war_added": [108,"1.54"],
     "image": "LandingShipWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["10-Bmat"]
@@ -2779,6 +2958,7 @@
     "war_added": [96,"1.50"],
     "image": "FieldCannonHeavyWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["15-SCmat", "20-AsmatII", "15-AsmatIII", "20-Rmat"]
@@ -2796,6 +2976,7 @@
     "war_added": [112,"1.56"],
     "image": "LargeShipDestroyerWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["12-NavalHullSegments", "12-NavalShellPlating"]
@@ -2811,6 +2992,7 @@
     "war_added": [135,"1.64"],
     "image": "AircraftScout2WIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["100-Rmat"]
@@ -2826,6 +3008,7 @@
     "war_added": [105,"1.53"],
     "image": "ScoutTankMultiWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["5-SCmat", "15-AsmatI", "3-AsmatIII", "70-Rmat"]
@@ -2841,6 +3024,7 @@
     "war_added": [132,"1.63"],
     "image": "Gunboat2WIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["100-Rmat"]
@@ -2857,6 +3041,7 @@
     "war_added": [108,"1.54"],
     "image": "LargeShipSubmarineWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aquatique",
     "cost": ["15-NavalHullSegments", "15-NavalShellPlating"]
@@ -2873,6 +3058,7 @@
     "war_added": [96,"1.50"],
     "image": "SuperTankWVehicleIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Terrestre",
     "cost": ["275-SCmat", "105-AsmatIII", "95-AsmatIV", "105-AsmatV", "3-RareAlloys"]
@@ -2888,6 +3074,7 @@
     "war_added": [132,"1.63"],
     "image": "AircraftParatrooperWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "still_ingame": true,
     "milieu": "Aérien",
     "cost": ["5-SCmat", "20-AsmatIII", "20-AsmatIV", "4-RareAlloys"]
@@ -2903,6 +3090,7 @@
     "war_added": [77, "0.44"],
     "image": "Aalto_Storm_Rifle_24.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -2919,6 +3107,7 @@
     "war_added": [75, "0.43"],
     "image": "AssaultRifleHeavyWItemIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -2935,6 +3124,7 @@
     "war_added": [80, "0.45"],
     "image": "PistolWItemIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -2951,6 +3141,7 @@
     "war_added": [105, "1.53"],
     "image": "RifleShortWIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -2967,6 +3158,7 @@
     "war_added": [119, "1.59"],
     "image": "ShotgunWItemIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -2983,6 +3175,7 @@
     "war_added": [1, "0.10"],
     "image": "PistolItemIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -2999,6 +3192,7 @@
     "war_added": [105, "1.53"],
     "image": "RifleAutomaticCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -3015,6 +3209,7 @@
     "war_added": [119, "1.59"],
     "image": "ShotgunCItemIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -3031,6 +3226,7 @@
     "war_added": [119, "1.59"],
     "image": "ATRifleLightCIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -3047,6 +3243,7 @@
     "war_added": [96, "1.50"],
     "image": "FlamegunCICon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -3063,6 +3260,7 @@
     "war_added": [119, "1.59"],
     "image": "ATRifleSniperCIcontga.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -3079,6 +3277,7 @@
     "war_added": [119, "1.59"],
     "image": "ATRifleAutomaticWItemIcon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -3095,6 +3294,7 @@
     "war_added": [119, "1.59"],
     "image": "ATRifleAssaultWIcontga.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",
@@ -3111,6 +3311,7 @@
     "war_added": [96, "1.50"],
     "image": "FlamegunWICon.png",
     "classic_eligible": true,
+    "timeline_eligible": true,
     "armory_eligible" : true,
     "still_ingame": true,
     "milieu": "Terrestre",

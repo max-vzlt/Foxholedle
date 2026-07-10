@@ -11,7 +11,26 @@
     },
     "link" : "Retour à l'accueil"
   },
+  "timeline": {
+    "title": "Timeline",
+    "explanation_title": "Explication",
+    "explanation_1": "Devine à quelle War l'objet a été ajouté au jeu. Plus tu es proche, plus tu gagnes de points !",
+    "no_data": "Aucun objet éligible pour le mode Timeline pour le moment.",
+    "round_label": "Round {current} / {total}",
+    "slider_label": "War {war} — Update {update}",
+    "validate_button": "Valider",
+    "result_text": "C'était la War {actual} (Update {update})",
+    "result_score": "+{score} points",
+    "marker_guess": "Ta réponse",
+    "marker_actual": "Réponse",
+    "next_round": "Round suivant",
+    "see_final_score": "Voir le score final",
+    "final_score_title": "Score final : {score} / 1000",
+    "result_detail": "Ta réponse : War {guess} — Réel : War {actual} (Update {update})",
+    "new_game": "Nouvelle partie"
+  },
   "armory": {
+    "title": "Armory",
     "explanation_title": "Explication",
     "explanation_1": "Identifiez l'arme mystère à partir de sa silhouette.",
     "search_title": "Recherche",
