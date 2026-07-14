@@ -7,7 +7,7 @@ import LanguageSwitcher from './components/LanguageSwitcher.vue'
     <header>
       <nav>
         <router-link to="/">Classic</router-link>
-        <router-link to="/recon" class="work-in-progress">Recon</router-link>
+        <router-link to="/recon">Recon</router-link>
         <router-link to="/armory">Armory</router-link>
         <router-link to="/timeline">Timeline</router-link>
         <router-link to="/exaguessr">Exaguessr</router-link>
@@ -80,8 +80,13 @@ footer div#footer-content{
   gap: 16px;
 }
 
+footer h1{
+  margin: 0;
+}
+
 footer hr{
-  margin: 1px solid var(--light-color);
+  border: 1px solid var(--light-color);
+  width: 100%;
 }
 
 footer p{

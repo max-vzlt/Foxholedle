@@ -194,11 +194,11 @@ function resetGame() {
 
 <template>
   <h1 class="page-title">{{ $t('timeline.title') }}</h1>
-  <section class="main-minigame">
+  <section>
     <h2>{{ $t('timeline.explanation_title') }}</h2>
     <p>{{ $t('timeline.explanation_1') }}</p>
-    <hr>
-
+  </section>
+  <section class="main-minigame">
     <p v-if="poolIsEmpty" class="no-data-message">
       {{ $t('timeline.no_data') }}
     </p>
@@ -303,7 +303,7 @@ function resetGame() {
       </ul>
 
       <button type="button" class="new-game-btn" @click="resetGame">
-        {{ $t('timeline.new_game') }}
+        {{ $t('generic.new_game') }}
       </button>
     </template>
   </section>
@@ -332,15 +332,14 @@ button {
 }
 
 .image-container {
-  background-color: var(--dark-color);
-  border-radius: 50%;
-  box-shadow: 3px 3px 6px 4px rgba(41, 41, 41, 0.2);
+  background-image: url(../assets/stamps/GrayCircleStamp.png);
+  background-size: cover;
   aspect-ratio: 1/1;
   display: flex;
   justify-content: center;
   align-items: center;
   width: fit-content;
-  padding: 40px;
+  padding: 70px;
   margin: 0 auto;
 }
 

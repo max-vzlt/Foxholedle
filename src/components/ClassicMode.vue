@@ -347,12 +347,13 @@ function buildGuessResult(item) {
 
 <template>
   <h1 class="page-title">{{ $t('classic.title') }}</h1>
-  <section class="main-minigame">
+  <section>
     <h2>{{ $t('classic.explanation_title') }}</h2>
     <p>{{ $t('classic.explanation_1') }}</p>
-    <hr>
+  </section>
+  <section class="main-minigame">
     <div class="search-section">
-      <h2>{{ $t('classic.search_title') }}</h2>
+      <h2>{{ $t('generic.search_title') }}</h2>
       <div class="search-bar" ref="searchWrapperRef">
         <input
           type="text"
@@ -382,14 +383,14 @@ function buildGuessResult(item) {
     </div>
 
     <p v-if="winRevealed" class="win-message">
-      {{ $t('classic.win_message', { name: target.name }) }}
-      ({{ guesses.length }} {{ guesses.length > 1 ? $t('classic.guesses_plural') : $t('classic.guesses_singular') }})
-      <button type="button" class="new-game-btn" @click="resetGame">{{ $t('classic.new_game') }}</button>
+      {{ $t('generic.win_message', { name: target.name }) }}
+      ({{ guesses.length }} {{ guesses.length > 1 ? $t('generic.guesses_plural') : $t('generic.guesses_singular') }})
+      <button type="button" class="new-game-btn" @click="resetGame">{{ $t('generic.new_game') }}</button>
     </p>
 
     <p v-if="gaveUp" class="win-message give-up-message">
-      {{ $t('classic.give_up_message', { name: target.name }) }}
-      <button type="button" class="new-game-btn" @click="resetGame">{{ $t('classic.new_game') }}</button>
+      {{ $t('generic.give_up_message', { name: target.name }) }}
+      <button type="button" class="new-game-btn" @click="resetGame">{{ $t('generic.new_game') }}</button>
     </p>
 
     <button
@@ -398,7 +399,7 @@ function buildGuessResult(item) {
       class="give-up-btn"
       @click="giveUp"
     >
-      {{ $t('classic.give_up_button') }}
+      {{ $t('generic.give_up_button') }}
     </button>
 
     <p class="unlock-hint">
@@ -599,12 +600,6 @@ thead th:hover::after{
   opacity: 1;
 }
 
-.search-section{
-  display: flex;
-  gap: 5px;
-  height: 40px;
-}
-
 .search-section h2 {
   margin: 0;
   align-self: center;
@@ -696,31 +691,6 @@ thead th:hover::after{
   flex-direction: column;
   font-weight: bold;
   gap: 10px;
-}
-
-.new-game-btn {
-  padding: 10px;
-  cursor: pointer;
-  background: var(--lighter-color);
-  color: var(--dark-color);
-  border: 1px solid var(--dark-color);
-}
-
-.new-game-btn:hover {
-  background: var(--light-color);
-}
-
-.give-up-btn {
-  padding: 10px;
-  cursor: pointer;
-  background: #7C3636;
-  color: var(--light-color);
-  border: 1px solid var(--dark-color);
-  align-self: flex-start;
-}
-
-.give-up-btn:hover {
-  background: #592727;
 }
 
 .give-up-message {

@@ -122,13 +122,13 @@ function submitGuess(item) {
 
 <template>
   <h1 class="page-title">{{ $t('armory.title') }}</h1>
-  <section class="main-minigame">
+  <section>
     <h2>{{ $t('armory.explanation_title') }}</h2>
     <p>{{ $t('armory.explanation_1') }}</p>
-    <hr>
-
+  </section>
+  <section class="main-minigame">
     <div class="search-section">
-      <h2>{{ $t('armory.search_title') }}</h2>
+      <h2>{{ $t('generic.search_title') }}</h2>
       <div class="search-bar" ref="searchWrapperRef">
         <input
           type="text"
@@ -162,18 +162,18 @@ function submitGuess(item) {
       class="give-up-btn"
       @click="giveUp"
     >
-      {{ $t('armory.give_up_button') }}
+      {{ $t('generic.give_up_button') }}
     </button>
 
     <p v-if="hasWon" class="win-message">
-      {{ $t('armory.win_message', { name: target.name }) }}
-      ({{ guesses.length }} {{ guesses.length > 1 ? $t('armory.guesses_plural') : $t('armory.guesses_singular') }})
-      <button type="button" class="new-game-btn" @click="resetGame">{{ $t('armory.new_game') }}</button>
+      {{ $t('generic.win_message', { name: target.name }) }}
+      ({{ guesses.length }} {{ guesses.length > 1 ? $t('generic.guesses_plural') : $t('generic.guesses_singular') }})
+      <button type="button" class="new-game-btn" @click="resetGame">{{ $t('generic.new_game') }}</button>
     </p>
 
     <p v-if="gaveUp" class="win-message give-up-message">
-      {{ $t('armory.give_up_message', { name: target.name }) }}
-      <button type="button" class="new-game-btn" @click="resetGame">{{ $t('armory.new_game') }}</button>
+      {{ $t('generic.give_up_message', { name: target.name }) }}
+      <button type="button" class="new-game-btn" @click="resetGame">{{ $t('generic.new_game') }}</button>
     </p>
 
     <div class="image-container">
@@ -183,15 +183,19 @@ function submitGuess(item) {
         :class="{ revealed: revealed }"
       >
     </div>
+  </section>
 
-    <div v-if="guesses.length" class="guess-history">
-      <h2>{{ $t('armory.history_title') }}</h2>
-      <ul>
-        <li v-for="g in guesses" :key="g.id" :class="g.isWin ? 'guess-correct' : 'guess-wrong'">
-          {{ g.name }} {{ g.isWin ? '✅' : '❌' }}
-        </li>
-      </ul>
-    </div>
+  <!-- Historique des propositions -->
+  <section class="guess-history">
+    <h2>{{ $t('generic.history_title') }}</h2>
+    <ul>
+      <li v-if="!guesses.length" is false class="noguess">
+        {{ $t('generic.noguess') }}
+      </li>
+      <li v-for="(g, i) in guesses" :key="i" :class="g.correct ? 'guess-correct' : 'guess-wrong'">
+        {{ g.name }} {{ g.correct ? '✅' : '❌' }}
+      </li>
+    </ul>
   </section>
 </template>
 
@@ -207,7 +211,8 @@ button{
 }
 
 .image-container{
-  background: radial-gradient(circle,rgba(255, 255, 255, 1) 0%, rgba(233, 222, 201, 1) 70%);
+  background-image: url(../assets/stamps/WhiteCircleStamp.png);
+  background-size: cover;
   aspect-ratio: 1/1;
   border-radius: 50%;
   display: flex;
@@ -230,17 +235,6 @@ button{
 }
 
 /* ---------------- Recherche / dropdown (repris de ClassicMode) ---------------- */
-.search-section{
-  display: flex;
-  gap: 5px;
-  height: 40px;
-  margin-top: 20px;
-}
-
-.search-section h2 {
-  margin: 0;
-  align-self: center;
-}
 
 .search-bar {
   display: flex;
@@ -280,6 +274,7 @@ button{
   display: flex;
   align-items: center;
   gap: 10px;
+  min-height: 40px;
   padding: 8px;
   cursor: pointer;
 }
@@ -336,31 +331,6 @@ button{
   color: rgba(157, 44, 44, 0.9);
 }
 
-.new-game-btn {
-  padding: 10px;
-  cursor: pointer;
-  background: var(--lighter-color);
-  color: var(--dark-color);
-  border: 1px solid var(--dark-color);
-  width: 100%;
-}
-
-.new-game-btn:hover {
-  background: var(--light-color);
-}
-
-.give-up-btn {
-  padding: 10px;
-  cursor: pointer;
-  background: #7C3636;
-  color: var(--light-color);
-  border: 1px solid var(--dark-color);
-}
-
-.give-up-btn:hover {
-  background: #592727;
-}
-
 /* ---------------- Historique des guesses (repris d'ExaguessrMode) ---------------- */
 .guess-history {
   margin-top: 20px;
@@ -384,6 +354,10 @@ button{
 }
 
 .guess-wrong {
+  background-color: rgba(107, 44, 44, 0.2);
+}
+
+.noguess{
   background-color: rgba(107, 44, 44, 0.2);
 }
 </style>

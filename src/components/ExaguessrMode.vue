@@ -157,13 +157,13 @@ startNewRound()
 
 <template>
   <h1 class="page-title">{{ $t('exaguessr.title') }}</h1>
-  <section class="main-minigame">
+  <section>
     <h2>{{ $t('exaguessr.explanation_title') }}</h2>
     <p>{{ $t('exaguessr.explanation_1') }}</p>
     <p>- {{ $t('exaguessr.explanation_major') }}</p>
     <p>- {{ $t('exaguessr.explanation_minor') }}</p>
-    <hr>
-
+  </section>
+  <section class="main-minigame">
     <div class="mode-section">
       <h2>{{ $t('exaguessr.mode_title') }}</h2>
       <div class="mode-buttons">
@@ -187,7 +187,7 @@ startNewRound()
     </div>
 
     <div class="search-section">
-      <h2>{{ $t('exaguessr.search_title') }}</h2>
+      <h2>{{ $t('generic.search_title') }}</h2>
       <div class="search-bar" ref="searchWrapperRef">
         <input
           type="text"
@@ -216,18 +216,18 @@ startNewRound()
     </div>
 
     <p v-if="gaveUp" class="win-message give-up-message">
-      {{ $t('exaguessr.give_up_message', { name: target.name }) }}
-      <button type="button" class="new-game-btn" @click="startNewRound">{{ $t('exaguessr.new_game') }}</button>
+      {{ $t('generic.give_up_message', { name: target.name }) }}
+      <button type="button" class="new-game-btn" @click="startNewRound">{{ $t('generic.new_game') }}</button>
     </p>
 
     <p v-if="hasWon" class="win-message">
-      {{ $t('exaguessr.win_message', { name: target.name }) }}
-      ({{ guesses.length }} {{ guesses.length > 1 ? $t('exaguessr.guesses_plural') : $t('exaguessr.guesses_singular') }})
-      <button type="button" class="new-game-btn" @click="startNewRound">{{ $t('exaguessr.new_game') }}</button>
+      {{ $t('generic.win_message', { name: target.name }) }}
+      ({{ guesses.length }} {{ guesses.length > 1 ? $t('exaguessr.guesses_plural') : $t('generic.guesses_singular') }})
+      <button type="button" class="new-game-btn" @click="startNewRound">{{ $t('generic.new_game') }}</button>
     </p>
 
     <button v-if="!isOver" type="button" class="give-up-btn" @click="giveUp">
-      {{ $t('exaguessr.give_up_button') }}
+      {{ $t('generic.give_up_button') }}
     </button>
 
     <!-- Indices révélés progressivement -->
@@ -237,21 +237,25 @@ startNewRound()
         <span v-for="hint in revealedNames" :key="hint" class="hint-chip">{{ hint }}</span>
       </TransitionGroup>
     </div>
+  </section>
 
-    <!-- Historique des propositions -->
-    <div v-if="guesses.length" class="guess-history">
-      <h2>{{ $t('exaguessr.history_title') }}</h2>
-      <ul>
-        <li v-for="(g, i) in guesses" :key="i" :class="g.correct ? 'guess-correct' : 'guess-wrong'">
-          {{ g.name }} {{ g.correct ? '✅' : '❌' }}
-        </li>
-      </ul>
-    </div>
+  <!-- Image de l'hexagone, révélée une fois trouvé ou abandonné -->
+  <section v-if="isOver" class="region-reveal">
+    <h2>{{ $t('exaguessr.reveal') }}</h2>
+    <img :src="resolveRegionImage(target.image)" :alt="target.name" class="region-img" />
+  </section>
 
-    <!-- Image de l'hexagone, révélée une fois trouvé ou abandonné -->
-    <div v-if="isOver" class="region-reveal">
-      <img :src="resolveRegionImage(target.image)" :alt="target.name" class="region-img" />
-    </div>
+  <!-- Historique des propositions -->
+  <section class="guess-history">
+    <h2>{{ $t('generic.history_title') }}</h2>
+    <ul>
+      <li v-if="!guesses.length" is false class="noguess">
+        {{ $t('generic.noguess') }}
+      </li>
+      <li v-for="(g, i) in guesses" :key="i" :class="g.correct ? 'guess-correct' : 'guess-wrong'">
+        {{ g.name }} {{ g.correct ? '✅' : '❌' }}
+      </li>
+    </ul>
   </section>
 </template>
 
@@ -294,17 +298,6 @@ button{
   color: var(--light-color);
 }
 
-.search-section {
-  display: flex;
-  gap: 10px;
-  height: 40px;
-  margin-bottom: 12px;
-}
-.search-section h2 {
-  margin: 0;
-  align-self: center;
-}
-
 .search-bar {
   display: flex;
   width: 100%;
@@ -339,6 +332,10 @@ button{
 }
 
 .dropdown li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 40px;
   padding: 8px 12px;
   cursor: pointer;
 }
@@ -375,8 +372,8 @@ button{
   100% { opacity: 1; transform: translateY(0) scale(1); }
 }
 
-.guess-history {
-  margin-bottom: 16px;
+.guess-history h2{
+  margin: 0;
 }
 
 .guess-history ul {
@@ -400,6 +397,10 @@ button{
   background-color: rgba(107, 44, 44, 0.2);
 }
 
+.noguess{
+  background-color: rgba(107, 44, 44, 0.2);
+}
+
 .win-message {
   display: flex;
   flex-direction: column;
@@ -412,32 +413,7 @@ button{
   color: rgba(157, 44, 44, 0.9);
 }
 
-.new-game-btn {
-  padding: 10px;
-  cursor: pointer;
-  background: var(--lighter-color);
-  color: var(--dark-color);
-  border: 1px solid var(--dark-color);
-  width: 100%;
-}
-.new-game-btn:hover {
-  background: var(--light-color);
-}
-
-.give-up-btn {
-  padding: 10px;
-  cursor: pointer;
-  background: #7C3636;
-  color: var(--light-color);
-  border: 1px solid var(--dark-color);
-  margin-bottom: 16px;
-}
-.give-up-btn:hover {
-  background: #592727;
-}
-
 .region-reveal {
-  margin-top: 16px;
   animation: badge-drop 0.5s cubic-bezier(0.25, 0.8, 0.4, 1) both;
 }
 
@@ -448,7 +424,7 @@ button{
 }
 
 .region-img {
-  max-width: 100%;
+  max-width: 50%;
   display: block;
   margin: 0 auto;
 }

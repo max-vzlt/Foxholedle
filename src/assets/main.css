@@ -44,6 +44,7 @@ body{
 
 h1,h2,h3,h4,h5,h6{
     font-weight: bold;
+    font-family: Typewriter;
 }
 
 p{
@@ -54,13 +55,14 @@ p{
     text-align: center;
     margin: 30px 0;
     color: var(--dark-color);
+    font-size: 45px;
 }
 
 section{
     display: flex;
     width: var(--page-content-width);
     margin: 0 auto;
-    padding: 24px;
+    padding: 40px;
     color: var(--text-color);
     background: var(--light-color);
     box-shadow: 0 0 20px -1px rgba(41, 41, 41, 0.2);
@@ -84,4 +86,50 @@ section > *:first-child{
     font-family: Typewriter;
     font-size: 20px;
     color: var(--dark-color);
+}
+
+button{
+    display: block;
+    margin: 0;
+    width: fit-content;
+}
+
+.give-up-btn {
+  padding: 10px;
+  cursor: pointer;
+  background: #7C3636;
+  color: var(--light-color);
+  border: 1px solid var(--dark-color);
+}
+
+.give-up-btn:hover {
+  background: #592727;
+}
+
+.new-game-btn {
+  padding: 10px;
+  cursor: pointer;
+  background: var(--lighter-color);
+  color: var(--dark-color);
+  border: 1px solid var(--dark-color);
+  width: 100% !important;
+}
+
+.new-game-btn:hover {
+  background: var(--light-color);
+}
+
+.search-section{
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  align-items: center;
+}
+
+.search-section h2{
+    margin: 0;
+}
+
+.search-section .search-bar{
+    height: 40px;
 }

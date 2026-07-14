@@ -84,7 +84,7 @@
     "faction": "Colonial",
     "category": "Vehicle",
     "class": "Armored Car",
-    "role": ["Reconnaissance"],
+    "role": ["Combat"],
     "ammo": "RPG",
     "war_added": [75,"0.43"],
     "image": "T8_Gemini.png",

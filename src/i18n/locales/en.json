@@ -1,103 +1,93 @@
 {
-  "nav": {
-    "classic": "Classic",
-    "zoom": "Zoom"
-  },
   "notfound": {
-    "text" : {
-      "random1" : "Intel unavailable",
-      "random2" : "Looks like Logistics forgot to deliver this page",
-      "random3" : "The map says this page exists. The map was wrong."
+    "text": {
+      "random1": "Information unavailable.",
+      "random2": "It looks like Logistics forgot to deliver this page.",
+      "random3": "The map indicates that this page exists. The map was wrong."
     },
-    "link" : "Back to Home"
+    "link": "Back to home"
   },
-  "armory": {
-    "title": "Armory",
-    "explanation_title": "Explanation",
-    "explanation_1": "Guess the mystery weapon from its silhouette.",
+  "generic": {
     "search_title": "Search",
-    "search_placeholder": "Guess the weapon",
-    "win_message": "Found: {name}!",
-    "new_game": "New Game",
-    "give_up_button": "Give Up",
-    "give_up_message": "The correct answer was: {name}.",
     "history_title": "History",
-    "guesses_singular": "guess",
-    "guesses_plural": "guesses"
+    "noguess": "No attempts",
+    "guesses_singular": "attempt",
+    "guesses_plural": "attempts",
+    "win_message": "Found: {name}!",
+    "give_up_message": "The answer was: {name}.",
+    "give_up_button": "Give up",
+    "new_game": "New game",
+    "no_data": "No eligible object for Timeline mode at the moment."
+  },
+  "recon": {
+    "title": "Recon",
+    "explanation_title": "Explanation",
+    "explanation_1": "A reconnaissance team managed to capture a close-up image of enemy equipment before retreating. Information is limited: observe every visible detail and identify the object or vehicle.",
+    "search_placeholder": "Guess the tank"
   },
   "timeline": {
     "title": "Timeline",
     "explanation_title": "Explanation",
-    "explanation_1": "Guess which War the item was added to the game. The closer you are, the more points you earn!",
-    "no_data": "No eligible items available for Timeline mode at the moment.",
-    "round_label": "Round {current} / {total}",
+    "explanation_1": "Military archives are incomplete. Find out during which war each piece of equipment was first seen. The closer your estimate is to the correct war, the higher your score will be.",
+    "round_label": "Archive {current} / {total}",
     "slider_label": "War {war} — Update {update}",
     "validate_button": "Submit",
     "result_text": "It was War {actual} (Update {update})",
     "result_score": "+{score} points",
-    "marker_guess": "Your guess",
+    "marker_guess": "Your answer",
     "marker_actual": "Answer",
     "next_round": "Next round",
-    "see_final_score": "View final score",
+    "see_final_score": "See final score",
     "final_score_title": "Final score: {score} / 1000",
-    "result_detail": "Your guess: War {guess} — Actual: War {actual} (Update {update})",
-    "new_game": "New game"
+    "result_detail": "Your answer: War {guess} — Actual: War {actual} (Update {update})"
+  },
+  "armory": {
+    "title": "Armory",
+    "explanation_title": "Explanation",
+    "explanation_1": "An item of equipment has been removed from all archives, leaving behind only a simple silhouette. Rely on your knowledge of the arsenal to identify the hidden weapon before it returns to the battlefield.",
+    "search_placeholder": "Guess the weapon"
   },
   "exaguessr": {
     "title": "Exaguessr",
-    "explanation_title": "How to play",
-    "explanation_1": "Guess the mystery hex from its named places.",
-    "explanation_major": "Normal mode: major names",
-    "explanation_minor": "Expert mode: minor names",
-    "mode_title": "Mode",
+    "explanation_title": "Explanation",
+    "explanation_1": "The names have been lost, but several iconic locations of a hexagon are still readable. Analyze these clues and identify the region they come from before confirming your answer.",
+    "explanation_major": "Normal: major names.",
+    "explanation_minor": "Expert: minor names.",
+    "mode_title": "Modes",
     "mode_normal": "Normal",
     "mode_expert": "Expert",
-    "search_title": "Search",
     "search_placeholder": "Guess the hex name...",
-    "hints_title": "Revealed hints",
-    "history_title": "History",
-    "win_message": "Found: {name}!",
-    "guesses_singular": "guess",
-    "guesses_plural": "guesses",
-    "give_up_button": "Give up",
-    "give_up_message": "The answer was: {name}.",
-    "new_game": "New game"
+    "hints_title": "Revealed clues",
+    "reveal": "Answer"
   },
   "classic": {
     "title": "Classic",
-    "explanation_title": "How to play",
-    "explanation_1": "Using clues and characteristics shared between several objects and vehicles, identify the correct answer and make the right choices.",
-    "search_title": "Search",
-    "search_placeholder": "Guess a vehicle, a weapon...",
-    "win_message": "🎉 Found: {name}!",
-    "guesses_singular": "guess",
-    "guesses_plural": "guesses",
-    "give_up_button": "Give up",
-    "give_up_message": "The answer was: {name}.",
-    "new_game": "New game",
-    "unlock_faction_locked": "Faction unlocks at guess {n} ({remaining} left)",
+    "explanation_title": "Explanation",
+    "explanation_1": "Intelligence has intercepted the characteristics of an unknown piece of equipment. Compare each report with your guesses, analyze differences in faction, role, environment, ammunition, and introduction date, then identify the correct object before the enemy gains the advantage.",
+    "search_placeholder": "Guess a vehicle, weapon...",
+    "unlock_faction_locked": "Faction unlocked at guess {n} ({remaining} remaining)",
     "unlock_faction_unlocked": "Faction unlocked",
-    "unlock_milieu_locked": "Terrain unlocks at guess {n} ({remaining} left)",
-    "unlock_milieu_unlocked": "Terrain unlocked",
+    "unlock_milieu_locked": "Environment unlocked at guess {n} ({remaining} remaining)",
+    "unlock_milieu_unlocked": "Environment unlocked",
     "table": {
       "image": "Image",
       "name": "Name",
       "faction": "Faction",
-      "milieu": "Terrain",
+      "milieu": "Environment",
       "role": "Role",
-      "ammo": "Ammo",
+      "ammo": "Ammunition",
       "cost": "Cost (Bmat)",
-      "war": "War added"
+      "war": "Added in War"
     },
     "tooltip": {
-      "image": "Image of the object/vehicle",
-      "name": "Name of the object/vehicle",
+      "image": "Object/vehicle image",
+      "name": "Object/vehicle name",
       "faction": "Faction the object/vehicle belongs to",
-      "milieu": "Terrain the object/vehicle operates in (Land, Water, Air)",
-      "role": "Role of the object/vehicle (Combat, Support, Logistics, Reconnaissance)",
-      "ammo": "Ammo used by the object/vehicle",
-      "cost": "Production cost, converted to Bmat equivalent (one unit and without MPF)",
-      "war": "The War the object/vehicle was first released in"
+      "milieu": "Environment where the object/vehicle operates (Ground, Aquatic, Air)",
+      "role": "Object/vehicle role (Combat, Support, Logistics, Reconnaissance)",
+      "ammo": "Ammunition used by the object/vehicle",
+      "cost": "Production cost converted to Bmat equivalent (per unit and without MPF)",
+      "war": "The War when the object/vehicle first appeared"
     },
     "legend_title": "Legend",
     "legend": {
@@ -115,8 +105,8 @@
     "Reconnaissance": "Reconnaissance"
   },
   "milieu": {
-    "Terrestre": "Land",
-    "Aquatique": "Water",
+    "Terrestre": "Ground",
+    "Aquatique": "Aquatic",
     "Aérien": "Air"
   },
   "faction": {

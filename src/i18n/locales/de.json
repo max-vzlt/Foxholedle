@@ -1,111 +1,101 @@
 {
-  "nav": {
-    "classic": "Klassisch",
-    "zoom": "Zoom"
-  },
   "notfound": {
-    "text" : {
+    "text": {
       "random1": "Informationen nicht verfügbar.",
-      "random2": "Anscheinend hat die Logistik vergessen, diese Seite zu liefern.",
-      "random3": "Die Karte behauptet, diese Seite existiert. Die Karte lag falsch."
+      "random2": "Es scheint, als hätte die Logistik vergessen, diese Seite zu liefern.",
+      "random3": "Die Karte zeigt an, dass diese Seite existiert. Die Karte lag falsch."
     },
-    "link" : "Zur Startseite"
+    "link": "Zurück zur Startseite"
+  },
+  "generic": {
+    "search_title": "Suche",
+    "history_title": "Verlauf",
+    "noguess": "Keine Versuche",
+    "guesses_singular": "Versuch",
+    "guesses_plural": "Versuche",
+    "win_message": "Gefunden: {name}!",
+    "give_up_message": "Die richtige Antwort war: {name}.",
+    "give_up_button": "Aufgeben",
+    "new_game": "Neues Spiel",
+    "no_data": "Zurzeit sind keine Objekte für den Timeline-Modus verfügbar."
+  },
+  "recon": {
+    "title": "Recon",
+    "explanation_title": "Erklärung",
+    "explanation_1": "Ein Aufklärungsteam konnte vor dem Rückzug eine Nahaufnahme feindlicher Ausrüstung machen. Die Informationen sind begrenzt: Beobachte jedes sichtbare Detail und identifiziere den Gegenstand oder das Fahrzeug.",
+    "search_placeholder": "Errate den Panzer"
   },
   "timeline": {
     "title": "Timeline",
     "explanation_title": "Erklärung",
-    "explanation_1": "Errate, in welchem Krieg der Gegenstand zum Spiel hinzugefügt wurde. Je näher du dran bist, desto mehr Punkte erhältst du!",
-    "no_data": "Derzeit sind keine geeigneten Gegenstände für den Timeline-Modus verfügbar.",
-    "round_label": "Runde {current} / {total}",
-    "slider_label": "Krieg {war} — Update {update}",
+    "explanation_1": "Die Militärarchive sind unvollständig. Finde heraus, in welchem Krieg jede Ausrüstung erstmals gesichtet wurde. Je näher deine Schätzung am richtigen Krieg liegt, desto höher ist deine Punktzahl.",
+    "round_label": "Archiv {current} / {total}",
+    "slider_label": "War {war} — Update {update}",
     "validate_button": "Bestätigen",
-    "result_text": "Es war Krieg {actual} (Update {update})",
+    "result_text": "Es war War {actual} (Update {update})",
     "result_score": "+{score} Punkte",
     "marker_guess": "Deine Antwort",
-    "marker_actual": "Lösung",
+    "marker_actual": "Antwort",
     "next_round": "Nächste Runde",
-    "see_final_score": "Endergebnis anzeigen",
+    "see_final_score": "Endpunktzahl anzeigen",
     "final_score_title": "Endpunktzahl: {score} / 1000",
-    "result_detail": "Deine Antwort: Krieg {guess} — Tatsächlich: Krieg {actual} (Update {update})",
-    "new_game": "Neues Spiel"
+    "result_detail": "Deine Antwort: War {guess} — Tatsächlich: War {actual} (Update {update})"
   },
   "armory": {
     "title": "Armory",
     "explanation_title": "Erklärung",
-    "explanation_1": "Erraten Sie die unbekannte Waffe anhand ihrer Silhouette.",
-    "search_title": "Suche",
-    "search_placeholder": "Waffe erraten",
-    "win_message": "Gefunden: {name}!",
-    "new_game": "Neues Spiel",
-    "give_up_button": "Aufgeben",
-    "give_up_message": "Die richtige Antwort war: {name}.",
-    "history_title": "Verlauf",
-    "guesses_singular": "Versuch",
-    "guesses_plural": "Versuche"
-},
-"exaguessr": {
-  "title": "Exaguessr",
-  "explanation_title": "Erklärung",
-  "explanation_1": "Errate das geheimnisvolle Hexfeld anhand seiner Ortsnamen.",
-  "explanation_major": "Normalmodus: wichtige Ortsnamen.",
-  "explanation_minor": "Expertenmodus: kleinere Ortsnamen.",
-  "mode_title": "Modus",
-  "mode_normal": "Normal",
-  "mode_expert": "Experte",
-  "search_title": "Suche",
-  "search_placeholder": "Errate den Namen des Hexfeldes...",
-  "hints_title": "Aufgedeckte Hinweise",
-  "history_title": "Verlauf",
-  "win_message": "Gefunden: {name}!",
-  "guesses_singular": "Versuch",
-  "guesses_plural": "Versuche",
-  "give_up_button": "Aufgeben",
-  "give_up_message": "Die richtige Antwort war: {name}.",
-  "new_game": "Neues Spiel"
+    "explanation_1": "Ein Ausrüstungsgegenstand wurde aus allen Archiven entfernt und hinterließ nur eine einfache Silhouette. Verlasse dich auf dein Wissen über das Arsenal, um die verborgene Waffe zu erkennen, bevor sie auf das Schlachtfeld zurückkehrt.",
+    "search_placeholder": "Errate die Waffe"
+  },
+  "exaguessr": {
+    "title": "Exaguessr",
+    "explanation_title": "Erklärung",
+    "explanation_1": "Die Namen sind verloren gegangen, aber mehrere markante Orte eines Hexagons sind noch lesbar. Analysiere diese Hinweise und identifiziere die Region, aus der sie stammen, bevor du deine Antwort bestätigst.",
+    "explanation_major": "Normal: wichtige Namen.",
+    "explanation_minor": "Experte: weniger bekannte Namen.",
+    "mode_title": "Modi",
+    "mode_normal": "Normal",
+    "mode_expert": "Experte",
+    "search_placeholder": "Errate den Namen des Hexagons...",
+    "hints_title": "Aufgedeckte Hinweise",
+    "reveal": "Antwort"
   },
   "classic": {
     "title": "Klassisch",
     "explanation_title": "Erklärung",
-    "explanation_1": "Nutze Hinweise und gemeinsame Eigenschaften verschiedener Objekte und Fahrzeuge, um die richtige Antwort zu finden und die richtigen Entscheidungen zu treffen.",
-    "search_title": "Suche",
+    "explanation_1": "Der Geheimdienst hat die Eigenschaften einer unbekannten Ausrüstung abgefangen. Vergleiche jeden Bericht mit deinen Vermutungen, analysiere Unterschiede bei Fraktion, Rolle, Einsatzgebiet, Munition und Erscheinungsdatum und identifiziere den richtigen Gegenstand, bevor der Feind die Oberhand gewinnt.",
     "search_placeholder": "Errate ein Fahrzeug, eine Waffe...",
-    "win_message": "🎉 Gefunden: {name}!",
-    "guesses_singular": "Versuch",
-    "guesses_plural": "Versuche",
-    "give_up_button": "Aufgeben",
-    "give_up_message": "Die richtige Antwort war: {name}.",
-    "new_game": "Neues Spiel",
     "unlock_faction_locked": "Fraktion wird bei Versuch {n} freigeschaltet (noch {remaining})",
     "unlock_faction_unlocked": "Fraktion freigeschaltet",
-    "unlock_milieu_locked": "Umgebung wird bei Versuch {n} freigeschaltet (noch {remaining})",
-    "unlock_milieu_unlocked": "Umgebung freigeschaltet",
+    "unlock_milieu_locked": "Einsatzgebiet wird bei Versuch {n} freigeschaltet (noch {remaining})",
+    "unlock_milieu_unlocked": "Einsatzgebiet freigeschaltet",
     "table": {
       "image": "Bild",
       "name": "Name",
       "faction": "Fraktion",
-      "milieu": "Umgebung",
+      "milieu": "Einsatzgebiet",
       "role": "Rolle",
       "ammo": "Munition",
       "cost": "Kosten (Bmat)",
-      "war": "Eingeführt im Krieg"
+      "war": "Hinzugefügt in War"
     },
     "tooltip": {
-      "image": "Bilder des Objekts/Fahrzeugs",
-      "name": "Name des Objekts/Fahrzeugs",
-      "faction": "Fraktion, zu der das Objekt/Fahrzeug gehört",
-      "milieu": "Umgebung, in der sich das Objekt/Fahrzeug bewegt (Land, Wasser, Luft)",
-      "role": "Rolle des Objekts/Fahrzeugs (Kampf, Unterstützung, Logistik, Aufklärung)",
-      "ammo": "Munition, die das Objekt/Fahrzeug verwendet",
-      "cost": "Produktionskosten, in Bmat-Äquivalent umgerechnet (pro Einheit und ohne MPF)",
-      "war": "Der Krieg, in dem das Objekt/Fahrzeug erstmals erschien"
+      "image": "Bild des Gegenstands/Fahrzeugs",
+      "name": "Name des Gegenstands/Fahrzeugs",
+      "faction": "Fraktion, zu der der Gegenstand/das Fahrzeug gehört",
+      "milieu": "Einsatzgebiet des Gegenstands/Fahrzeugs (Land, Wasser, Luft)",
+      "role": "Rolle des Gegenstands/Fahrzeugs (Kampf, Unterstützung, Logistik, Aufklärung)",
+      "ammo": "Vom Gegenstand/Fahrzeug verwendete Munition",
+      "cost": "Produktionskosten, umgerechnet in Bmat-Äquivalent (pro Einheit, ohne MPF)",
+      "war": "Der Krieg, in dem der Gegenstand/das Fahrzeug erstmals erschien"
     },
     "legend_title": "Legende",
     "legend": {
       "correct": "Richtig",
       "partial": "Teilweise richtig",
-      "wrong": "Falsch / falscher Krieg",
+      "wrong": "Falsch / falscher War",
       "unknown": "Gesperrt",
-      "arrows": "↑ / ↓ : Der richtige Krieg liegt höher / niedriger als dein Vorschlag"
+      "arrows": "↑ / ↓ : Der richtige War liegt höher / niedriger als deine Vermutung"
     }
   },
   "role": {

@@ -1,0 +1,298 @@
+[
+    {
+        "id": "Silverhand",
+        "name": "Silverhand - Mk. IV",
+        "alias": "SvH",
+        "faction": "Warden",
+        "images": ["SilverhandFront.webp","SilverhandBack.png","Silverhand.png"],
+        "class" : "Assault Tank"
+    },
+    {
+        "id": "Chieftain",
+        "name": "Silverhand Chieftain - Mk. VI",
+        "alias": "Chieftain",
+        "faction": "Warden",
+        "images": ["580px-Chieftain_Front.webp","Chieftain_Rear.png","Silverhand_Chieftan_Screenshot.png"],
+        "class" : "Assault Tank"
+    },
+    {
+        "id": "Lordscar",
+        "name": "Silverhand Lordscar - Mk. X",
+        "alias": "STD",
+        "faction": "Warden",
+        "images": ["LordscarFront.jpg","LordscarBack.jpg"],
+        "class" : "Assault Tank"
+    },
+    {
+        "id": "Bardiche",
+        "name": "86K-a “Bardiche”",
+        "alias": "Bard",
+        "faction": "Colonial",
+        "images": ["BardicheFront.png","BardicheBack.png","BardicheCrew.jpg"],
+        "class" : "Assault Tank"
+    },
+    {
+        "id": "Falchion",
+        "name": "85K-b “Falchion”",
+        "alias": "MPT",
+        "faction": "Colonial",
+        "images": ["Falchion_front.png","Falchion_3_4.png"],
+        "class" : "Assault Tank"
+    },
+    {
+        "id": "Spatha",
+        "name": "85K-a “Spatha”",
+        "alias": "Spatha",
+        "faction": "Colonial",
+        "images": ["Spatha_Front.png","Spatha_Back.png","Spatha_Screenshot.png"],
+        "class" : "Assault Tank"
+    },
+    {
+        "id": "Ranseur",
+        "name": "86K-c “Ranseur”",
+        "alias": "Quadiche",
+        "faction": "Colonial",
+        "images": ["Ranseur_front.jpg","Ranseur_back.jpg","1024px-RanseurCrew.jpg"],
+        "class" : "Assault Tank"
+    },
+    {
+        "id": "Talos",
+        "name": "85V-g “Talos”",
+        "alias": "Talos",
+        "faction": "Colonial",
+        "images": ["Talos_front.jpg","Talos_back.jpg","1024px-TalosCrew.jpg"],
+        "class" : "Assault Tank"
+    },
+    {
+        "id": "Nemesis",
+        "name": "90T-v “Nemesis”",
+        "alias": "Nemesis",
+        "faction": "Colonial",
+        "images": ["Nemesis_front.jpg","Nemesis_back.jpg","NemesisCrew.jpg"],
+        "class" : "Assault Tank"
+    },
+    {
+        "id": "Juggernaut",
+        "name": "Flood Juggernaut Mk. VII",
+        "alias": "Juggernaut",
+        "faction": "Warden",
+        "images": ["JuggernautFront.png","JuggernautBack.png"],
+        "class" : "Battle Tank"
+    },
+    {
+        "id": "Flood",
+        "name": "Flood Mk. I",
+        "alias": "Flood",
+        "faction": "Warden",
+        "images": ["FloodFront.png","FloodBack.png"],
+        "class" : "Battle Tank"
+    },
+    {
+        "id": "Stain",
+        "name": "Flood Mk. IX Stain",
+        "alias": "Stain",
+        "faction": "Warden",
+        "images": ["1024px-StainFront.png","StainRear.png","1024px-StainDeployed.png"],
+        "class" : "Battle Tank"
+    },
+    {
+        "id": "Lance36",
+        "name": "Lance-36",
+        "alias": "Lance",
+        "faction": "Colonial",
+        "images": ["1280px-Lance36Front.png","Lance36Back.png","Lance36Crew.jpg"],
+        "class" : "Battle Tank"
+    },
+    {
+        "id": "Hasta",
+        "name": "Lance-25 “Hasta”",
+        "alias": "BTD",
+        "faction": "Colonial",
+        "images": ["HastaFront.png","HastaBack.png"],
+        "class" : "Battle Tank"
+    },
+    {
+        "id": "Sarissa",
+        "name": "Lance-46 “Sarissa”",
+        "alias": "SPG",
+        "faction": "Colonial",
+        "images": ["SarissaFront.png","SarissaRear.png","1280px-SarissaPassenger.png"],
+        "class" : "Battle Tank"
+    },
+    {
+        "id": "Thornfall",
+        "name": "Gallagher Thornfall Mk. VI",
+        "alias": "Bonelaw",
+        "faction": "Warden",
+        "images": ["ThornfallFront.webp","ThornfallBack.png"],
+        "class" : "Cruiser Tank"
+    },
+    {
+        "id": "Highwayman",
+        "name": "Gallagher Highwayman Mk. III",
+        "alias": "HwM",
+        "faction": "Warden",
+        "images": ["HighwaymanFront.png","HighwaymanRear.png"],
+        "class" : "Cruiser Tank"
+    },
+    {
+        "id": "Outlaw",
+        "name": "Gallagher Outlaw Mk. II",
+        "alias": "Outlaw",
+        "faction": "Warden",
+        "images": ["OutlawFront.png","OutlawBack.png","Gallagher_Outlaw_Commander.webp"],
+        "class" : "Cruiser Tank"
+    },
+    {
+        "id": "Brigand",
+        "name": "Gallagher Brigand Mk. I",
+        "alias": "Brigand",
+        "faction": "Warden",
+        "images": ["1280px-BrigandFront.jpg","BrigandRear.jpg","BrigandCommander.jpg"],
+        "class" : "Cruiser Tank"
+    },
+    {
+        "id": "Widow",
+        "name": "Noble Widow MK. XIV",
+        "alias": "HTD",
+        "faction": "Warden",
+        "images": ["WidowFront.png","WidowBack.png"],
+        "class" : "Destroyer Tank"
+    },
+    {
+        "id": "Firebrand",
+        "name": "Noble Firebrand Mk. XVII",
+        "alias": "Firebrand",
+        "faction": "Warden",
+        "images": ["1024px-FirebrandFront.webp","FirebrandBack.png"],
+        "class" : "Destroyer Tank"
+    },
+    {
+        "id": "Devitt",
+        "name": "Devitt Mk. III",
+        "alias": "Devitt",
+        "faction": "Warden",
+        "images": ["DevittFront.jpg","DevittBack.jpg","DevittHatch.png"],
+        "class" : "Light Tank"
+    },
+    {
+        "id": "Ironhide",
+        "name": "Devitt Ironhide Mk. IV",
+        "alias": "Ironhide",
+        "faction": "Warden",
+        "images": ["1024px-IronhideFront.jpg","1024px-IronhideRear.jpg"],
+        "class" : "Light Tank"
+    },
+    {
+        "id": "MortarLT",
+        "name": "Devitt-Caine Mk. IV MMR",
+        "alias": "MLT",
+        "faction": "Warden",
+        "images": ["MortarLTFront.png","MortarLTRear.png"],
+        "class" : "Light Tank"
+    },
+    {
+        "id": "Birdeater",
+        "name": "Sharkey-Devitt Birdeater Mk. I",
+        "alias": "Birdeater",
+        "faction": "Warden",
+        "images": ["BirdeaterFront.png","BirdeaterRear.jpg","Birdeater_AAmode.png"],
+        "class" : "Light Tank"
+    },
+    {
+        "id": "Kranesca",
+        "name": "H-8 “Kranesca”",
+        "alias": "Kranny",
+        "faction": "Colonial",
+        "images": ["1024px-Kranesca_front.jpg","1024px-Kranesca_rear.jpg"],
+        "class" : "Light Tank"
+    },
+    {
+        "id": "Hatchet",
+        "name": "H-5 “Hatchet”",
+        "alias": "Hatchet",
+        "faction": "Colonial",
+        "images": ["HatchetFront.png","HatchetBack.png"],
+        "class" : "Light Tank"
+    },
+    {
+        "id": "Vulcan",
+        "name": "H-19 “Vulcan”",
+        "alias": "Vulcan",
+        "faction": "Colonial",
+        "images": ["Vulcan_front.jpg","Vulcan_rear.jpg"],
+        "class" : "Light Tank"
+    },
+    {
+        "id": "Pelekys",
+        "name": "H-10 “Pelekys”",
+        "alias": "LTD",
+        "faction": "Colonial",
+        "images": ["Pelekys_front.jpg","Pelekys_back.jpg","Pelekys_crewed.jpg"],
+        "class" : "Light Tank"
+    },
+    {
+        "id": "Sagaris",
+        "name": "HA-1 “Sagaris”",
+        "alias": "Sagaris",
+        "faction": "Colonial",
+        "images": ["SagarisFront.webp","SagarisRear.webp"],
+        "class" : "Light Tank"
+    },
+    {
+        "id": "Scorpion",
+        "name": "HC-2 “Scorpion”",
+        "alias": "IST",
+        "faction": "Colonial",
+        "images": ["HC_2_Scorpion.jpg","IST_Back.webp","1024px-HC_2_Scorpion_crewed.jpg"],
+        "class" : "Light Infantry Tank"
+    },
+    {
+        "id": "KingSpire",
+        "name": "King Spire Mk. I",
+        "alias": "MGST",
+        "faction": "Warden",
+        "images": ["KingSpireFront.jpg","KingSpireBack.jpg","KingSpireCommander.jpg"],
+        "class" : "Scout Tank"
+    },
+    {
+        "id": "Gallant",
+        "name": "King Gallant Mk. II",
+        "alias": "Gallant",
+        "faction": "Warden",
+        "images": ["GallantFront.png","GallantRear.png","King_Gallant_MK-II_Screenshot.png"],
+        "class" : "Scout Tank"
+    },
+    {
+        "id": "Jester",
+        "name": "King Jester Mk. I-1",
+        "alias": "Jester",
+        "faction": "Warden",
+        "images": ["1024px-Jester_Revamp_Front.jpg","Jester_Revamp_Rear.jpg"],
+        "class" : "Scout Tank"
+    },
+    {
+        "id": "Ballista",
+        "name": "HC-7 “Ballista”",
+        "alias": "Ballista",
+        "faction": "Colonial",
+        "images": ["Ballista_front.jpg","Ballista_back.jpg","BallistaCrew.jpg"],
+        "class" : "Siege Tank"
+    },
+    {
+        "id": "Predator",
+        "name": "Cullen Predator Mk. III",
+        "alias": "SHT",
+        "faction": "Warden",
+        "images": ["Predator_front.webp","Predator_back.png"],
+        "class" : "Super Tank"
+    },
+    {
+        "id": "Ares",
+        "name": "O-75b “Ares”",
+        "alias": "SHT",
+        "faction": "Colonial",
+        "images": ["AresFront.webp","AresBack.png"],
+        "class" : "Super Tank"
+    }
+]

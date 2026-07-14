@@ -1,8 +1,4 @@
 {
-  "nav": {
-    "classic": "Classic",
-    "zoom": "Zoom"
-  },
   "notfound": {
     "text" : {
       "random1": "Renseignements indisponibles.",
@@ -11,12 +7,29 @@
     },
     "link" : "Retour à l'accueil"
   },
+  "generic": {
+    "search_title": "Recherche",
+    "history_title": "Historique",
+    "noguess": "Aucune tentative",
+    "guesses_singular": "essai",
+    "guesses_plural": "essais",
+    "win_message": "Trouvé : {name} !",
+    "give_up_message": "La réponse était : {name}.",
+    "give_up_button": "Abandonner",
+    "new_game": "Nouvelle partie",
+    "no_data": "Aucun objet éligible pour le mode Timeline pour le moment."
+  },
+  "recon": {
+    "title": "Recon",
+    "explanation_title": "Explication",
+    "explanation_1": "Une équipe de reconnaissance a réussi à capturer un cliché rapproché d'un équipement ennemi avant de battre en retraite. Les informations sont limitées : observez chaque détail visible et identifiez l'objet ou le véhicule dont il s'agit.",
+    "search_placeholder": "Devine le tank"
+  },
   "timeline": {
     "title": "Timeline",
     "explanation_title": "Explication",
-    "explanation_1": "Devine à quelle War l'objet a été ajouté au jeu. Plus tu es proche, plus tu gagnes de points !",
-    "no_data": "Aucun objet éligible pour le mode Timeline pour le moment.",
-    "round_label": "Round {current} / {total}",
+    "explanation_1": "Les archives militaires sont incomplètes. Retrouvez à quelle guerre chaque équipement a été vu pour la première fois. Plus votre estimation est proche de la bonne guerre, plus votre score sera élevé.",
+    "round_label": "Archive {current} / {total}",
     "slider_label": "War {war} — Update {update}",
     "validate_button": "Valider",
     "result_text": "C'était la War {actual} (Update {update})",
@@ -26,55 +39,32 @@
     "next_round": "Round suivant",
     "see_final_score": "Voir le score final",
     "final_score_title": "Score final : {score} / 1000",
-    "result_detail": "Ta réponse : War {guess} — Réel : War {actual} (Update {update})",
-    "new_game": "Nouvelle partie"
+    "result_detail": "Ta réponse : War {guess} — Réel : War {actual} (Update {update})"
   },
   "armory": {
     "title": "Armory",
     "explanation_title": "Explication",
-    "explanation_1": "Identifiez l'arme mystère à partir de sa silhouette.",
-    "search_title": "Recherche",
-    "search_placeholder": "Devine l'arme",
-    "win_message": "Trouvé : {name} !",
-    "new_game": "Nouvelle partie",
-    "give_up_button": "Abandonner",
-    "give_up_message": "La réponse était : {name}.",
-    "history_title": "Historique",
-    "guesses_singular": "essai",
-    "guesses_plural": "essais"
+    "explanation_1": "Un équipement a été retiré de toutes les archives, ne laissant derrière lui qu'une simple silhouette. Fiez-vous à votre connaissance de l'arsenal pour reconnaître l'arme cachée avant qu'elle ne retourne sur le champ de bataille.",
+    "search_placeholder": "Devine l'arme"
   },
   "exaguessr": {
     "title": "Exaguessr",
     "explanation_title": "Explication",
-    "explanation_1": "Devine l'hexagone mystère à partir de ses lieux-dits.",
-    "explanation_major": "Mode Normal : noms majeurs.",
-    "explanation_minor": "Mode Expert : noms mineurs.",
-    "mode_title": "Mode",
+    "explanation_1": "Les noms ont été perdues, mais plusieurs lieux emblématiques d'un hexagon sont encore lisibles. Analysez ces indices et identifiez la région dont ils proviennent avant de valider votre réponse.",
+    "explanation_major": "Normal : noms majeurs.",
+    "explanation_minor": "Expert : noms mineurs.",
+    "mode_title": "Modes",
     "mode_normal": "Normal",
     "mode_expert": "Expert",
-    "search_title": "Recherche",
     "search_placeholder": "Devine le nom de l'hexagone...",
     "hints_title": "Indices révélés",
-    "history_title": "Historique",
-    "win_message": "Trouvé : {name} !",
-    "guesses_singular": "essai",
-    "guesses_plural": "essais",
-    "give_up_button": "Abandonner",
-    "give_up_message": "La réponse était : {name}.",
-    "new_game": "Nouvelle partie"
+    "reveal": "Réponse"
   },
   "classic": {
     "title": "Classic",
     "explanation_title": "Explication",
-    "explanation_1": "À partir d'indices et de caractéristiques partagées entre plusieurs objets et véhicules, identifie la bonne réponse et fais les bons choix.",
-    "search_title": "Recherche",
+    "explanation_1": "Le renseignement a intercepté les caractéristiques d'un équipement inconnu. Comparez chaque rapport avec vos propositions, analysez les différences de faction, de rôle, de terrain, de munitions et de date d'apparition, puis identifiez le bon objet avant que l'ennemi ne prenne l'avantage.",
     "search_placeholder": "Devine un véhicule, une arme...",
-    "win_message": "🎉 Trouvé : {name} !",
-    "guesses_singular": "essai",
-    "guesses_plural": "essais",
-    "give_up_button": "Abandonner",
-    "give_up_message": "La réponse était : {name}.",
-    "new_game": "Nouvelle partie",
     "unlock_faction_locked": "Faction débloquée au guess {n} (encore {remaining})",
     "unlock_faction_unlocked": "Faction débloquée",
     "unlock_milieu_locked": "Milieu débloqué au guess {n} (encore {remaining})",
